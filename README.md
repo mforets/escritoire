@@ -1,3 +1,3 @@
-# Escritoir
+# escritoire
 
 ... a sandbox for numerical experiments, code snippets, notebooks, ...
