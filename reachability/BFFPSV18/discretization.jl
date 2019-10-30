@@ -29,7 +29,8 @@ function _discretize_inhomog(P::IVP{<:CLCCS, <:LazySet}, δ)
     Eψ0 = symmetric_interval_hull(Phi2Aabs * symmetric_interval_hull(A * U0))
     Ω0 = ConvexHull(X0, ϕ * X0 ⊕ δ*U0 ⊕ Eψ0 ⊕ Einit)
     Ud = ConstantInput(δ*U0 ⊕ Eψ0)
-    return IVP(CLCDS(ϕ, I(size(A, 1)), stateset(P.s), Ud), Ω0)
+    In = IdentityMultiple(one(Float64) * LinearAlgebra.I, size(A, 1))
+    return IVP(CLCDS(ϕ, In, stateset(P.s), Ud), Ω0)
 end
 
 function discretization(P::IVP{<:LCS, <:LazySet}, δ)
