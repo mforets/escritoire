@@ -61,7 +61,7 @@ function solve_BFFPSV18(P::IVP{<:CLCCS, <:LazySet}, opts)
     # compute flowpipe
     U = inputset(Pdiscr.s).U # we are assuming that this input is CONSTANT and the system
     # has been normalized to be of the form x' = Ax + u, u in U
-    reach_inhomog!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
+    reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
 
     return res
 end

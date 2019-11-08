@@ -14,7 +14,8 @@
 end
 
 @inline function _overapproximate_input(Whatk_i, ϕpowerk, bi, U, ST)
-    return overapproximate(Whatk_i ⊕ ϕpowerk[bi, :] * U, ST)
+    return overapproximate(Whatk_i ⊕ ϕpowerk[bi, :] * U, ST) # TODO: use views?
+    #return overapproximate(Whatk_i ⊕ LinearMap(view(ϕpowerk, bi, :) * U), ST)
 end
 
 # NOTE: ϕpowerk[bi, :] * U has 1 x m dimensions if m is the number of column blocks
@@ -23,6 +24,7 @@ end
 # in accuracy
 @inline function _overapproximate_input(Whatk_i, ϕpowerk, bi, U, ST::Type{<:Interval})
     Vhatk_i = overapproximate(ϕpowerk[bi, :] * U, ST)
+    #Vhatk_i = overapproximate(view(ϕpowerk, bi, :) * U, ST) # TODO: use views?
     return Interval(Whatk_i.dat + Vhatk_i.dat)
 end
 
@@ -54,10 +56,11 @@ function reach_inhomog!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_block
     @inbounds for k in 2:N
         for (i, bi) in enumerate(row_blocks) # loop over row-blocks of interest
             for (j, bj) in enumerate(column_blocks) # loop over all column-blocks
-                buffer[j] = ϕpowerk[bi, bj] * Xhat0[j]
+               buffer[j] = ϕpowerk[bi, bj] * Xhat0[j]
             end
             Xhatk[i] = overapproximate(MinkowskiSumArray(buffer) ⊕ Whatk[i], ST)
         end
+       # println(typeof(ϕpowerk))
         ti = tf
         tf += δ
         Rk = ReachSet(CartesianProductArray(copy(Xhatk)), ti, tf)
@@ -112,6 +115,54 @@ function reach_inhomog!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_block
             Whatk[i] = _overapproximate_input(Whatk[i], ϕpowerk, bi, U, ST)
         end
 
+        mul!(ϕpowerk_cache, ϕpowerk, ϕ)
+        copyto!(ϕpowerk, ϕpowerk_cache)
+    end
+    return res
+end
+
+# GENERIC, constant input, sparse
+function reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
+
+    # store first element
+    ti, tf = 0.0, δ
+    R0 = ReachSet(CartesianProductArray(Xhat0[block_indices]), ti, tf)
+    res[1] = SparseReachSet(R0, vars)
+
+    # cache matrix
+    ϕpowerk = copy(ϕ)
+    ϕpowerk_cache = similar(ϕ)
+
+    # preallocate overapproximated Minkowski sum for each row-block
+    Xhatk = Vector{ST}(undef, length(row_blocks))
+
+    # preallocate accumulated inputs and decompose it
+    Whatk = Vector{ST}(undef, length(row_blocks))
+    _decompose_input!(Whatk, size(ϕ, 1), row_blocks, U, ST)
+
+    @inbounds for k in 2:N
+        for (i, bi) in enumerate(row_blocks) # loop over row-blocks of interest
+            buffer = Vector{LazySets.LinearMap{NUM, ST, NUM, Matrix{NUM}}}()
+            sizehint!(buffer, length(column_blocks))
+            for (j, bj) in enumerate(column_blocks) # loop over all column-blocks
+                if !iszero(ϕpowerk[bi, bj])
+                   push!(buffer, ϕpowerk[bi, bj] * Xhat0[j])
+                end
+            end
+            Xhatk[i] = overapproximate(MinkowskiSumArray(buffer) ⊕ Whatk[i], ST)            
+        end
+       # println(typeof(ϕpowerk))
+        ti = tf
+        tf += δ
+        Rk = ReachSet(CartesianProductArray(copy(Xhatk)), ti, tf)
+        res[k] = SparseReachSet(Rk, vars)
+
+        # update the input set
+        for (i, bi) in enumerate(row_blocks)
+            Whatk[i] = _overapproximate_input(Whatk[i], ϕpowerk, bi, U, ST)
+        end
+        
+        # update matrices
         mul!(ϕpowerk_cache, ϕpowerk, ϕ)
         copyto!(ϕpowerk, ϕpowerk_cache)
     end
