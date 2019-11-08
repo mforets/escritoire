@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<sspaceex xmlns="http://www-verimag.imag.fr/xml-namespaces/sspaceex" version="0.2" math="SpaceEx">
+  <component id="core">
+    <param name="x47" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="x182" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="t" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="u1" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="u2" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="u3" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <location id="1" name="Model" x="362.0" y="430.0" width="426.0" height="610.0">
+      <invariant>u1 &gt;= 0.0000000 &amp; u1 &lt;= 0.1000000 &amp; 
+u2 &gt;= 0.8000000 &amp; u2 &lt;= 1.0000000 &amp; 
+u3 &gt;= 0.9000000 &amp; u3 &lt;= 1.0000000</invariant>
+      <flow>x47' == x182
+ &amp;x182' == 0.004123*u1 - 0.00062444*u2 + 0.031733*u3 - 336.0*x47 - 0.1833*x182
+ &amp;t' == 1</flow>
+    </location>
+  </component>
+</sspaceex>
+
