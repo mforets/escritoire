@@ -1,3 +1,5 @@
+using SparseArrays
+
 # x' = Ax
 function solve_BFFPSV18(P::IVP{<:LCS, <:LazySet}, opts)
     
@@ -25,7 +27,7 @@ function solve_BFFPSV18(P::IVP{<:LCS, <:LazySet}, opts)
     SRS = SparseReachSet{CartesianProductArray{NUM, ST}}
     res = Vector{SRS}(undef, N)
     
-    # compute flowpipe
+    # compute flowpipe, DENSE
     reach_homog!(res, ϕ, Xhat0, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
 
     return res
@@ -44,6 +46,7 @@ function solve_BFFPSV18(P::IVP{<:CLCCS, <:LazySet}, opts)
     block_indices = opts[:block_indices]
     column_blocks = opts[:column_blocks]
     row_blocks = opts[:row_blocks]
+    sp = opts[:sparse]
 
     # normalize and discretize system
     Pdiscr = discretization(P, δ)
@@ -61,7 +64,14 @@ function solve_BFFPSV18(P::IVP{<:CLCCS, <:LazySet}, opts)
     # compute flowpipe
     U = inputset(Pdiscr.s).U # we are assuming that this input is CONSTANT and the system
     # has been normalized to be of the form x' = Ax + u, u in U
-    reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
-
+ 
+    if sp
+        # SPARSE
+        ϕ = sparse(ϕ) # FIXME: where is this done in Reachability.jl ?
+        reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
+    else
+        # DENSE
+        reach_inhomog!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
+    end
     return res
 end

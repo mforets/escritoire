@@ -121,7 +121,7 @@ function reach_inhomog!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_block
     return res
 end
 
-# GENERIC, constant input, sparse
+# GENERIC, constant input, sparse ( A REVISAR ! )
 function reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST)
 
     # store first element
@@ -165,6 +165,79 @@ function reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, ro
         # update matrices
         mul!(ϕpowerk_cache, ϕpowerk, ϕ)
         copyto!(ϕpowerk, ϕpowerk_cache)
+    end
+    return res
+end
+
+# INTERVAL, SPARSE
+function reach_inhomog_sparse!(res, ϕ, Xhat0, U, δ, N, vars, block_indices, row_blocks, column_blocks, NUM, ST::Type{<:Interval})
+    
+    #println(typeof(ϕ))
+    
+    #println("usando reach inhomog sparse INTERVAL")
+    # store first element
+    ti, tf = 0.0, δ
+    R0 = ReachSet(CartesianProductArray(Xhat0[block_indices]), ti, tf)
+    res[1] = SparseReachSet(R0, vars)
+
+    # cache matrix
+    ϕpowerk = copy(ϕ)
+   # ϕpowerk_cache = similar(ϕ)
+
+    # preallocate overapproximated Minkowski sum for each row-block
+    Xhatk = Vector{ST}(undef, length(row_blocks))
+
+    # preallocate accumulated inputs and decompose it
+    Whatk = Vector{ST}(undef, length(row_blocks))
+    _decompose_input!(Whatk, size(ϕ, 1), row_blocks, U, ST)
+
+    vrow_blocks = vcat(row_blocks...)
+    dict_idx = Dict(zip(vrow_blocks, eachindex(row_blocks)))
+
+    @inbounds for k in 2:N
+        
+        #= IDEA NUEVA =#
+        I, J, V = findnz(ϕpowerk)
+        #indices = [k for (k, i) in enumerate(I)]
+
+        for i in eachindex(Xhatk)
+            Xhatk[i] = Whatk[i] # Interval(zero(NUM), zero(NUM))
+        end
+        
+        for (k, i) in enumerate(I)
+            if i ∈ vrow_blocks
+                q = dict_idx[I[k]]
+                Xhatk[q] += Interval(V[k] * Xhat0[J[k]].dat)
+            end
+        end
+
+        #=
+        for (i, bi) in enumerate(row_blocks) # loop over row-blocks of interest
+            Xhatk[i] = Interval(zero(NUM), zero(NUM))
+            for (j, bj) in enumerate(column_blocks) # loop over all column-blocks
+                ϕpowerk_bi_bj = ϕpowerk[bi[1], bj[1]]
+                if !iszero(ϕpowerk_bi_bj)
+                    Xhatk[i] += Interval(ϕpowerk_bi_bj * Xhat0[j].dat)
+                end
+            end
+            Xhatk[i] += Whatk[i]
+        end
+        =#
+
+        ti = tf
+        tf += δ
+        Rk = ReachSet(CartesianProductArray(copy(Xhatk)), ti, tf)
+        res[k] = SparseReachSet(Rk, vars)
+
+        # update the input set
+        for (i, bi) in enumerate(row_blocks)
+            Whatk[i] = _overapproximate_input(Whatk[i], ϕpowerk, bi, U, ST)
+        end
+        
+        ϕpowerk = ϕpowerk * ϕ
+
+       # mul!(ϕpowerk_cache, ϕpowerk, ϕ)
+       # copyto!(ϕpowerk, ϕpowerk_cache)
     end
     return res
 end
