@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<sspaceex xmlns="http://www-verimag.imag.fr/xml-namespaces/sspaceex" version="0.2" math="SpaceEx">
+  <component id="arrival_upper">
+    <param name="Z" type="real" local="true" d1="1" d2="1" dynamics="any" />
+    <param name="N_u" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="event" type="label" local="false" />
+    <param name="do_nothing" type="label" local="true" />
+    <param name="P" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="eps" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <location id="1" name="counting" x="401.0" y="194.0" width="114.0" height="92.0">
+      <invariant>0 &lt;= Z &lt;= N_u</invariant>
+      <flow>Z' == 1/P</flow>
+    </location>
+    <location id="2" name="atMaximum" x="400.0" y="388.0" width="154.0" height="102.0">
+      <invariant>Z &gt;= N_u</invariant>
+      <flow>Z' == 0</flow>
+    </location>
+    <transition source="1" target="1">
+      <label>event</label>
+      <guard>1 &lt;= Z &lt;= N_u - eps</guard>
+      <assignment>Z := Z - 1</assignment>
+      <labelposition x="-41.0" y="-64.0" width="136.0" height="64.0" />
+    </transition>
+    <transition source="1" target="2">
+      <label>do_nothing</label>
+      <guard>Z &gt;= N_u</guard>
+      <labelposition x="58.0" y="-40.0" width="148.0" height="80.0" />
+      <middlepoint x="453.5" y="327.5" />
+    </transition>
+    <transition source="2" target="1">
+      <label>event</label>
+      <guard>Z &gt;= N_u</guard>
+      <assignment>Z:= Z - 1</assignment>
+      <labelposition x="-140.0" y="-57.0" width="108.0" height="74.0" />
+      <middlepoint x="316.5" y="301.5" />
+    </transition>
+  </component>
+  <component id="arrival_lower">
+    <param name="Z" type="real" local="true" d1="1" d2="1" dynamics="any" />
+    <param name="N_l" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="event" type="label" local="false" />
+    <param name="P" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="eps" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <location id="1" name="counting" x="413.0" y="191.0" width="194.0" height="120.0">
+      <invariant>0 &lt;= Z  &lt;=1+N_l</invariant>
+      <flow>Z' == 1/P</flow>
+    </location>
+    <transition source="1" target="1">
+      <label>event</label>
+      <guard>Z &gt;= 1 + eps</guard>
+      <assignment>Z := Z -1</assignment>
+      <labelposition x="60.0" y="-47.0" width="192.0" height="62.0" />
+    </transition>
+    <transition source="1" target="1">
+      <label>event</label>
+      <guard>Z&lt;1</guard>
+      <assignment>Z:=0</assignment>
+      <labelposition x="65.0" y="-2.0" width="78.0" height="64.0" />
+      <middlepoint x="6.0" y="104.0" />
+    </transition>
+  </component>
+  <component id="Plant">
+    <param name="I" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="x" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" />
+    <param name="U" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="x0" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="L" type="real" local="false" d1="1" d2="1" dynamics="const">
+      <note>Induktivität des Gleichstrom-Motors</note>
+    </param>
+    <param name="c_G" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="i" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="K" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="R" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="d_trans" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="c_Bremse" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="d_rot" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <location id="2" name="ohnekraft" x="392.0" y="145.0" width="392.0" height="160.0">
+      <invariant>x &lt;= 0.048</invariant>
+      <flow>I' == (-R/L + K*K/(L*d_rot) )*I + 1/L * U  &amp;
+x' == K/(i*d_rot)*I</flow>
+    </location>
+  </component>
+  <component id="Clock">
+    <param name="t" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="time_horizon" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <location id="1" name="ticking" x="210.0" y="110.0" width="124.0" height="72.0">
+      <invariant>t&lt;=time_horizon</invariant>
+      <flow>t'==1</flow>
+    </location>
+  </component>
+  <component id="PI_Control">
+    <param name="e" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="e_int" type="real" local="true" d1="1" d2="1" dynamics="any" />
+    <param name="u" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" placement="east" />
+    <param name="K_P" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="K_I" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <location id="1" name="on" x="415.0" y="127.0" width="170.0" height="82.0">
+      <invariant>u == K_P*e + K_I*e_int</invariant>
+      <flow>e_int' == e</flow>
+    </location>
+  </component>
+  <component id="Comparator">
+    <param name="pos" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="neg" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="e" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" placement="east" />
+    <location id="1" name="loc1" x="239.0" y="133.0" width="130.0" height="62.0">
+      <invariant>e == pos-neg</invariant>
+    </location>
+  </component>
+  <component id="Sum2">
+    <param name="in1" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="in2" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="out" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" placement="east" />
+    <location id="1" name="loc1" x="237.0" y="114.0" width="124.0" height="54.0">
+      <invariant>out == in1 + in2</invariant>
+    </location>
+  </component>
+  <component id="Trajectory_Planning">
+    <param name="y_d" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" />
+    <param name="D_y_d" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="DD_y_d" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" placement="east" />
+    <param name="time" type="real" local="true" d1="1" d2="1" dynamics="any" />
+    <param name="x0" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="delta1" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="event" type="label" local="false" />
+    <param name="nosync" type="label" local="true" />
+    <location id="1" name="waitforevent" x="256.0" y="314.0" width="250.0" height="122.0">
+      <flow>time'==0 &amp;
+y_d'==0 &amp;
+D_y_d'==0 &amp;
+DD_y_d'==0</flow>
+    </location>
+    <location id="2" name="outputlatency" x="563.0" y="316.0" width="260.0" height="136.0">
+      <invariant>0 &lt;= time&lt;=delta1</invariant>
+      <flow>time'==1 &amp;
+y_d'==0 &amp;
+D_y_d'==0 &amp;
+DD_y_d'==0</flow>
+    </location>
+    <transition source="2" target="1">
+      <label>nosync</label>
+      <guard>time &gt;= delta1</guard>
+      <assignment>time:=0 &amp; y_d := 0.9168 * y_d + 0.6205 * D_y_d + 0.08321 * x0 &amp;
+D_y_d := -0.141 * y_d + 0.3245 * D_y_d + 0.141 * x0 &amp;
+DD_y_d := -0.2273 * y_d - 0.9545 * D_y_d + 0.2273 * x0</assignment>
+      <labelposition x="-158.0" y="35.0" width="512.0" height="96.0" />
+      <middlepoint x="397.0" y="454.0" />
+    </transition>
+    <transition source="1" target="2">
+      <label>event</label>
+      <assignment>time := 0</assignment>
+      <labelposition x="-32.0" y="-84.0" width="176.0" height="74.0" />
+      <middlepoint x="413.5" y="177.0" />
+    </transition>
+  </component>
+  <component id="Feedforward_Control">
+    <param name="U_PC" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" placement="east" />
+    <param name="D_y_d" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="DD_y_d" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" />
+    <param name="L" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="i" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="d_rot" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="K" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <param name="R" type="real" local="false" d1="1" d2="1" dynamics="const" />
+    <location id="1" name="loc1" x="392.0" y="141.0" width="390.0" height="136.0">
+      <invariant>U_PC == L*i*d_rot/K*(DD_y_d + (R/L-K^2/(L*d_rot))*D_y_d)</invariant>
+    </location>
+  </component>
+  <component id="curves">
+    <param name="N_u" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="event" type="label" local="false" />
+    <param name="N_l" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="P" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="eps" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <bind component="arrival_upper" as="arrival_upper_1" x="293.0" y="185.0">
+      <map key="N_u">N_u</map>
+      <map key="event">event</map>
+      <map key="P">P</map>
+      <map key="eps">eps</map>
+    </bind>
+    <bind component="arrival_lower" as="arrival_lower_1" x="301.0" y="308.0">
+      <map key="N_l">N_l</map>
+      <map key="event">event</map>
+      <map key="P">P</map>
+      <map key="eps">eps</map>
+    </bind>
+  </component>
+  <component id="Position_Control">
+    <param name="D_y_d" type="real" local="true" d1="1" d2="1" dynamics="any" controlled="true" x="353.0" y="55.0" />
+    <param name="y_d" type="real" local="true" d1="1" d2="1" dynamics="any" controlled="true" x="318.0" y="200.0" />
+    <param name="DD_y_d" type="real" local="true" d1="1" d2="1" dynamics="any" controlled="true" x="373.0" y="106.0" />
+    <param name="x0" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="U_PC" type="real" local="true" d1="1" d2="1" dynamics="any" controlled="false" x="743.0" y="206.0" />
+    <param name="L" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="i" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="d_rot" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="K" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="e_x" type="real" local="true" d1="1" d2="1" dynamics="any" controlled="false" x="561.0" y="214.0" />
+    <param name="U_C" type="real" local="true" d1="1" d2="1" dynamics="any" controlled="false" x="743.0" y="262.0" />
+    <param name="x" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" x="405.0" y="300.0" />
+    <param name="U_pos" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" x="919.0" y="237.0" placement="east" />
+    <param name="R" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="delta1" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="event" type="label" local="false" />
+    <bind component="Trajectory_Planning" as="Trajectory_Planning_1" x="238.0" y="97.0" width="104.0" height="80.0">
+      <map key="D_y_d">D_y_d</map>
+      <map key="y_d">y_d</map>
+      <map key="DD_y_d">DD_y_d</map>
+      <map key="x0">x0</map>
+      <map key="delta1">delta1</map>
+      <map key="event">event</map>
+    </bind>
+    <bind component="Feedforward_Control" as="Feedforward_Control_1" x="571.0" y="85.0" width="106.0" height="60.0">
+      <map key="U_PC">U_PC</map>
+      <map key="DD_y_d">DD_y_d</map>
+      <map key="D_y_d">D_y_d</map>
+      <map key="L">L</map>
+      <map key="i">i</map>
+      <map key="d_rot">d_rot</map>
+      <map key="K">K</map>
+      <map key="R">R</map>
+    </bind>
+    <bind component="PI_Control" as="Position_PI" x="670.0" y="247.0" width="80.0" height="80.0">
+      <map key="e">e_x</map>
+      <map key="u">U_C</map>
+      <map key="K_P">50</map>
+      <map key="K_I">2</map>
+    </bind>
+    <bind component="Comparator" as="Position_Deviation" x="488.0" y="241.0">
+      <map key="pos">y_d</map>
+      <map key="neg">x</map>
+      <map key="e">e_x</map>
+    </bind>
+    <bind component="Sum2" as="Sum2_1" x="841.0" y="237.0" width="62.0" height="60.0">
+      <map key="in1">U_PC</map>
+      <map key="in2">U_C</map>
+      <map key="out">U_pos</map>
+    </bind>
+  </component>
+  <component id="Closed_Loop">
+    <note>This version switches the PI-Controllers on and off.
+2013-07-17 Eliminated x from kraftschluss dynamics; such that stationary solution is preserved.
+2013-07-17 This version has the force estimate replaced by F=i*K*I.</note>
+    <param name="x0" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="I" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" x="417.0" y="176.0" />
+    <param name="L" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="i" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="d_rot" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="K" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="x" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" x="393.0" y="379.0" />
+    <param name="c_G" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="R" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="d_trans" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="c_break" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="U" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" x="566.0" y="466.0" placement="east" />
+    <param name="delta1" type="real" local="false" d1="1" d2="1" dynamics="const" controlled="true" />
+    <param name="event" type="label" local="false" />
+    <bind component="Plant" as="Plant_1" x="669.0" y="278.0" width="124.0" height="86.0">
+      <map key="x">
+        x
+        <link>755.0,496.0</link>
+      </map>
+      <map key="I">
+        I
+        <link>756.0,136.0</link>
+      </map>
+      <map key="U">U</map>
+      <map key="x0">x0</map>
+      <map key="L">L</map>
+      <map key="c_G">c_G</map>
+      <map key="i">i</map>
+      <map key="K">K</map>
+      <map key="R">R</map>
+      <map key="d_trans">d_trans</map>
+      <map key="c_Bremse">c_break</map>
+      <map key="d_rot">d_rot</map>
+    </bind>
+    <bind component="Position_Control" as="Position_Control_1" x="474.0" y="280.0" width="84.0" height="80.0">
+      <map key="x0">x0</map>
+      <map key="L">L</map>
+      <map key="i">i</map>
+      <map key="d_rot">d_rot</map>
+      <map key="K">K</map>
+      <map key="x">x</map>
+      <map key="U_pos">U</map>
+      <map key="R">R</map>
+      <map key="delta1">delta1</map>
+      <map key="event">event</map>
+    </bind>
+  </component>
+  <component id="sys1">
+    <param name="I" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" x="536.0" y="174.0" />
+    <param name="x" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" x="541.0" y="238.0" />
+    <param name="t" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" x="510.0" y="-70.0" />
+    <param name="U" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="false" x="507.0" y="241.0" />
+    <param name="event" type="label" local="false" x="298.0" y="305.0" />
+    <bind component="Closed_Loop" as="Closed_Loop_1" x="417.0" y="204.0" width="88.0" height="70.0">
+      <map key="I">I</map>
+      <map key="x">x</map>
+      <map key="x0">0.05</map>
+      <map key="L">1e-3</map>
+      <map key="c_G">2e5</map>
+      <map key="i">113.1167</map>
+      <map key="K">0.02</map>
+      <map key="R">0.5</map>
+      <map key="d_trans">0.1</map>
+      <map key="c_break">1e6</map>
+      <map key="d_rot">0.1</map>
+      <map key="U">U</map>
+      <map key="delta1">0</map>
+      <map key="event">event</map>
+    </bind>
+    <bind component="Clock" as="clock_1" x="250.0" y="40.0">
+      <map key="t">t</map>
+      <map key="time_horizon">15</map>
+    </bind>
+    <bind component="curves" as="curves_1" x="431.0" y="370.0" width="116.0" height="42.0">
+      <map key="N_u">1.8</map>
+      <map key="event">event</map>
+      <map key="N_l">0.8</map>
+      <map key="P">1</map>
+      <map key="eps">0</map>
+    </bind>
+  </component>
+  <component id="sys2">
+    <param name="t" type="real" local="false" d1="1" d2="1" dynamics="any" controlled="true" x="510.0" y="-70.0" />
+    <param name="event" type="label" local="false" x="298.0" y="305.0" />
+    <bind component="Clock" as="clock_1" x="250.0" y="40.0">
+      <map key="t">t</map>
+      <map key="time_horizon">5</map>
+    </bind>
+    <bind component="curves" as="curves_1" x="431.0" y="370.0" width="116.0" height="42.0">
+      <map key="N_u">1.8</map>
+      <map key="event">event</map>
+      <map key="N_l">0.8</map>
+      <map key="P">1</map>
+      <map key="eps">0</map>
+    </bind>
+  </component>
+</sspaceex>
+

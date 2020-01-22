@@ -1,0 +1,61 @@
+-- EMB
+-- simplified dynamics
+-- discrete-time controller
+-- non-parametric case
+DECL
+	float [0, 0.2] time;
+	float [0, 0.2] delta_time;
+
+	boole sample;
+
+	-- input and state variables of the plant
+	float [-1, 700] U;
+	float [-1, 1000] I;
+	float [0, 0.1] x;
+
+	-- state variable of the PI-controller
+	float [-0.1, 0.1] xc;
+	
+	-- parameters
+	define R = 0.5;		-- anchor resistance of the motor
+	define L = 1e-3;	-- motor inductivity
+	define K = 0.02;	-- motor constant
+	define i = 113.1167;	-- transmission factor
+	define d_rot = 0.1;	-- viscous friction of the rotor
+	define x0 = 0.05;	-- set point for contact between brake caliper and disc
+
+	define K_P = 10000;	-- proportional factor
+	define K_I = 1000;	-- integral factor
+
+	define Tsample = 1e-3;
+
+INIT
+	time = 0;
+
+	U = 0;
+	I = 0;
+	x = 0;
+	xc = 0;
+
+	sample;
+
+TRANS
+	time' = time + delta_time;
+
+	sample <-> !sample';
+
+	!sample -> delta_time = Tsample;
+	!sample -> (d.I / d.time = 1/L * (U - I * (R - K^2/d_rot)));
+	!sample -> (d.x / d.time = K/(i*d_rot)*I);
+	!sample -> (d.xc / d.time = 0);
+	!sample -> (d.U / d.time = 0);
+
+	sample -> delta_time = 0;
+	sample -> xc' = xc + (x0 - x')*Tsample;
+	sample -> U' = K_P*(x0 - x') + K_I*xc';
+	sample -> I' = I;
+	sample -> x' = x;
+
+TARGET
+	x >= 0.05;
+

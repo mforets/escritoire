@@ -1,0 +1,49 @@
+#
+# EMB
+# simplified dynamics
+# continuous-time controller
+# parametric case
+#
+continuous reachability
+{
+  state var t, T,
+        I, x,
+	xc,
+	p
+
+  setting
+  {
+    adaptive steps { min 1e-8, max 0.1 }
+    time 2e-1
+    remainder estimation 1e-8
+    identity precondition
+    gnuplot interval t, x
+    fixed orders 2
+    cutoff 1e-22
+    precision 53
+    output continuous4_para
+    print off
+  }
+
+  poly ode 1
+  {
+    t' = 1
+    I' = -504*I + 1000 * (10000*(0.05-x) + 1000*xc)
+    x' = (p+0.0018)*I
+    xc' = 0.05-x
+    p' = 0
+  }
+
+  init
+  {
+    t in [0, 0]
+    xc in [0, 0]
+    I in [0, 0]
+    x in [0, 0]
+    p in [-0.0001, 0.0001]
+  }
+}
+
+unsafe set
+{
+}

@@ -1,0 +1,49 @@
+-- EMB
+-- simplified dynamics
+-- continuous-time controller
+-- parametric case
+--
+-- run with
+-- isat-ode --ode-opt="--continue-after-not-reaching-horizon" --i
+DECL
+	float [0, 0.2] time;
+	float [0, 0.2] delta_time;
+
+	-- input and state variables of the plant
+	float [-1, 900] I;
+	float [0, 0.1] x;
+
+	-- state variable of the PI-controller
+	float [-0.1, 0.1] xc;
+	
+	-- Parameter
+	float [0.5, 0.7] R;	-- anchor resistance of the motor
+	define L = 1e-3;	-- motor inductivity
+	define K = 0.02;	-- motor constant
+	define i = 113.1167;	-- transmission factor
+	define d_rot = 0.1;	-- viscous friction of the rotor
+	define x0 = 0.05;	-- set point for contact between brake caliper and disc
+
+	define K_P = 10000;	-- proportional factor
+	define K_I = 1000;	-- integral factor
+
+INIT
+	time = 0;
+
+	I = 0;
+	x = 0;
+	xc = 0;
+
+TRANS
+	time' = time + delta_time;
+
+	delta_time > 0;
+
+	(d.I / d.time = 1/L * ((K_P*(x0 - x) + K_I*xc) - I * (R + K^2/d_rot)));
+	(d.x / d.time = K/(i*d_rot)*I);
+	(d.xc / d.time = x0 - x);
+
+	(d.R / d.time = 0);
+
+TARGET
+	time > 0.086 and abs(x - 0.02) > 0.002;

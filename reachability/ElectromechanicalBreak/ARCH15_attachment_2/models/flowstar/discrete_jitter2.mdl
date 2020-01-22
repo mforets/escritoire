@@ -1,0 +1,76 @@
+#
+# EMB
+# simplified dynamics
+# time-discrete controller
+# non-parametric case
+#
+hybrid reachability
+{
+  state var t, T,
+        I, x,
+	xe, xc
+
+  setting
+  {
+    adaptive steps { min 1e-10, max 1 }
+    time 0.15
+    remainder estimation 1e-10
+    identity precondition
+    gnuplot interval t, x
+    fixed orders 2
+    cutoff 1e-22
+    precision 53
+    output discrete_jitter2
+    max jumps 1001
+    print on
+  }
+
+  modes
+  {
+    plant
+    {
+      poly ode 2
+      {
+	t' = 1
+	T' = 1
+
+	I' = -504*I + 1000 * (10000*xe - 1000*xc)
+	x' = 0.0018*I
+      }
+      inv { T <= 1e-4 }
+    }
+  }
+
+  jumps
+  {
+    plant -> plant
+    guard { T >= 1e-4 }
+    reset
+    { 
+	T'  := 0 + [-1e-8, 1e-7]
+
+	xe' := 0.05 - x
+	xc' := xc + 1e-4*(0.05 - x)
+    }
+    parallelotope aggregation { }
+  }
+
+  init
+  {
+    plant
+    {
+      t in [0, 0]
+      T in [0, 0]
+
+      xe in [0, 0]
+      xc in [0, 0]
+
+      I in [0, 0]
+      x in [0, 0]
+    }
+  }
+}
+
+unsafe set
+{
+}
