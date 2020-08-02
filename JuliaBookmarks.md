@@ -2,12 +2,21 @@
 
 - [Intel MKL linear algebra library](https://github.com/JuliaComputing/MKL.jl)
 - [Padded matrices](https://github.com/chriselrod/PaddedMatrices.jl)
-- [Block arrays](https://github.com/JuliaArrays/BlockArrays.jl)
-- [RecursiveArrayTools](https://github.com/JuliaDiffEq/RecursiveArrayTools.jl)
 - [Gaius](https://github.com/MasonProtter/Gaius.jl)
+- [Tullio.jl](https://github.com/mcabbott/Tullio.jl). Example [here](https://discourse.julialang.org/t/accelerate-non-linear-function-evaluation/42105/16).
+
+### Arrays
+
 - [ElasticArrays](https://github.com/JuliaArrays/ElasticArrays.jl)
 - [IdentityMatrix.jl](https://github.com/jlapeyre/IdentityMatrix.jl)
-- [Tullio.jl](https://github.com/mcabbott/Tullio.jl). Example [here](https://discourse.julialang.org/t/accelerate-non-linear-function-evaluation/42105/16).
+- https://github.com/mateuszbaran/HybridArrays.jl
+- [Block arrays](https://github.com/JuliaArrays/BlockArrays.jl)
+- [RecursiveArrayTools](https://github.com/JuliaDiffEq/RecursiveArrayTools.jl)
+
+### Tensors
+
+
+
 
 ## Calculus
 
