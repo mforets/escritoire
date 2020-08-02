@@ -30,6 +30,7 @@
 - [Traceur.jl](https://github.com/JunoLab/Traceur.jl)
 - [OwnTime.jl](https://github.com/DevJac/OwnTime.jl)
 - [Timeout.jl](https://github.com/ararslan/Timeout.jl)
+- https://github.com/FluxML/IRTools.jl
 
 ## Differential equations & numerical simulations
 
@@ -73,6 +74,10 @@
 - [Espresso](https://github.com/dfdx/Espresso.jl)
 - [Keyword dispatch](https://github.com/simonbyrne/KeywordDispatch.jl)
 - [ExtractMacro](https://github.com/carlobaldassi/ExtractMacro.jl)
+
+Other useful references:
+
+- [Some useful macros for Julia (MikeInnes)](https://gist.github.com/MikeInnes/8299575)
 
 ## API
 
