@@ -44,6 +44,10 @@
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
 - https://github.com/PSORLab/DynamicBoundspODEsIneq.jl
 
+## More on dynamical systems
+
+- [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
+
 ## Documentation
 
 - [Hosting documentation. Documenter help](https://juliadocs.github.io/Documenter.jl/v0.24/man/hosting/#Hosting-Documentation-1).
@@ -65,10 +69,10 @@
 ## Macros
 
 - [ExprTools](https://github.com/invenia/ExprTools.jl)
-- [MacroTools](https://github.com/MikeInnes/MacroTools.jl)
+- [MacroTools](https://github.com/FluxML/MacroTools.jl)
 - [Espresso](https://github.com/dfdx/Espresso.jl)
 - [Keyword dispatch](https://github.com/simonbyrne/KeywordDispatch.jl)
-
+- [ExtractMacro](https://github.com/carlobaldassi/ExtractMacro.jl)
 
 ## API
 
@@ -100,6 +104,7 @@
 
 - https://github.com/ds4dm/Tulip.jl
 - http://www.juliaopt.org/MathOptInterface.jl/dev/apimanual/#Standard-form-problem-1
+- https://github.com/jump-dev/MatrixOptInterface.jl
 - https://github.com/oxfordcontrol/COSMO.jl
 - https://github.com/JuliaLinearOptimizers/Simplex.jl
 - https://github.com/SCIP-Interfaces/SCIP.jl
@@ -141,3 +146,4 @@
 ### Blogs, discussions, ...
 
 - [High order functions](https://discourse.julialang.org/t/to-factor-or-not-to-factor-functions-with-small-differences-within-loops/39532/4)
+- [Dynamical systems modeling in Julia]()
