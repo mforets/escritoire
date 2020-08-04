@@ -24,6 +24,10 @@
 - https://github.com/JuliaDiff/FiniteDiff.jl
 - https://github.com/JuliaMath/Calculus.jl
 
+### Integration
+
+- https://github.com/SciML/Quadrature.jl
+
 #### More on differentiation
 
 - https://discourse.julialang.org/t/am-i-using-diffresults-jl-correctly/35894
