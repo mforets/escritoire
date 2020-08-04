@@ -57,6 +57,7 @@
 - [SimJulia](https://benlauwens.github.io/SimJulia.jl/)
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
 - https://github.com/PSORLab/DynamicBoundspODEsIneq.jl
+- https://github.com/SciML/DiffEqUncertainty.jl
 
 ## More on dynamical systems
 
