@@ -15,14 +15,21 @@
 
 ### Tensors
 
-
-
+- https://ericforgy.github.io/TensorAlgebra.jl/dev/#TensorKit.jl
+- https://github.com/thisrod/Tensars.jl
+- SymbolicTensors, see JuliaCon 2020 talk
+- 
 
 ## Calculus
 
 - https://github.com/JuliaDiff/ForwardDiff.jl
 - https://github.com/JuliaDiff/FiniteDiff.jl
 - https://github.com/JuliaMath/Calculus.jl
+
+## Geometry
+
+- https://github.com/JuliaGeometry/CoordinateTransformations.jl
+
 
 ### Integration
 
@@ -72,6 +79,7 @@
 - [Unicode input](https://docs.julialang.org/en/v1/manual/unicode-input/)
 - [Literate.jl](https://github.com/fredrikekre/Literate.jl)
 - https://github.com/JunoLab/Weave.jl
+- https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
 
 ## Domain-specific language tools (DSL)
 
