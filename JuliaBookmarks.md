@@ -107,6 +107,7 @@ Other useful references:
 - https://simeonschaub.github.io/OptionalArgChecks.jl/dev/
 - Unpack
 - Parameters
+- https://juliahub.com/ui/Packages/ArgTools/aGHFV/1.1.1
 
 ## Other
 
