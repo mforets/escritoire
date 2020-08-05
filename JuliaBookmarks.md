@@ -24,6 +24,10 @@
 - https://github.com/JuliaDiff/FiniteDiff.jl
 - https://github.com/JuliaMath/Calculus.jl
 
+### Integration
+
+- https://github.com/SciML/Quadrature.jl
+
 #### More on differentiation
 
 - https://discourse.julialang.org/t/am-i-using-diffresults-jl-correctly/35894
@@ -53,6 +57,7 @@
 - [SimJulia](https://benlauwens.github.io/SimJulia.jl/)
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
 - https://github.com/PSORLab/DynamicBoundspODEsIneq.jl
+- https://github.com/SciML/DiffEqUncertainty.jl
 
 ## More on dynamical systems
 
