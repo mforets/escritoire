@@ -12,11 +12,14 @@
 
 ### Older (< 2020) references
 
+- Schupp, S., & Ábrahám, E. (2018, April). Efficient dynamic error reduction for hybrid systems reachability analysis. In International Conference on Tools and Algorithms for the Construction and Analysis of Systems (pp. 287-302). Springer, Cham.
+
 - Althoff, M., & Frehse, G. (2016, December). Combining zonotopes and support functions for efficient reachability analysis of linear systems. In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 7439-7446). IEEE.
 
 - Althoff, M., Stursberg, O., & Buss, M. (2010). Computing reachable sets of hybrid systems using a combination of zonotopes and polytopes. Nonlinear analysis: hybrid systems, 4(2), 233-249.
 
 - Girard, A., & Le Guernic, C. (2008, April). Zonotope/hyperplane intersection for hybrid systems reachability analysis. In International Workshop on Hybrid Systems: Computation and Control (pp. 215-228). Springer, Berlin, Heidelberg.
+
 
 ### Control
 
