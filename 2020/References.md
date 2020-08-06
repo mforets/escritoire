@@ -57,6 +57,8 @@
 
 - Tran, H. D., Lopez, D. M., Musau, P., Yang, X., Nguyen, L. V., Xiang, W., & Johnson, T. T. (2019, October). Star-based reachability analysis of deep neural networks. In International Symposium on Formal Methods (pp. 670-686). Springer, Cham. [paper](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)
 
+- Wang, X., Nair, S., & Althoff, M. (2020). Falsification-Based Robust Adversarial Reinforcement Learning. arXiv preprint arXiv:2007.00691.
+
 ## GSOC / JSOC
 
 - https://krish8484.github.io/JSOC2020/
