@@ -78,3 +78,10 @@
 
 - Bills, A., Sripad, S., Fredericks, W. L., Guttenberg, M., Charles, D., Frank, E., & Viswanathan, V. (2020). Universal Battery Performance and Degradation Model for Electric Aircraft.
 
+----
+
+
+## Blogs
+
+- https://invenia.github.io/blog/
+
