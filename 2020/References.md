@@ -6,12 +6,17 @@
 
 - Althoff, Matthias. "Reachability analysis of large linear systems with uncertain inputs in the krylov subspace." IEEE Transactions on Automatic Control 65.2 (2019): 477-492.
 
+
+
+- Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
+
+### Older (< 2020) references
+
 - Althoff, M., & Frehse, G. (2016, December). Combining zonotopes and support functions for efficient reachability analysis of linear systems. In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 7439-7446). IEEE.
 
 - Althoff, M., Stursberg, O., & Buss, M. (2010). Computing reachable sets of hybrid systems using a combination of zonotopes and polytopes. Nonlinear analysis: hybrid systems, 4(2), 233-249.
 
-- Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
-
+- Girard, A., & Le Guernic, C. (2008, April). Zonotope/hyperplane intersection for hybrid systems reachability analysis. In International Workshop on Hybrid Systems: Computation and Control (pp. 215-228). Springer, Berlin, Heidelberg.
 
 ### Control
 
