@@ -55,6 +55,8 @@
 
 - Tran, H. D., Bak, S., Xiang, W., & Johnson, T. T. (2020). Verification of Deep Convolutional Neural Networks Using ImageStars. arXiv preprint arXiv:2004.05511.
 
+- Tran, H. D., Lopez, D. M., Musau, P., Yang, X., Nguyen, L. V., Xiang, W., & Johnson, T. T. (2019, October). Star-based reachability analysis of deep neural networks. In International Symposium on Formal Methods (pp. 670-686). Springer, Cham.
+
 ## GSOC / JSOC
 
 - https://krish8484.github.io/JSOC2020/
