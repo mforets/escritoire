@@ -67,7 +67,7 @@
 ## GSOC / JSOC
 
 - https://krish8484.github.io/JSOC2020/
-- 
+- https://martinuzzifrancesco.github.io/
 
 ## Web
 
