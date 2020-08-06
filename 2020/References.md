@@ -39,3 +39,11 @@
 ## Nonlinear physics
 
 - Gutiérrez, C., Gancio, J., Cabeza, C., & Rubido, N. (2020). Finding the Resistance Distance and Eigenvector Centrality from the Network's Eigenvalues. arXiv preprint arXiv:2005.00452.
+
+## Neural networks
+
+- 3rd International Workshop on Verification of Neural Networks (VNN20) and 1st International Verification of Neural Networks Competition (VNN-COMP'20)
+    - https://sites.google.com/view/vnn20/home?authuser=0
+    - https://github.com/verivital/vnn-comp
+
+- 
