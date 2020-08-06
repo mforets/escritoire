@@ -27,6 +27,11 @@
 
 - Yang, S., Xu, F., Wang, X., & Liang, B. (2020). A Novel Online Active Fault Diagnosis Method Based on Invariant Sets. IEEE Control Systems Letters.
 
+- Hewing, L. (2020). Predictive Control of Uncertain Systems: Learning-based and Stochastic Model Predictive Control (Doctoral dissertation, ETH Zurich). [pdf here](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/424564/1/thesis_deposit.pdf)
+
+- Witheephanich, K., Orihuela, L., García, R. A., & Escaño, J. M. (2016). Min-max model predictive control with robust zonotope-based observer. In 2016 UKACC 11th International Conference on Control (CONTROL) (pp. 1-6). IEEE. 
+
+
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
