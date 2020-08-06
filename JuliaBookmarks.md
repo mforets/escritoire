@@ -175,3 +175,7 @@ Other useful references:
 
 - [High order functions](https://discourse.julialang.org/t/to-factor-or-not-to-factor-functions-with-small-differences-within-loops/39532/4)
 - [Dynamical systems modeling in Julia]()
+
+## Neural networks
+
+- https://github.com/vtjeng/MIPVerify.jl
