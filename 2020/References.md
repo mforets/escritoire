@@ -11,18 +11,21 @@
 - Althoff, M., Stursberg, O., & Buss, M. (2010). Computing reachable sets of hybrid systems using a combination of zonotopes and polytopes. Nonlinear analysis: hybrid systems, 4(2), 233-249.
 
 
-### Controllers
+### Control
 
 - [Fast Nonlinear Controller Synthesis using Reachability Analysis](https://kmmille.github.io/FACTEST/files/reachtube.pdf). Kristina Miller, Chuchu Fan and Sayan Mitra
 
+- Yang, S., Xu, F., Wang, X., & Liang, B. (2020). A Novel Online Active Fault Diagnosis Method Based on Invariant Sets. IEEE Control Systems Letters.
 
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
 
-### Realizability
+### Requirement analysis
 
 - Gacek, A., Katis, A., Whalen, M. W., Backes, J., & Cofer, D. (2015, April). Towards realizability checking of contracts using theories. In NASA Formal Methods Symposium (pp. 173-187). Springer, Cham.
+
+- Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
 
 
 ## QC
