@@ -31,6 +31,7 @@
 
 - Witheephanich, K., Orihuela, L., García, R. A., & Escaño, J. M. (2016). Min-max model predictive control with robust zonotope-based observer. In 2016 UKACC 11th International Conference on Control (CONTROL) (pp. 1-6). IEEE. 
 
+- Robust Constrained Control: The Polytopic Appraoch [paper](http://underactuated.csail.mit.edu/Spring2019/guest_lecture/poly_underactuated.pdf)
 
 ### Parameter identification 
 
