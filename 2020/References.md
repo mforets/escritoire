@@ -23,3 +23,7 @@
 ## QC
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
+
+## Optimization
+
+- https://docs.mosek.com/modeling-cookbook/intro.html
