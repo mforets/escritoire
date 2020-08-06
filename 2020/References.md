@@ -19,6 +19,8 @@
 - Girard, A., & Le Guernic, C. (2008, April). Zonotope/hyperplane intersection for hybrid systems reachability analysis. In International Workshop on Hybrid Systems: Computation and Control (pp. 215-228). Springer, Berlin, Heidelberg.
 
 
+- Maler, O. (2008). Computing reachable sets: An introduction. Tech. rep. French National Center of Scientific Research.
+
 ### Control
 
 - [Fast Nonlinear Controller Synthesis using Reachability Analysis](https://kmmille.github.io/FACTEST/files/reachtube.pdf). Kristina Miller, Chuchu Fan and Sayan Mitra
