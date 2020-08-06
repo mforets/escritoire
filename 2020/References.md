@@ -48,4 +48,8 @@
     - https://sites.google.com/view/vnn20/home?authuser=0
     - https://github.com/verivital/vnn-comp
 
+
+## GSOC / JSOC
+
+- https://krish8484.github.io/JSOC2020/
 - 
