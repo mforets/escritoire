@@ -10,6 +10,8 @@
 
 - Althoff, M., Stursberg, O., & Buss, M. (2010). Computing reachable sets of hybrid systems using a combination of zonotopes and polytopes. Nonlinear analysis: hybrid systems, 4(2), 233-249.
 
+- Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
+
 
 ### Control
 
