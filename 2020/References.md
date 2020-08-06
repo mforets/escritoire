@@ -48,6 +48,7 @@
     - https://sites.google.com/view/vnn20/home?authuser=0
     - https://github.com/verivital/vnn-comp
 
+- Tran, H. D., Bak, S., Xiang, W., & Johnson, T. T. (2020). Verification of Deep Convolutional Neural Networks Using ImageStars. arXiv preprint arXiv:2004.05511.
 
 ## GSOC / JSOC
 
