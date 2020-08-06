@@ -6,8 +6,6 @@
 
 - Althoff, Matthias. "Reachability analysis of large linear systems with uncertain inputs in the krylov subspace." IEEE Transactions on Automatic Control 65.2 (2019): 477-492.
 
-
-
 - Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
 
 ### Older (< 2020) references
@@ -61,6 +59,10 @@
 - Tran, H. D., Lopez, D. M., Musau, P., Yang, X., Nguyen, L. V., Xiang, W., & Johnson, T. T. (2019, October). Star-based reachability analysis of deep neural networks. In International Symposium on Formal Methods (pp. 670-686). Springer, Cham. [paper](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)
 
 - Wang, X., Nair, S., & Althoff, M. (2020). Falsification-Based Robust Adversarial Reinforcement Learning. arXiv preprint arXiv:2007.00691.
+
+
+- Dutta, S., Jha, S., Sankaranarayanan, S., & Tiwari, A. (2018, April). Output range analysis for deep feedforward neural networks. In NASA Formal Methods Symposium (pp. 121-138). Springer, Cham.
+
 
 ## GSOC / JSOC
 
