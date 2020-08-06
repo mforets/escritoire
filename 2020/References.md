@@ -35,3 +35,7 @@
 ## Optimization
 
 - https://docs.mosek.com/modeling-cookbook/intro.html
+
+## Nonlinear physics
+
+- Gutiérrez, C., Gancio, J., Cabeza, C., & Rubido, N. (2020). Finding the Resistance Distance and Eigenvector Centrality from the Network's Eigenvalues. arXiv preprint arXiv:2005.00452.
