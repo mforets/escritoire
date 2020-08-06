@@ -53,3 +53,9 @@
 
 - https://krish8484.github.io/JSOC2020/
 - 
+
+## Web
+
+- Github profile readme
+    - https://dev.to/m0nica/how-to-create-a-github-profile-readme-1paj
+    
