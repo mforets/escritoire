@@ -20,6 +20,11 @@
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
 
+### Realizability
+
+- Gacek, A., Katis, A., Whalen, M. W., Backes, J., & Cofer, D. (2015, April). Towards realizability checking of contracts using theories. In NASA Formal Methods Symposium (pp. 173-187). Springer, Cham.
+
+
 ## QC
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
