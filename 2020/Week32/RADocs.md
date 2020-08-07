@@ -1,0 +1,2 @@
+- https://github.com/mforets/escritoire/blob/master/2020/Week21/RADocs.ipynb
+- https://github.com/mforets/escritoire/blob/master/2020/Week32

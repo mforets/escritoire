@@ -1,0 +1,1 @@
+- [Sequence of Polyhedral Relaxations for Nonlinear Univariate Functions](https://arxiv.org/pdf/2005.13445.pdf) Kaarthik Sundar, Sujeevraja Sanjeevi, and Harsha Nagarajan

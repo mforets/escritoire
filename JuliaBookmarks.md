@@ -15,14 +15,21 @@
 
 ### Tensors
 
-
-
+- https://ericforgy.github.io/TensorAlgebra.jl/dev/#TensorKit.jl
+- https://github.com/thisrod/Tensars.jl
+- SymbolicTensors, see JuliaCon 2020 talk
+- 
 
 ## Calculus
 
 - https://github.com/JuliaDiff/ForwardDiff.jl
 - https://github.com/JuliaDiff/FiniteDiff.jl
 - https://github.com/JuliaMath/Calculus.jl
+
+## Geometry
+
+- https://github.com/JuliaGeometry/CoordinateTransformations.jl
+
 
 ### Integration
 
@@ -72,6 +79,7 @@
 - [Unicode input](https://docs.julialang.org/en/v1/manual/unicode-input/)
 - [Literate.jl](https://github.com/fredrikekre/Literate.jl)
 - https://github.com/JunoLab/Weave.jl
+- https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
 
 ## Domain-specific language tools (DSL)
 
@@ -99,6 +107,7 @@ Other useful references:
 - https://simeonschaub.github.io/OptionalArgChecks.jl/dev/
 - Unpack
 - Parameters
+- https://juliahub.com/ui/Packages/ArgTools/aGHFV/1.1.1
 
 ## Other
 
@@ -166,3 +175,7 @@ Other useful references:
 
 - [High order functions](https://discourse.julialang.org/t/to-factor-or-not-to-factor-functions-with-small-differences-within-loops/39532/4)
 - [Dynamical systems modeling in Julia]()
+
+## Neural networks
+
+- https://github.com/vtjeng/MIPVerify.jl
