@@ -51,6 +51,7 @@
 - [OwnTime.jl](https://github.com/DevJac/OwnTime.jl)
 - [Timeout.jl](https://github.com/ararslan/Timeout.jl)
 - https://github.com/FluxML/IRTools.jl
+- https://github.com/antoine-levitt/Exfiltrator.jl
 
 ## Differential equations & numerical simulations
 
