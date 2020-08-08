@@ -8,6 +8,8 @@
 
 - Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
 
+- Safety Verification for Impulsive Systems. Petro Feketa ∗ Sergiy Bogomolov ∗∗ Thomas Meurer ∗
+
 ### Older (< 2020) references
 
 - Schupp, S., & Ábrahám, E. (2018, April). Efficient dynamic error reduction for hybrid systems reachability analysis. In International Conference on Tools and Algorithms for the Construction and Analysis of Systems (pp. 287-302). Springer, Cham.
