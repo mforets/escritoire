@@ -102,6 +102,13 @@ Other useful references:
 
 - [Some useful macros for Julia (MikeInnes)](https://gist.github.com/MikeInnes/8299575)
 
+### Memoisation
+
+- Memoization
+    - https://discourse.julialang.org/t/memoization-performance/26361
+    - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
+- https://github.com/dalum/Purses.jl
+
 ## API
 
 - https://github.com/jw3126/ArgCheck.jl
@@ -115,19 +122,19 @@ Other useful references:
 - https://github.com/JuliaReinforcementLearning/ReinforcementLearning.jl
 - https://github.com/eschnett/SIMD.jl
 - https://etymoio.github.io/EvolvingGraphs.jl/latest/
-- Memoization
-    - https://discourse.julialang.org/t/memoization-performance/26361
-    - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - Interactive plotting
     - https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
 - https://github.com/bcbi/ExtensibleUnions.jl
 - https://github.com/bcbi/GitCommand.jl
+
+
 
 ## Traits
 
 - [Traits.jl](https://github.com/schlichtanders/Traits.jl)
 - [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl)
 - [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl), [on discourse](https://discourse.julialang.org/t/ann-binarytraits-jl-a-new-traits-package/37475)
+
 
 ## Optimization
 
