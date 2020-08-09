@@ -35,6 +35,8 @@
 
 - Robust Constrained Control: The Polytopic Appraoch [paper](http://underactuated.csail.mit.edu/Spring2019/guest_lecture/poly_underactuated.pdf)
 
+- Lee, J., Ahn, J., Bakolas, E., & Sentis, L. (2020, July). Reachability-based Trajectory Optimization for Robotic Systems Given Sequences of Rigid Contacts. In 2020 American Control Conference (ACC) (pp. 2158-2165). IEEE.
+
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
