@@ -18,7 +18,8 @@
 - https://ericforgy.github.io/TensorAlgebra.jl/dev/#TensorKit.jl
 - https://github.com/thisrod/Tensars.jl
 - SymbolicTensors, see JuliaCon 2020 talk
-- 
+- https://github.com/lanaperisa/TensorToolbox.jl
+
 
 ## Calculus
 
