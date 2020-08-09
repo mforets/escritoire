@@ -19,7 +19,7 @@
 - https://github.com/thisrod/Tensars.jl
 - SymbolicTensors, see JuliaCon 2020 talk
 - https://github.com/lanaperisa/TensorToolbox.jl
-
+- https://github.com/adtzlr/ttb
 
 ## Calculus
 
