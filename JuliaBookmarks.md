@@ -71,6 +71,10 @@
 
 - [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
 
+### Model formats
+
+- https://github.com/SciML/CellMLToolkit.jl
+
 ## Documentation
 
 - [Hosting documentation. Documenter help](https://juliadocs.github.io/Documenter.jl/v0.24/man/hosting/#Hosting-Documentation-1).
