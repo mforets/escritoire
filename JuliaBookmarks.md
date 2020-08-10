@@ -119,6 +119,10 @@ Other useful references:
     - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - https://github.com/dalum/Purses.jl
 
+### Other
+
+- https://github.com/oxinabox/AutoPreallocation.jl
+
 ## API
 
 - https://github.com/jw3126/ArgCheck.jl
