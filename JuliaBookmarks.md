@@ -72,9 +72,14 @@
 
 - [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
 
+
 ### Model formats
 
 - https://github.com/SciML/CellMLToolkit.jl
+
+### Circuits
+
+- https://discourse.julialang.org/t/tann-view-post-process-analog-circuit-simulations/44658
 
 ## Documentation
 
