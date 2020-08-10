@@ -198,3 +198,8 @@ Other useful references:
 ## Neural networks
 
 - https://github.com/vtjeng/MIPVerify.jl
+
+
+## Web 
+
+- Presentations from markdown https://github.com/oxinabox/Remark.jl
