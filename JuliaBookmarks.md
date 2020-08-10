@@ -18,7 +18,8 @@
 - https://ericforgy.github.io/TensorAlgebra.jl/dev/#TensorKit.jl
 - https://github.com/thisrod/Tensars.jl
 - SymbolicTensors, see JuliaCon 2020 talk
-- 
+- https://github.com/lanaperisa/TensorToolbox.jl
+- https://github.com/adtzlr/ttb
 
 ## Calculus
 
@@ -51,6 +52,7 @@
 - [OwnTime.jl](https://github.com/DevJac/OwnTime.jl)
 - [Timeout.jl](https://github.com/ararslan/Timeout.jl)
 - https://github.com/FluxML/IRTools.jl
+- https://github.com/antoine-levitt/Exfiltrator.jl
 
 ## Differential equations & numerical simulations
 
@@ -69,6 +71,15 @@
 ## More on dynamical systems
 
 - [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
+
+
+### Model formats
+
+- https://github.com/SciML/CellMLToolkit.jl
+
+### Circuits
+
+- https://discourse.julialang.org/t/tann-view-post-process-analog-circuit-simulations/44658
 
 ## Documentation
 
@@ -101,6 +112,17 @@ Other useful references:
 
 - [Some useful macros for Julia (MikeInnes)](https://gist.github.com/MikeInnes/8299575)
 
+### Memoisation
+
+- Memoization
+    - https://discourse.julialang.org/t/memoization-performance/26361
+    - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
+- https://github.com/dalum/Purses.jl
+
+### Other
+
+- https://github.com/oxinabox/AutoPreallocation.jl
+
 ## API
 
 - https://github.com/jw3126/ArgCheck.jl
@@ -114,19 +136,19 @@ Other useful references:
 - https://github.com/JuliaReinforcementLearning/ReinforcementLearning.jl
 - https://github.com/eschnett/SIMD.jl
 - https://etymoio.github.io/EvolvingGraphs.jl/latest/
-- Memoization
-    - https://discourse.julialang.org/t/memoization-performance/26361
-    - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - Interactive plotting
     - https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
 - https://github.com/bcbi/ExtensibleUnions.jl
 - https://github.com/bcbi/GitCommand.jl
+
+
 
 ## Traits
 
 - [Traits.jl](https://github.com/schlichtanders/Traits.jl)
 - [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl)
 - [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl), [on discourse](https://discourse.julialang.org/t/ann-binarytraits-jl-a-new-traits-package/37475)
+
 
 ## Optimization
 
@@ -140,6 +162,7 @@ Other useful references:
 - https://github.com/jw3126/Convex1D.jl
 - https://github.com/SciML/GalacticOptim.jl
 - [CMAEvolutionStrategy](https://github.com/jbrea/CMAEvolutionStrategy.jl/tree/f421335dad3c9133b4e0c1796d33508cef08834e), [discourse announcement](https://discourse.julialang.org/t/ann-cmaevolutionstrategy-jl/39411/5).
+- https://psorlab.github.io/EAGO.jl/dev/
 
 ### PDEs
 
@@ -179,3 +202,8 @@ Other useful references:
 ## Neural networks
 
 - https://github.com/vtjeng/MIPVerify.jl
+
+
+## Web 
+
+- Presentations from markdown https://github.com/oxinabox/Remark.jl
