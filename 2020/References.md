@@ -77,6 +77,11 @@
 
 - Dutta, S., Jha, S., Sankaranarayanan, S., & Tiwari, A. (2018, April). Output range analysis for deep feedforward neural networks. In NASA Formal Methods Symposium (pp. 121-138). Springer, Cham.
 
+- Neyshabur, B. (2020). Towards Learning Convolutions from Scratch. arXiv preprint arXiv:2007.13657.
+
+- Clevert, D. A., Unterthiner, T., & Hochreiter, S. (2015). Fast and accurate deep network learning by exponential linear units (elus). arXiv preprint arXiv:1511.07289.
+
+
 
 ## GSOC / JSOC
 
