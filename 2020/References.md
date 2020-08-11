@@ -118,3 +118,9 @@
 
 - https://invenia.github.io/blog/
 
+---
+
+## Journals
+
+- [Reliable computing](https://interval.louisiana.edu/reliable-computing-journal/tables-of-contents.html)
+
