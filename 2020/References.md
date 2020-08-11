@@ -1,5 +1,8 @@
 ## Reachability
 
+- Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
+
+
 - Gruber, F., & Althoff, M. (2020). Computing Safe Sets of Linear Sampled-Data Systems. IEEE Control Systems Letters, 5(2), 385-390.
 
 - Jerray, J., Fribourg, L., & André, É. (2020). Robust optimal control using dynamic programming and guaranteed Euler's method. arXiv preprint [arXiv:2007.13644](https://arxiv.org/pdf/2007.13644.pdf).
@@ -11,6 +14,11 @@
 - Safety Verification for Impulsive Systems. Petro Feketa, Sergiy Bogomolov, Thomas Meurer.
 
 - Safety Verification for Random Ordinary Differential Equations. Bai Xue, Member, IEEE, Martin Franzle, Naijun Zhan, Sergiy Bogomolov and Bican Xia
+
+- Kochdumper, N., Tarraf, A., Rechmal, M., Olbrich, M., Hedrich, L., & Althoff, M. (2020, January). Establishing reachset conformance for the formal analysis of analog circuits. In 2020 25th Asia and South Pacific Design Automation Conference (ASP-DAC) (pp. 199-204). IEEE. [pdf](https://mediatum.ub.tum.de/doc/1521218/file.pdf)
+
+- Tarraf, A., Hedrich, L., Kochdumper, N., Rechmal-Lesse, M., & Olbrich, M. (2020, July). Equivalence Checking Methods for Analog Circuits Using Continuous Reachable Sets. In 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI) (pp. 7-12). IEEE.
+
 
 ### Older (< 2020) references
 
@@ -24,6 +32,10 @@
 
 
 - Maler, O. (2008). Computing reachable sets: An introduction. Tech. rep. French National Center of Scientific Research.
+
+
+- Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
+
 
 ### Control
 
