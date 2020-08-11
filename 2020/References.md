@@ -2,13 +2,15 @@
 
 - Gruber, F., & Althoff, M. (2020). Computing Safe Sets of Linear Sampled-Data Systems. IEEE Control Systems Letters, 5(2), 385-390.
 
-- Jerray, J., Fribourg, L., & André, É. (2020). Robust optimal control using dynamic programming and guaranteed Euler's method. arXiv preprint arXiv:2007.13644.
+- Jerray, J., Fribourg, L., & André, É. (2020). Robust optimal control using dynamic programming and guaranteed Euler's method. arXiv preprint [arXiv:2007.13644](https://arxiv.org/pdf/2007.13644.pdf).
 
 - Althoff, Matthias. "Reachability analysis of large linear systems with uncertain inputs in the krylov subspace." IEEE Transactions on Automatic Control 65.2 (2019): 477-492.
 
 - Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
 
-- Safety Verification for Impulsive Systems. Petro Feketa ∗ Sergiy Bogomolov ∗∗ Thomas Meurer ∗
+- Safety Verification for Impulsive Systems. Petro Feketa, Sergiy Bogomolov, Thomas Meurer.
+
+- Safety Verification for Random Ordinary Differential Equations. Bai Xue, Member, IEEE, Martin Franzle, Naijun Zhan, Sergiy Bogomolov and Bican Xia
 
 ### Older (< 2020) references
 
