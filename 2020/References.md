@@ -1,14 +1,26 @@
 ## Reachability
 
+- Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091.
+
+- Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
+
+
 - Gruber, F., & Althoff, M. (2020). Computing Safe Sets of Linear Sampled-Data Systems. IEEE Control Systems Letters, 5(2), 385-390.
 
-- Jerray, J., Fribourg, L., & André, É. (2020). Robust optimal control using dynamic programming and guaranteed Euler's method. arXiv preprint arXiv:2007.13644.
+- Jerray, J., Fribourg, L., & André, É. (2020). Robust optimal control using dynamic programming and guaranteed Euler's method. arXiv preprint [arXiv:2007.13644](https://arxiv.org/pdf/2007.13644.pdf).
 
 - Althoff, Matthias. "Reachability analysis of large linear systems with uncertain inputs in the krylov subspace." IEEE Transactions on Automatic Control 65.2 (2019): 477-492.
 
 - Rechmal-Lesse, M., Koroa, G. A., Adhisantoso, Y. G., & Olbrich, M. (2020, April). Automatically Generated Nonlinear Analog Circuit Models Enclosing Variations with Intervals and Affine Forms for Reachability Analysis. In 2020 23rd International Symposium on Design and Diagnostics of Electronic Circuits & Systems (DDECS) (pp. 1-4). IEEE.
 
-- Safety Verification for Impulsive Systems. Petro Feketa ∗ Sergiy Bogomolov ∗∗ Thomas Meurer ∗
+- Safety Verification for Impulsive Systems. Petro Feketa, Sergiy Bogomolov, Thomas Meurer.
+
+- Safety Verification for Random Ordinary Differential Equations. Bai Xue, Member, IEEE, Martin Franzle, Naijun Zhan, Sergiy Bogomolov and Bican Xia
+
+- Kochdumper, N., Tarraf, A., Rechmal, M., Olbrich, M., Hedrich, L., & Althoff, M. (2020, January). Establishing reachset conformance for the formal analysis of analog circuits. In 2020 25th Asia and South Pacific Design Automation Conference (ASP-DAC) (pp. 199-204). IEEE. [pdf](https://mediatum.ub.tum.de/doc/1521218/file.pdf)
+
+- Tarraf, A., Hedrich, L., Kochdumper, N., Rechmal-Lesse, M., & Olbrich, M. (2020, July). Equivalence Checking Methods for Analog Circuits Using Continuous Reachable Sets. In 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI) (pp. 7-12). IEEE.
+
 
 ### Older (< 2020) references
 
@@ -22,6 +34,10 @@
 
 
 - Maler, O. (2008). Computing reachable sets: An introduction. Tech. rep. French National Center of Scientific Research.
+
+
+- Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
+
 
 ### Control
 
@@ -56,6 +72,8 @@
 
 - https://docs.mosek.com/modeling-cookbook/intro.html
 
+- Wilhelm, M. E., Le, A. V., & Stuber, M. D. (2019). Global optimization of stiff dynamical systems. AIChE Journal, 65(12), e16836.
+
 ## Nonlinear physics
 
 - Gutiérrez, C., Gancio, J., Cabeza, C., & Rubido, N. (2020). Finding the Resistance Distance and Eigenvector Centrality from the Network's Eigenvalues. arXiv preprint arXiv:2005.00452.
@@ -74,6 +92,11 @@
 
 
 - Dutta, S., Jha, S., Sankaranarayanan, S., & Tiwari, A. (2018, April). Output range analysis for deep feedforward neural networks. In NASA Formal Methods Symposium (pp. 121-138). Springer, Cham.
+
+- Neyshabur, B. (2020). Towards Learning Convolutions from Scratch. arXiv preprint arXiv:2007.13657.
+
+- Clevert, D. A., Unterthiner, T., & Hochreiter, S. (2015). Fast and accurate deep network learning by exponential linear units (elus). arXiv preprint arXiv:1511.07289.
+
 
 
 ## GSOC / JSOC
@@ -96,4 +119,10 @@
 ## Blogs
 
 - https://invenia.github.io/blog/
+
+---
+
+## Journals
+
+- [Reliable computing](https://interval.louisiana.edu/reliable-computing-journal/tables-of-contents.html)
 

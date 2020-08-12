@@ -114,9 +114,9 @@ Other useful references:
 
 ### Memoisation
 
-- Memoization
-    - https://discourse.julialang.org/t/memoization-performance/26361
-    - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
+- https://github.com/BenLauwens/ResumableFunctions.jl
+- https://discourse.julialang.org/t/memoization-performance/26361
+- https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - https://github.com/dalum/Purses.jl
 
 ### Other
@@ -207,3 +207,18 @@ Other useful references:
 ## Web 
 
 - Presentations from markdown https://github.com/oxinabox/Remark.jl
+
+## Generators
+
+- https://discourse.julialang.org/t/creating-generators/3962/28
+- https://medium.com/@Jernfrost/generators-and-iterators-in-julia-and-python-6c9ace18fa93
+
+
+----
+
+## Tutorials
+
+- https://github.com/DataWookie/MonthOfJulia
+- https://github.com/mitmath/18330/tree/spring20/lectures
+- Fundamentales of Numerical Computation. By Tobin A. Driscoll and Richard J. Braun
+ https://fncbook.github.io/fnc/intro/overview.html
