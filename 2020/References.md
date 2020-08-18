@@ -59,6 +59,8 @@
 
 ### Requirement analysis
 
+- Ghasemi, K., Sadraddini, S., & Belta, C. (2020, April). Compositional synthesis via a convex parameterization of assume-guarantee contracts. In Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control (pp. 1-10). [pdf](https://arxiv.org/pdf/2002.06494.pdf)
+
 - Gacek, A., Katis, A., Whalen, M. W., Backes, J., & Cofer, D. (2015, April). Towards realizability checking of contracts using theories. In NASA Formal Methods Symposium (pp. 173-187). Springer, Cham.
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
