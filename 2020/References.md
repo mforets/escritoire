@@ -121,6 +121,9 @@
 - Github profile readme
     - https://dev.to/m0nica/how-to-create-a-github-profile-readme-1paj
     
+- Julia Streamers
+    - https://github.com/Julia-Streamers/Julia-Streamers.github.io
+    
 ---
 
 - Bills, A., Sripad, S., Fredericks, W. L., Guttenberg, M., Charles, D., Frank, E., & Viswanathan, V. (2020). Universal Battery Performance and Degradation Model for Electric Aircraft.
@@ -137,4 +140,10 @@
 ## Journals
 
 - [Reliable computing](https://interval.louisiana.edu/reliable-computing-journal/tables-of-contents.html)
+
+---
+
+## Structural Mechanics
+
+- 
 
