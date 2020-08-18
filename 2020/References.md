@@ -1,6 +1,6 @@
 ## Reachability
 
-- Li, Dongxu, Stanley Bak, and Sergiy Bogomolov. "Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling." . [pdf](http://stanleybak.com/papers/li2020formats.pdf)
+- Li, Dongxu, Stanley Bak, and Sergiy Bogomolov. "Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling." [pdf](http://stanleybak.com/papers/li2020formats.pdf)
 
 
 - Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
