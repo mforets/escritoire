@@ -1,6 +1,6 @@
 ## Reachability
 
-- Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091.
+- Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
 
