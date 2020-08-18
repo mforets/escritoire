@@ -123,7 +123,8 @@
     
 - Julia Streamers
     - https://github.com/Julia-Streamers/Julia-Streamers.github.io
-    
+    - https://julialang.live/menu3/
+    - 
 ---
 
 - Bills, A., Sripad, S., Fredericks, W. L., Guttenberg, M., Charles, D., Frank, E., & Viswanathan, V. (2020). Universal Battery Performance and Degradation Model for Electric Aircraft.
