@@ -78,7 +78,10 @@ Lists of journals in [scientific computing](https://en.wikipedia.org/wiki/Comput
 
 - PeerJ Computer Science
     - https://peerj.com/computer-science/
-    
+
+- Advances in Engineering Software
+    - https://www.journals.elsevier.com/advances-in-engineering-software
+
 ---
     
     
