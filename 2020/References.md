@@ -1,5 +1,8 @@
 ## Reachability
 
+- Li, Dongxu, Stanley Bak, and Sergiy Bogomolov. "Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling." . [pdf](http://stanleybak.com/papers/li2020formats.pdf)
+
+
 - Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
