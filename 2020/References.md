@@ -68,6 +68,13 @@
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
 
+### Tools
+
+- Donzé, A. (2020). BreachFlows: Simulation-Based Design with Formal Requirements for Industrial CPS. In 2nd International Workshop on Autonomous Systems Design (ASD 2020). Schloss Dagstuhl-Leibniz-Zentrum für Informatik. [pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12599/pdf/OASIcs-ASD-2020-5.pdf)
+
+- Grobelna, Marta. "INTEGRATION OF HYBRID SYSTEMS VERIFICATION METHODS IN MATLAB." (2019). [pdf](https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)
+
+---
 
 ## QC
 
