@@ -1,6 +1,9 @@
 ## Reachability
 
-- Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091.
+- Li, Dongxu, Stanley Bak, and Sergiy Bogomolov. "Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling." [pdf](http://stanleybak.com/papers/li2020formats.pdf)
+
+
+- Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
 
@@ -59,10 +62,19 @@
 
 ### Requirement analysis
 
+- Ghasemi, K., Sadraddini, S., & Belta, C. (2020, April). Compositional synthesis via a convex parameterization of assume-guarantee contracts. In Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control (pp. 1-10). [pdf](https://arxiv.org/pdf/2002.06494.pdf)
+
 - Gacek, A., Katis, A., Whalen, M. W., Backes, J., & Cofer, D. (2015, April). Towards realizability checking of contracts using theories. In NASA Formal Methods Symposium (pp. 173-187). Springer, Cham.
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
 
+### Tools
+
+- Donzé, A. (2020). BreachFlows: Simulation-Based Design with Formal Requirements for Industrial CPS. In 2nd International Workshop on Autonomous Systems Design (ASD 2020). Schloss Dagstuhl-Leibniz-Zentrum für Informatik. [pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12599/pdf/OASIcs-ASD-2020-5.pdf)
+
+- Grobelna, Marta. "INTEGRATION OF HYBRID SYSTEMS VERIFICATION METHODS IN MATLAB." (2019). [pdf](https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)
+
+---
 
 ## QC
 
@@ -109,6 +121,10 @@
 - Github profile readme
     - https://dev.to/m0nica/how-to-create-a-github-profile-readme-1paj
     
+- Julia Streamers
+    - https://github.com/Julia-Streamers/Julia-Streamers.github.io
+    - https://julialang.live/menu3/
+    - 
 ---
 
 - Bills, A., Sripad, S., Fredericks, W. L., Guttenberg, M., Charles, D., Frank, E., & Viswanathan, V. (2020). Universal Battery Performance and Degradation Model for Electric Aircraft.
@@ -125,4 +141,10 @@
 ## Journals
 
 - [Reliable computing](https://interval.louisiana.edu/reliable-computing-journal/tables-of-contents.html)
+
+---
+
+## Structural Mechanics
+
+- 
 
