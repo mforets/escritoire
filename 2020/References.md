@@ -74,6 +74,10 @@
 
 - Grobelna, Marta. "INTEGRATION OF HYBRID SYSTEMS VERIFICATION METHODS IN MATLAB." (2019). [pdf](https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)
 
+### Presentations
+
+- Modeling and Analysis of Hybrid Automata. Erika Ábrahám. Set' 2013. [slides](http://lcs.ios.ac.cn/~zhanglj/slides/Abraham.pdf)
+
 ---
 
 ## QC
