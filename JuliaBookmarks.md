@@ -223,3 +223,9 @@ Other useful references:
 - https://github.com/mitmath/18330/tree/spring20/lectures
 - Fundamentales of Numerical Computation. By Tobin A. Driscoll and Richard J. Braun
  https://fncbook.github.io/fnc/intro/overview.html
+ 
+ ---
+ 
+ ## JSoc / GSOC 2020
+ 
+ - https://nextjournal.com/sguadalupe
