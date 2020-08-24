@@ -194,10 +194,11 @@ Other useful references:
 - https://github.com/bcbi/SimpleContainerGenerator.jl
 
 
-### Blogs, discussions, ...
+## Blogs, discussions, ...
 
 - [High order functions](https://discourse.julialang.org/t/to-factor-or-not-to-factor-functions-with-small-differences-within-loops/39532/4)
 - [Dynamical systems modeling in Julia]()
+- https://github.com/johnmyleswhite/julia_tutorials
 
 ## Neural networks
 
