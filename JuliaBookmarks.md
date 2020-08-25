@@ -91,6 +91,7 @@
 - [Literate.jl](https://github.com/fredrikekre/Literate.jl)
 - https://github.com/JunoLab/Weave.jl
 - https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
+- https://github.com/MichaelHatherly/Publish.jl
 
 ## Domain-specific language tools (DSL)
 
