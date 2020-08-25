@@ -53,6 +53,8 @@
 - [Timeout.jl](https://github.com/ararslan/Timeout.jl)
 - https://github.com/FluxML/IRTools.jl
 - https://github.com/antoine-levitt/Exfiltrator.jl
+- https://github.com/c42f/TerminalLoggers.jl
+- https://github.com/oxinabox/LoggingExtras.jl
 
 ## Differential equations & numerical simulations
 
