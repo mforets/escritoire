@@ -63,7 +63,7 @@
 - [DifferentialEquations.jl documentation](https://docs.juliadiffeq.org/dev/index.html)
    - https://github.com/SciML/OrdinaryDiffEq.jl
 - [Mera.jl](https://github.com/ManuelBehrendt/Mera.jl)
-- [Jusdl.jl](https://github.com/zekeriyasari/Jusdl.jl)
+- [Causal.jl](https://github.com/zekeriyasari/Causal.jl/issues)
 - ModiaSim
 - [SimJulia](https://benlauwens.github.io/SimJulia.jl/)
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
