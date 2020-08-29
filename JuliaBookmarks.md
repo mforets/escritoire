@@ -122,9 +122,10 @@ Other useful references:
 - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - https://github.com/dalum/Purses.jl
 
-### Other
+### Other tools
 
 - https://github.com/oxinabox/AutoPreallocation.jl
+- https://github.com/pengwyn/AutoParameters.jl
 
 ## API
 
