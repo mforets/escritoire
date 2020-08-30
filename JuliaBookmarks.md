@@ -94,6 +94,11 @@
 - https://github.com/JunoLab/Weave.jl
 - https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
 - https://github.com/MichaelHatherly/Publish.jl
+- https://github.com/korsbo/Latexify.jl
+- https://github.com/adamslc/Citations.jl
+- https://github.com/ali-ramadhan/DocumenterBibliographyTest.jl
+- https://lucianolorenti.github.io/BibTeXFormat.jl/latest/
+
 
 ## Domain-specific language tools (DSL)
 
