@@ -93,11 +93,12 @@
 - [Literate.jl](https://github.com/fredrikekre/Literate.jl)
 - https://github.com/JunoLab/Weave.jl
 - https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
-- https://github.com/MichaelHatherly/Publish.jl
-- https://github.com/korsbo/Latexify.jl
-- https://github.com/adamslc/Citations.jl
-- https://github.com/ali-ramadhan/DocumenterBibliographyTest.jl
-- https://lucianolorenti.github.io/BibTeXFormat.jl/latest/
+- [Publish.jl](https://github.com/MichaelHatherly/Publish.jl)
+- [Latexify.jl](https://github.com/korsbo/Latexify.jl)
+- [Citations.jl](https://github.com/adamslc/Citations.jl)
+- [DocumenterBibliographyTest.jl](https://github.com/ali-ramadhan/DocumenterBibliographyTest.jl)
+- [BibTeXFormat.jl](https://lucianolorenti.github.io/BibTeXFormat.jl/latest/)
+- [BibTex.jl](https://github.com/JuliaTeX/BibTeX.jl)
 
 
 ## Domain-specific language tools (DSL)
