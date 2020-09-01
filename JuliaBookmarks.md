@@ -63,7 +63,7 @@
 - [DifferentialEquations.jl documentation](https://docs.juliadiffeq.org/dev/index.html)
    - https://github.com/SciML/OrdinaryDiffEq.jl
 - [Mera.jl](https://github.com/ManuelBehrendt/Mera.jl)
-- [Jusdl.jl](https://github.com/zekeriyasari/Jusdl.jl)
+- [Causal.jl](https://github.com/zekeriyasari/Causal.jl/issues)
 - ModiaSim
 - [SimJulia](https://benlauwens.github.io/SimJulia.jl/)
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
@@ -93,7 +93,13 @@
 - [Literate.jl](https://github.com/fredrikekre/Literate.jl)
 - https://github.com/JunoLab/Weave.jl
 - https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
-- https://github.com/MichaelHatherly/Publish.jl
+- [Publish.jl](https://github.com/MichaelHatherly/Publish.jl)
+- [Latexify.jl](https://github.com/korsbo/Latexify.jl)
+- [Citations.jl](https://github.com/adamslc/Citations.jl)
+- [DocumenterBibliographyTest.jl](https://github.com/ali-ramadhan/DocumenterBibliographyTest.jl)
+- [BibTeXFormat.jl](https://lucianolorenti.github.io/BibTeXFormat.jl/latest/)
+- [BibTex.jl](https://github.com/JuliaTeX/BibTeX.jl)
+
 
 ## Domain-specific language tools (DSL)
 
@@ -122,9 +128,10 @@ Other useful references:
 - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - https://github.com/dalum/Purses.jl
 
-### Other
+### Other tools
 
 - https://github.com/oxinabox/AutoPreallocation.jl
+- https://github.com/pengwyn/AutoParameters.jl
 
 ## API
 
