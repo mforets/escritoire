@@ -154,5 +154,8 @@
 
 ## Structural Mechanics
 
-- 
+----
 
+## Neural ODEs
+
+- Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
