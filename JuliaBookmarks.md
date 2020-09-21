@@ -12,6 +12,7 @@
 - https://github.com/mateuszbaran/HybridArrays.jl
 - [Block arrays](https://github.com/JuliaArrays/BlockArrays.jl)
 - [RecursiveArrayTools](https://github.com/JuliaDiffEq/RecursiveArrayTools.jl)
+- [LazyArrays.jl](https://github.com/JuliaArrays/LazyArrays.jl)
 
 ### Tensors
 

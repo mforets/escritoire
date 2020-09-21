@@ -1,5 +1,9 @@
 ## Reachability
 
+- Functional sets with typed symbols: Framework and mixed Polynotopes for hybrid nonlinear reachability and filtering. C. Combastel (2020). [pdf](https://arxiv.org/pdf/2009.07387.pdf).
+
+- Pek, C., Manzinger, S., Koschi, M., & Althoff, M. (2020). Using online verification to prevent autonomous vehicles from causing accidents. Nature Machine Intelligence, 2(9), 518-528. [article](https://www.nature.com/articles/s42256-020-0225-y), [video](https://www.facebook.com/nature/videos/306945980606706/)
+
 - Li, Dongxu, Stanley Bak, and Sergiy Bogomolov. "Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling." [pdf](http://stanleybak.com/papers/li2020formats.pdf)
 
 
@@ -150,5 +154,8 @@
 
 ## Structural Mechanics
 
-- 
+----
 
+## Neural ODEs
+
+- Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
