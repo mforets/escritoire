@@ -1,5 +1,7 @@
 ## Reachability
 
+- Raghuraman, V., & Koeln, J. P. (2020). Set operations and order reductions for constrained zonotopes. arXiv preprint arXiv:2009.06039. [pdf](https://arxiv.org/pdf/2009.06039).
+
 - Functional sets with typed symbols: Framework and mixed Polynotopes for hybrid nonlinear reachability and filtering. C. Combastel (2020). [pdf](https://arxiv.org/pdf/2009.07387.pdf).
 
 - Pek, C., Manzinger, S., Koschi, M., & Althoff, M. (2020). Using online verification to prevent autonomous vehicles from causing accidents. Nature Machine Intelligence, 2(9), 518-528. [article](https://www.nature.com/articles/s42256-020-0225-y), [video](https://www.facebook.com/nature/videos/306945980606706/)
