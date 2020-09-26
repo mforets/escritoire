@@ -82,6 +82,10 @@ Lists of journals in [scientific computing](https://en.wikipedia.org/wiki/Comput
 - Advances in Engineering Software
     - https://www.journals.elsevier.com/advances-in-engineering-software
 
+-  Science of Computer Programming
+    - https://www.journals.elsevier.com/science-of-computer-programming
+    
+    
 ---
     
     
