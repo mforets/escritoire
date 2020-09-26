@@ -1,5 +1,7 @@
 ## Reachability
 
+- She, Z., & Li, M. (2020). Over-and Under-Approximations of Reachable Sets with Series Representations of Evolution Functions. IEEE Transactions on Automatic Control. [article](https://ieeexplore.ieee.org/abstract/document/9091305/)
+
 - Raghuraman, V., & Koeln, J. P. (2020). Set operations and order reductions for constrained zonotopes. arXiv preprint arXiv:2009.06039. [pdf](https://arxiv.org/pdf/2009.06039).
 
 - Functional sets with typed symbols: Framework and mixed Polynotopes for hybrid nonlinear reachability and filtering. C. Combastel (2020). [pdf](https://arxiv.org/pdf/2009.07387.pdf).
