@@ -133,6 +133,7 @@ Other useful references:
 
 - https://github.com/oxinabox/AutoPreallocation.jl
 - https://github.com/pengwyn/AutoParameters.jl
+- [ConcreteStructs.jl](https://discourse.julialang.org/t/ann-concretestructs-jl-cut-the-boilerplate-when-concretely-parameterizing-structs/47274)
 
 ## API
 
