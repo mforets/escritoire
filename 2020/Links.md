@@ -23,3 +23,9 @@
 - https://www.20sim.com/
 - https://opentextbc.ca/calculusv3openstax/chapter/the-dot-product/
 - https://github.com/AnHeuermann/JuliaFMI
+
+---
+
+## Autonomous driving
+
+- https://github.com/carla-simulator/carla
