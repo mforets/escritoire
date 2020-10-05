@@ -1,5 +1,8 @@
 ## Reachability
 
+- Improving the Fidelity of Mixed-Monotone Reachable Set Approximations via State Transformations (2020).
+Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
+
 - She, Z., & Li, M. (2020). Over-and Under-Approximations of Reachable Sets with Series Representations of Evolution Functions. IEEE Transactions on Automatic Control. [article](https://ieeexplore.ieee.org/abstract/document/9091305/)
 
 - Raghuraman, V., & Koeln, J. P. (2020). Set operations and order reductions for constrained zonotopes. arXiv preprint arXiv:2009.06039. [pdf](https://arxiv.org/pdf/2009.06039).
