@@ -166,3 +166,12 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ## Neural ODEs
 
 - Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
+
+---
+
+
+## QUBO
+
+- https://link.springer.com/article/10.1007/s11128-019-2236-3
+
+- https://researchspace.auckland.ac.nz/bitstream/handle/2292/31576/whole.pdf?sequence=2&isAllowed=y
