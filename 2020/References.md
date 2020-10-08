@@ -105,6 +105,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Gutiérrez, C., Gancio, J., Cabeza, C., & Rubido, N. (2020). Finding the Resistance Distance and Eigenvector Centrality from the Network's Eigenvalues. arXiv preprint arXiv:2005.00452.
 
+- Renardy, M., Jilkine, A., Shahriyari, L., & Chou, C. S. (2018). Control of cell fraction and population recovery during tissue regeneration in stem cell lineages. Journal of theoretical biology, 445, 33-50.
+
+
 ## Neural networks
 
 - 3rd International Workshop on Verification of Neural Networks (VNN20) and 1st International Verification of Neural Networks Competition (VNN-COMP'20)
