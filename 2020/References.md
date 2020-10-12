@@ -105,6 +105,11 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Gutiérrez, C., Gancio, J., Cabeza, C., & Rubido, N. (2020). Finding the Resistance Distance and Eigenvector Centrality from the Network's Eigenvalues. arXiv preprint arXiv:2005.00452.
 
+- Renardy, M., Jilkine, A., Shahriyari, L., & Chou, C. S. (2018). Control of cell fraction and population recovery during tissue regeneration in stem cell lineages. Journal of theoretical biology, 445, 33-50.
+
+- Xue, Ancheng, et al. "Power system dynamic security region and its approximations." IEEE Transactions on Circuits and Systems I: Regular Papers 53.12 (2006): 2849-2859. [pdf](https://www.researchgate.net/profile/Ancheng_Xue/publication/3451387_Power_System_Dynamic_Security_Region_and_Its_Approximations/links/5525e2ce0cf25d66dc946be0/Power-System-Dynamic-Security-Region-and-Its-Approximations.pdf)
+
+
 ## Neural networks
 
 - 3rd International Workshop on Verification of Neural Networks (VNN20) and 1st International Verification of Neural Networks Competition (VNN-COMP'20)

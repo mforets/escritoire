@@ -148,12 +148,13 @@ Other useful references:
 - https://github.com/JuliaReinforcementLearning/ReinforcementLearning.jl
 - https://github.com/eschnett/SIMD.jl
 - https://etymoio.github.io/EvolvingGraphs.jl/latest/
-- Interactive plotting
-    - https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
 - https://github.com/bcbi/ExtensibleUnions.jl
 - https://github.com/bcbi/GitCommand.jl
 
+## Visualization
 
+- https://github.com/jkrumbiegel/Animations.jl
+- Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
 
 ## Traits
 
