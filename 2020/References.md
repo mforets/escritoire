@@ -99,6 +99,14 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
 
+- https://www.quantumtheory-bruder.physik.unibas.ch/publications/research-papers.html
+
+### QUBO
+
+- https://link.springer.com/article/10.1007/s11128-019-2236-3
+
+- https://researchspace.auckland.ac.nz/bitstream/handle/2292/31576/whole.pdf?sequence=2&isAllowed=y
+
 ## Optimization
 
 - https://docs.mosek.com/modeling-cookbook/intro.html
@@ -179,8 +187,4 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ---
 
 
-## QUBO
 
-- https://link.springer.com/article/10.1007/s11128-019-2236-3
-
-- https://researchspace.auckland.ac.nz/bitstream/handle/2292/31576/whole.pdf?sequence=2&isAllowed=y
