@@ -180,6 +180,10 @@ Other useful references:
 - ....
 - https://github.com/PetrKryslUCSD/Elfel.jl
 
+## Quantum
+
+- https://github.com/alastair-marshall/QuOptimalControl.jl/tree/master/src
+    - 
 ---
 
 - https://shields.io/
