@@ -101,6 +101,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - https://www.quantumtheory-bruder.physik.unibas.ch/publications/research-papers.html
 
+- https://arxiv.org/pdf/1910.12675.pdf
+
 ### QUBO
 
 - https://link.springer.com/article/10.1007/s11128-019-2236-3
