@@ -22,20 +22,18 @@
 - https://github.com/lanaperisa/TensorToolbox.jl
 - https://github.com/adtzlr/ttb
 
-## Calculus
+## Analysis
 
 - https://github.com/JuliaDiff/ForwardDiff.jl
 - https://github.com/JuliaDiff/FiniteDiff.jl
 - https://github.com/JuliaMath/Calculus.jl
+- https://github.com/JuliaComputing/NonlinearSolve.jl
+- https://github.com/SciML/Quadrature.jl
 
 ## Geometry
 
 - https://github.com/JuliaGeometry/CoordinateTransformations.jl
 
-
-### Integration
-
-- https://github.com/SciML/Quadrature.jl
 
 #### More on differentiation
 
@@ -182,6 +180,10 @@ Other useful references:
 - ....
 - https://github.com/PetrKryslUCSD/Elfel.jl
 
+## Quantum
+
+- https://github.com/alastair-marshall/QuOptimalControl.jl/tree/master/src
+    - 
 ---
 
 - https://shields.io/

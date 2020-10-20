@@ -89,11 +89,25 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Modeling and Analysis of Hybrid Automata. Erika Ábrahám. Set' 2013. [slides](http://lcs.ios.ac.cn/~zhanglj/slides/Abraham.pdf)
 
+### Autonomous driving
+
+- Zapridou, E., Bartocci, E., & Katsaros, P. (2020, October). Runtime Verification of Autonomous Driving Systems in CARLA. In International Conference on Runtime Verification (pp. 172-183). Springer, Cham. [pdf](https://depend.csd.auth.gr/media/publications/paper_A6vVMPs.pdf)
+
 ---
 
 ## QC
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
+
+- https://www.quantumtheory-bruder.physik.unibas.ch/publications/research-papers.html
+
+- https://arxiv.org/pdf/1910.12675.pdf
+
+### QUBO
+
+- https://link.springer.com/article/10.1007/s11128-019-2236-3
+
+- https://researchspace.auckland.ac.nz/bitstream/handle/2292/31576/whole.pdf?sequence=2&isAllowed=y
 
 ## Optimization
 
@@ -175,8 +189,4 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ---
 
 
-## QUBO
 
-- https://link.springer.com/article/10.1007/s11128-019-2236-3
-
-- https://researchspace.auckland.ac.nz/bitstream/handle/2292/31576/whole.pdf?sequence=2&isAllowed=y
