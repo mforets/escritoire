@@ -182,15 +182,16 @@ Other useful references:
 
 ## Quantum
 
+- https://jebej.github.io/Schrodinger.jl/latest/index.html
 - https://github.com/alastair-marshall/QuOptimalControl.jl/tree/master/src
-    - 
----
+- https://julialang.org/blog/2019/12/yao-differentiable-quantum-programming/
+- https://iitis.github.io/QuantumInformation.jl/latest/man/states/
+
+## Web
 
 - https://shields.io/
 - https://github.com/danielfrg/pelican-ipynb
 - http://www.pelicanthemes.com/
-
----
 
 ## Parallelism
 
