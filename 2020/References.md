@@ -74,6 +74,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Le, Vu Tuan Hieu, et al. "Robust tube-based constrained predictive control via zonotopic set-membership estimation." 2011 50th IEEE Conference on Decision and Control and European Control Conference. IEEE, 2011.
 
+- Witheephanich, K., Orihuela, L., García, R. A., & Escaño, J. M. (2016). Min-max model predictive control with robust zonotope-based observer. In 2016 UKACC 11th International Conference on Control (CONTROL) (pp. 1-6). IEEE. [pdf](https://ieeexplore.ieee.org/document/7737613)
+
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
@@ -117,6 +119,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Baharev, Ali, and Endre Rév. "A complete nonlinear system solver using affine arithmetic." IntCP, int. WS on interval analysis, constraint propagation, applications, at CP conference. 2009. [pdf](https://www.researchgate.net/profile/Ali_Baharev/publication/237677929_A_complete_nonlinear_system_solver_using_affine/links/0a85e5382708b1dfab000000.pdf#page=24)
 
 - Ghorbal, Khalil. Static analysis of numerical programs: constrained affine sets abstract domain. Diss. 2011. [pdf](https://pastel.archives-ouvertes.fr/pastel-00643442/document)
+
+- Hartman, David, Milan Hladík, and David Říha. "Computing the spectral decomposition of interval matrices and a study on interval matrix power." arXiv preprint arXiv:1912.05275 (2019). [pdf](https://arxiv.org/pdf/1912.05275.pdf)
 
 ## QC
 
