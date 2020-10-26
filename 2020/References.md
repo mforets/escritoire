@@ -1,5 +1,7 @@
 ## Reachability
 
+- Kochdumper, Niklas, and Matthias Althoff. "Reachability analysis for hybrid systems with nonlinear guard sets." Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control. 2020. [pdf](https://dl.acm.org/doi/abs/10.1145/3365365.3382194)
+
 - Improving the Fidelity of Mixed-Monotone Reachable Set Approximations via State Transformations (2020).
 Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
@@ -52,6 +54,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
 
+### Reachability - Theses
+
+- Chen, Mo. High dimensional reachability analysis: Addressing the curse of dimensionality in formal verification. University of California, Berkeley, 2017. [pdf](https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2017-132.pdf)
 
 ### Control
 
