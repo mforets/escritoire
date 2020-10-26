@@ -5,6 +5,23 @@
 - [Gaius](https://github.com/MasonProtter/Gaius.jl)
 - [Tullio.jl](https://github.com/mcabbott/Tullio.jl). Example [here](https://discourse.julialang.org/t/accelerate-non-linear-function-evaluation/42105/16).
 
+## Analysis
+
+- https://github.com/JuliaDiff/ForwardDiff.jl
+- https://github.com/JuliaDiff/FiniteDiff.jl
+- https://github.com/JuliaMath/Calculus.jl
+- https://github.com/JuliaComputing/NonlinearSolve.jl
+- https://github.com/SciML/Quadrature.jl
+
+## API
+
+- https://github.com/jw3126/ArgCheck.jl
+- https://simeonschaub.github.io/OptionalArgChecks.jl/dev/
+- Unpack
+- Parameters
+- https://juliahub.com/ui/Packages/ArgTools/aGHFV/1.1.1
+
+
 ### Arrays
 
 - [ElasticArrays](https://github.com/JuliaArrays/ElasticArrays.jl)
@@ -14,21 +31,6 @@
 - [RecursiveArrayTools](https://github.com/JuliaDiffEq/RecursiveArrayTools.jl)
 - [LazyArrays.jl](https://github.com/JuliaArrays/LazyArrays.jl)
 
-### Tensors
-
-- https://ericforgy.github.io/TensorAlgebra.jl/dev/#TensorKit.jl
-- https://github.com/thisrod/Tensars.jl
-- SymbolicTensors, see JuliaCon 2020 talk
-- https://github.com/lanaperisa/TensorToolbox.jl
-- https://github.com/adtzlr/ttb
-
-## Analysis
-
-- https://github.com/JuliaDiff/ForwardDiff.jl
-- https://github.com/JuliaDiff/FiniteDiff.jl
-- https://github.com/JuliaMath/Calculus.jl
-- https://github.com/JuliaComputing/NonlinearSolve.jl
-- https://github.com/SciML/Quadrature.jl
 
 ## Geometry
 
@@ -69,9 +71,9 @@
 - https://github.com/PSORLab/DynamicBoundspODEsIneq.jl
 - https://github.com/SciML/DiffEqUncertainty.jl
 
-## More on dynamical systems
+## Geometry
 
-- [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
+- http://juliamath.github.io/Interpolations.jl/latest/
 
 
 ### Model formats
@@ -127,19 +129,16 @@ Other useful references:
 - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - https://github.com/dalum/Purses.jl
 
+## Neural networks
+
+- https://github.com/vtjeng/MIPVerify.jl
+- . . .
+
 ### Other tools
 
 - https://github.com/oxinabox/AutoPreallocation.jl
 - https://github.com/pengwyn/AutoParameters.jl
 - [ConcreteStructs.jl](https://discourse.julialang.org/t/ann-concretestructs-jl-cut-the-boilerplate-when-concretely-parameterizing-structs/47274)
-
-## API
-
-- https://github.com/jw3126/ArgCheck.jl
-- https://simeonschaub.github.io/OptionalArgChecks.jl/dev/
-- Unpack
-- Parameters
-- https://juliahub.com/ui/Packages/ArgTools/aGHFV/1.1.1
 
 ## Other
 
@@ -149,20 +148,10 @@ Other useful references:
 - https://github.com/bcbi/ExtensibleUnions.jl
 - https://github.com/bcbi/GitCommand.jl
 
-## Visualization
-
-- https://github.com/jkrumbiegel/Animations.jl
-- Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
-
-## Traits
-
-- [Traits.jl](https://github.com/schlichtanders/Traits.jl)
-- [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl)
-- [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl), [on discourse](https://discourse.julialang.org/t/ann-binarytraits-jl-a-new-traits-package/37475)
-
 
 ## Optimization
 
+- [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
 - https://github.com/ds4dm/Tulip.jl
 - http://www.juliaopt.org/MathOptInterface.jl/dev/apimanual/#Standard-form-problem-1
 - https://github.com/jump-dev/MatrixOptInterface.jl
@@ -174,11 +163,27 @@ Other useful references:
 - https://github.com/SciML/GalacticOptim.jl
 - [CMAEvolutionStrategy](https://github.com/jbrea/CMAEvolutionStrategy.jl/tree/f421335dad3c9133b4e0c1796d33508cef08834e), [discourse announcement](https://discourse.julialang.org/t/ann-cmaevolutionstrategy-jl/39411/5).
 - https://psorlab.github.io/EAGO.jl/dev/
+- https://github.com/newptcai/BEE.jl
 
-### PDEs
+## Parallelism
 
-- ....
+- https://github.com/jishnub/ParallelUtilities.jl
+- https://stackoverflow.com/questions/50802184/julia-macro-threads-and-parallel
+- https://julialang.org/blog/2019/07/multithreading/
+
+## PDEs
+
+- . . . .
 - https://github.com/PetrKryslUCSD/Elfel.jl
+
+### FEM
+
+ - https://joss.theoj.org/papers/10.21105/joss.02369
+ - https://github.com/kinnala/scikit-fem
+ - https://scikit-fem.readthedocs.io/en/latest/listofexamples.html#example-2-kirchhoff-plate-bending-problem
+ - https://joss.theoj.org/papers/10.21105/joss.02520
+ - https://github.com/gridap/GridapODEs.jl
+
 
 ## Quantum
 
@@ -187,23 +192,46 @@ Other useful references:
 - https://julialang.org/blog/2019/12/yao-differentiable-quantum-programming/
 - https://iitis.github.io/QuantumInformation.jl/latest/man/states/
 
+
+
+### Tensors
+
+- https://ericforgy.github.io/TensorAlgebra.jl/dev/#TensorKit.jl
+- https://github.com/thisrod/Tensars.jl
+- SymbolicTensors, see JuliaCon 2020 talk
+- https://github.com/lanaperisa/TensorToolbox.jl
+- https://github.com/adtzlr/ttb
+
+
+
+## Traits
+
+- [Traits.jl](https://github.com/schlichtanders/Traits.jl)
+- [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl)
+- [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl), [on discourse](https://discourse.julialang.org/t/ann-binarytraits-jl-a-new-traits-package/37475)
+
+
+## Tutorials
+
+- https://github.com/DataWookie/MonthOfJulia
+- https://github.com/mitmath/18330/tree/spring20/lectures
+- Fundamentales of Numerical Computation. By Tobin A. Driscoll and Richard J. Braun
+ https://fncbook.github.io/fnc/intro/overview.html
+ 
+## Visualization
+
+- https://github.com/jkrumbiegel/Animations.jl
+- Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
+
 ## Web
 
 - https://shields.io/
 - https://github.com/danielfrg/pelican-ipynb
 - http://www.pelicanthemes.com/
 
-## Parallelism
-
-- https://github.com/jishnub/ParallelUtilities.jl
-- https://stackoverflow.com/questions/50802184/julia-macro-threads-and-parallel
-- https://julialang.org/blog/2019/07/multithreading/
 
 ---
 
-## SAT solvers
-
-- https://github.com/newptcai/BEE.jl
 
 ## Repeatability
 
@@ -216,10 +244,6 @@ Other useful references:
 - [Dynamical systems modeling in Julia]()
 - https://github.com/johnmyleswhite/julia_tutorials
 
-## Neural networks
-
-- https://github.com/vtjeng/MIPVerify.jl
-
 
 ## Web 
 
@@ -230,16 +254,6 @@ Other useful references:
 - https://discourse.julialang.org/t/creating-generators/3962/28
 - https://medium.com/@Jernfrost/generators-and-iterators-in-julia-and-python-6c9ace18fa93
 
-
-----
-
-## Tutorials
-
-- https://github.com/DataWookie/MonthOfJulia
-- https://github.com/mitmath/18330/tree/spring20/lectures
-- Fundamentales of Numerical Computation. By Tobin A. Driscoll and Richard J. Braun
- https://fncbook.github.io/fnc/intro/overview.html
- 
  ---
  
  ## JSoc / GSOC 2020
@@ -250,8 +264,3 @@ Other useful references:
  
  ## FEM
  
- - https://joss.theoj.org/papers/10.21105/joss.02369
- - https://github.com/kinnala/scikit-fem
- - https://scikit-fem.readthedocs.io/en/latest/listofexamples.html#example-2-kirchhoff-plate-bending-problem
- - https://joss.theoj.org/papers/10.21105/joss.02520
- - https://github.com/gridap/GridapODEs.jl
