@@ -98,6 +98,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Lakatos, Eszter, and Michael PH Stumpf. "Control mechanisms for stochastic biochemical systems via computation of reachable sets." Royal Society open science 4.8 (2017): 160790. [pdf](https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.160790)
 
+- Lakatos, Eszter. "Stochastic analysis and control methods for molecular cell biology." (2017). [pdf](https://spiral.imperial.ac.uk/handle/10044/1/53075)
+
 ---
 
 ## QC
