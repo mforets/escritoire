@@ -79,6 +79,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
 
+
 ### Tools
 
 - Donzé, A. (2020). BreachFlows: Simulation-Based Design with Formal Requirements for Industrial CPS. In 2nd International Workshop on Autonomous Systems Design (ASD 2020). Schloss Dagstuhl-Leibniz-Zentrum für Informatik. [pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12599/pdf/OASIcs-ASD-2020-5.pdf)
@@ -92,6 +93,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ### Autonomous driving
 
 - Zapridou, E., Bartocci, E., & Katsaros, P. (2020, October). Runtime Verification of Autonomous Driving Systems in CARLA. In International Conference on Runtime Verification (pp. 172-183). Springer, Cham. [pdf](https://depend.csd.auth.gr/media/publications/paper_A6vVMPs.pdf)
+
+### Reachability applications: biology
+
+- Lakatos, Eszter, and Michael PH Stumpf. "Control mechanisms for stochastic biochemical systems via computation of reachable sets." Royal Society open science 4.8 (2017): 160790. [pdf](https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.160790)
 
 ---
 
@@ -185,6 +190,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ## Neural ODEs
 
 - Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
+
+- Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. [pdf](https://arxiv.org/pdf/2010.08895.pdf)
 
 ---
 
