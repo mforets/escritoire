@@ -86,6 +86,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
 
+## Sets / convex analysis
+
+- Tozkan, Didem. "On Reduction of Exhausters via a Support Function Representation." arXiv preprint arXiv:2009.03099 (2020). [pdf](https://arxiv.org/pdf/2009.03099.pdf)
 
 ### Tools
 
