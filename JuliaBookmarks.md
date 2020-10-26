@@ -171,6 +171,7 @@ Other useful references:
 - https://github.com/jishnub/ParallelUtilities.jl
 - https://stackoverflow.com/questions/50802184/julia-macro-threads-and-parallel
 - https://julialang.org/blog/2019/07/multithreading/
+- https://github.com/tkf/ThreadsX.jl
 
 ## PDEs
 
