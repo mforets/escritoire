@@ -245,3 +245,13 @@ Other useful references:
  ## JSoc / GSOC 2020
  
  - https://nextjournal.com/sguadalupe
+ 
+ ---
+ 
+ ## FEM
+ 
+ - https://joss.theoj.org/papers/10.21105/joss.02369
+ - https://github.com/kinnala/scikit-fem
+ - https://scikit-fem.readthedocs.io/en/latest/listofexamples.html#example-2-kirchhoff-plate-bending-problem
+ - https://joss.theoj.org/papers/10.21105/joss.02520
+ - https://github.com/gridap/GridapODEs.jl
