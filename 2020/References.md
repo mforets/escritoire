@@ -58,7 +58,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Chen, Mo. High dimensional reachability analysis: Addressing the curse of dimensionality in formal verification. University of California, Berkeley, 2017. [pdf](https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2017-132.pdf)
 
-### Control
+### Reachability applications: control
 
 - [Fast Nonlinear Controller Synthesis using Reachability Analysis](https://kmmille.github.io/FACTEST/files/reachtube.pdf). Kristina Miller, Chuchu Fan and Sayan Mitra
 
@@ -71,6 +71,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Robust Constrained Control: The Polytopic Appraoch [paper](http://underactuated.csail.mit.edu/Spring2019/guest_lecture/poly_underactuated.pdf)
 
 - Lee, J., Ahn, J., Bakolas, E., & Sentis, L. (2020, July). Reachability-based Trajectory Optimization for Robotic Systems Given Sequences of Rigid Contacts. In 2020 American Control Conference (ACC) (pp. 2158-2165). IEEE.
+
+- Le, Vu Tuan Hieu, et al. "Robust tube-based constrained predictive control via zonotopic set-membership estimation." 2011 50th IEEE Conference on Decision and Control and European Control Conference. IEEE, 2011.
 
 ### Parameter identification 
 
@@ -105,7 +107,13 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Lakatos, Eszter. "Stochastic analysis and control methods for molecular cell biology." (2017). [pdf](https://spiral.imperial.ac.uk/handle/10044/1/53075)
 
----
+## Interval methods
+
+- Ceberio, Martine, et al. "Interval-type and affine arithmetic-type techniques for handling uncertainty in expert systems." Journal of Computational and Applied Mathematics 199.2 (2007): 403-410. [pdf](https://www.sciencedirect.com/science/article/pii/S037704270500779X)
+
+- Baharev, Ali, and Endre Rév. "A complete nonlinear system solver using affine arithmetic." IntCP, int. WS on interval analysis, constraint propagation, applications, at CP conference. 2009. [pdf](https://www.researchgate.net/profile/Ali_Baharev/publication/237677929_A_complete_nonlinear_system_solver_using_affine/links/0a85e5382708b1dfab000000.pdf#page=24)
+
+- Ghorbal, Khalil. Static analysis of numerical programs: constrained affine sets abstract domain. Diss. 2011. [pdf](https://pastel.archives-ouvertes.fr/pastel-00643442/document)
 
 ## QC
 
@@ -155,7 +163,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Clevert, D. A., Unterthiner, T., & Hochreiter, S. (2015). Fast and accurate deep network learning by exponential linear units (elus). arXiv preprint arXiv:1511.07289.
 
-
+- https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
 
 ## GSOC / JSOC
 
@@ -199,6 +207,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
 
 - Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. [pdf](https://arxiv.org/pdf/2010.08895.pdf)
+
 
 ---
 
