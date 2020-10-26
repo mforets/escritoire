@@ -122,6 +122,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Hartman, David, Milan Hladík, and David Říha. "Computing the spectral decomposition of interval matrices and a study on interval matrix power." arXiv preprint arXiv:1912.05275 (2019). [pdf](https://arxiv.org/pdf/1912.05275.pdf)
 
+- Hartman, David, and Milan Hladík. "Complexity of Computing Interval Matrix Powers for Special Classes of Matrices." Applications of Mathematics 65.5 (2020): 645-663. [pdf](https://articles.math.cas.cz/10.21136/AM.2020.0379-19)
+
 ## QC
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
