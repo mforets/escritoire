@@ -73,8 +73,9 @@
 
 ## Geometry
 
+- . . .
 - http://juliamath.github.io/Interpolations.jl/latest/
-
+- https://github.com/sisl/GridInterpolations.jl/blob/master/src/GridInterpolations.jl
 
 ### Model formats
 
