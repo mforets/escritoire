@@ -62,6 +62,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
 
+- - Mazurenko, S. (2016). Partial differential equation for evolution of star-shaped reachability domains of differential inclusions. Set-Valued and Variational Analysis, 24(2), 333-354. [pdf](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11228-015-0345-4)
+
 ### Reachability - Theses
 
 - Chen, Mo. High dimensional reachability analysis: Addressing the curse of dimensionality in formal verification. University of California, Berkeley, 2017. [pdf](https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2017-132.pdf)
@@ -84,6 +86,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Witheephanich, K., Orihuela, L., García, R. A., & Escaño, J. M. (2016). Min-max model predictive control with robust zonotope-based observer. In 2016 UKACC 11th International Conference on Control (CONTROL) (pp. 1-6). IEEE. [pdf](https://ieeexplore.ieee.org/document/7737613)
 
+- 
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
@@ -127,7 +130,6 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ### Reachability applications: power systems
 
 - Josz, C., Molzahn, D. K., Tacchi, M., & Sojoudi, S. (2019, February). Transient stability analysis of power systems via occupation measures. In 2019 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) (pp. 1-5). IEEE.  [pdf](https://ieeexplore.ieee.org/abstract/document/8791570)
-
 
 ## Interval methods
 
