@@ -38,6 +38,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ### Reachability (< 2020)
 
+- Althoff, M., & Krogh, B. H. (2013). Reachability analysis of nonlinear differential-algebraic systems. IEEE Transactions on Automatic Control, 59(2), 371-383. [pdf](https://mediatum.ub.tum.de/doc/1281529/1281529.pdf).
+
+- Bansal, S., Chen, M., Herbert, S., & Tomlin, C. J. (2017, December). Hamilton-Jacobi reachability: A brief overview and recent advances. In 2017 IEEE 56th Annual Conference on Decision and Control (CDC) (pp. 2242-2253). IEEE. [pdf](https://www.groundai.com/project/hamilton-jacobi-reachability-a-brief-overview-and-recent-advances/1)
+
 - Cross, Elizabeth Ann, and Ian M. Mitchell. "Level set methods for computing reachable sets of systems with differential algebraic equation dynamics." 2008 American Control Conference. IEEE, 2008. [pdf](https://www.cs.ubc.ca/~mitchell/Papers/publishedACC08.pdf)
 
 - Koutsoukos, Xenofon, and Derek Riley. "Computational methods for reachability analysis of stochastic hybrid systems." International Workshop on Hybrid Systems: Computation and Control. Springer, Berlin, Heidelberg, 2006. [pdf](https://www.researchgate.net/publication/221421912_Computational_Methods_for_Reachability_Analysis_of_Stochastic_Hybrid_Systems)
@@ -254,5 +258,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ---
 
+## Theses
 
+- Chonev, V. (2015). Reachability problems for linear dynamical systems (Doctoral dissertation, University of Oxford). [pdf](http://www.cs.ox.ac.uk/people/ventsi.chonev/thesis.pdf)
 
