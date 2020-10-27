@@ -90,6 +90,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ## Sets / convex analysis
 
+- - Gaßmann, V., & Althoff, M. (2020, July). Scalable Zonotope-Ellipsoid Conversions using the Euclidean Zonotope Norm. In 2020 American Control Conference (ACC) (pp. 4715-4721). IEEE. [article](https://ieeexplore.ieee.org/document/9147938)
+
 - Tozkan, Didem. "On Reduction of Exhausters via a Support Function Representation." arXiv preprint arXiv:2009.03099 (2020). [pdf](https://arxiv.org/pdf/2009.03099.pdf)
 
 ### Tools
