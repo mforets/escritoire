@@ -128,6 +128,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Hartman, David, and Milan Hladík. "Complexity of Computing Interval Matrix Powers for Special Classes of Matrices." Applications of Mathematics 65.5 (2020): 645-663. [pdf](https://articles.math.cas.cz/10.21136/AM.2020.0379-19)
 
+- Adam, Stavros P., et al. "Bounding the search space for global optimization of neural networks learning error: an interval analysis approach." The Journal of Machine Learning Research 17.1 (2016): 5898-5937. [pdf](https://thalis.math.upatras.gr/~vrahatis/papers/journals/AdamMKV16_J_MACH_LEARN_RES_17-169_pp1-40_2016.pdf)
+
 ## Uncertainty quantification
 
 - Gerlach, Adam R., et al. "The Koopman Expectation: An Operator Theoretic Method for Efficient Analysis and Optimization of Uncertain Hybrid Dynamical Systems." arXiv preprint arXiv:2008.08737 (2020). [pdf](https://arxiv.org/pdf/2008.08737.pdf)
@@ -161,7 +163,11 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Xue, Ancheng, et al. "Power system dynamic security region and its approximations." IEEE Transactions on Circuits and Systems I: Regular Papers 53.12 (2006): 2849-2859. [pdf](https://www.researchgate.net/profile/Ancheng_Xue/publication/3451387_Power_System_Dynamic_Security_Region_and_Its_Approximations/links/5525e2ce0cf25d66dc946be0/Power-System-Dynamic-Security-Region-and-Its-Approximations.pdf)
 
 
-## Neural networks
+## Reachability applications: Neural networks
+
+- Venzke, A., & Chatzivasileiadis, S. (2020). Verification of neural network behaviour: Formal guarantees for power system applications. IEEE Transactions on Smart Grid. [pdf](https://arxiv.org/pdf/1910.01624.pdf)
+
+- Clavière, A., Asselin, E., Garion, C., & Pagetti, C. (2020). Safety Verification of Neural Network Controlled Systems. [pdf](https://hal.archives-ouvertes.fr/hal-02975455/document)
 
 - 3rd International Workshop on Verification of Neural Networks (VNN20) and 1st International Verification of Neural Networks Competition (VNN-COMP'20)
     - https://sites.google.com/view/vnn20/home?authuser=0
@@ -181,6 +187,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Clevert, D. A., Unterthiner, T., & Hochreiter, S. (2015). Fast and accurate deep network learning by exponential linear units (elus). arXiv preprint arXiv:1511.07289.
 
 - https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
+
+## Reachability applications: security
+
+- Alanwar, A., Gassmann, V., He, X., Said, H., Sandberg, H., Johansson, K. H., & Althoff, M. (2020). Privacy Preserving Set-Based Estimation Using Partially Homomorphic Encryption. arXiv preprint arXiv:2010.11097. [pdf](https://arxiv.org/pdf/2010.11097.pdf)
 
 ## GSOC / JSOC
 
