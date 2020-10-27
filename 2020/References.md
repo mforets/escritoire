@@ -1,4 +1,4 @@
-## Reachability
+## Reachability (2020)
 
 - Kochdumper, Niklas, and Matthias Althoff. "Reachability analysis for hybrid systems with nonlinear guard sets." Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control. 2020. [pdf](https://dl.acm.org/doi/abs/10.1145/3365365.3382194)
 
@@ -38,7 +38,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Tarraf, A., Hedrich, L., Kochdumper, N., Rechmal-Lesse, M., & Olbrich, M. (2020, July). Equivalence Checking Methods for Analog Circuits Using Continuous Reachable Sets. In 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI) (pp. 7-12). IEEE.
 
 
-### Older (< 2020) references
+### Reachability (< 2020)
+
+- Scacchioli, Annalisa, Alexandre M. Bayen, and Bozidar Stojadinović. "Assessment of uncertainty propagation in the dynamic response of single-degree-of-freedom structures using reachability analysis." Journal of Engineering Mechanics 140.6 (2014): 04014038. [pdf](https://bayen.berkeley.edu/sites/default/files/assessment_of_uncertainty_propagation_0.pdf)
 
 - Schupp, S., & Ábrahám, E. (2018, April). Efficient dynamic error reduction for hybrid systems reachability analysis. In International Conference on Tools and Algorithms for the Construction and Analysis of Systems (pp. 287-302). Springer, Cham.
 
@@ -125,6 +127,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Hartman, David, Milan Hladík, and David Říha. "Computing the spectral decomposition of interval matrices and a study on interval matrix power." arXiv preprint arXiv:1912.05275 (2019). [pdf](https://arxiv.org/pdf/1912.05275.pdf)
 
 - Hartman, David, and Milan Hladík. "Complexity of Computing Interval Matrix Powers for Special Classes of Matrices." Applications of Mathematics 65.5 (2020): 645-663. [pdf](https://articles.math.cas.cz/10.21136/AM.2020.0379-19)
+
+## Uncertainty quantification
+
+- Gerlach, Adam R., et al. "The Koopman Expectation: An Operator Theoretic Method for Efficient Analysis and Optimization of Uncertain Hybrid Dynamical Systems." arXiv preprint arXiv:2008.08737 (2020). [pdf](https://arxiv.org/pdf/2008.08737.pdf)
 
 ## QC
 
