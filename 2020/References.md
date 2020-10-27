@@ -38,6 +38,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ### Reachability (< 2020)
 
+- Cross, Elizabeth Ann, and Ian M. Mitchell. "Level set methods for computing reachable sets of systems with differential algebraic equation dynamics." 2008 American Control Conference. IEEE, 2008. [pdf](https://www.cs.ubc.ca/~mitchell/Papers/publishedACC08.pdf)
+
 - Koutsoukos, Xenofon, and Derek Riley. "Computational methods for reachability analysis of stochastic hybrid systems." International Workshop on Hybrid Systems: Computation and Control. Springer, Berlin, Heidelberg, 2006. [pdf](https://www.researchgate.net/publication/221421912_Computational_Methods_for_Reachability_Analysis_of_Stochastic_Hybrid_Systems)
 
 - Scacchioli, Annalisa, Alexandre M. Bayen, and Bozidar Stojadinović. "Assessment of uncertainty propagation in the dynamic response of single-degree-of-freedom structures using reachability analysis." Journal of Engineering Mechanics 140.6 (2014): 04014038. [pdf](https://bayen.berkeley.edu/sites/default/files/assessment_of_uncertainty_propagation_0.pdf)
@@ -162,6 +164,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Wilhelm, M. E., Le, A. V., & Stuber, M. D. (2019). Global optimization of stiff dynamical systems. AIChE Journal, 65(12), e16836.
 
 ## Nonlinear physics
+
+- Gilet, Tristan, Nicolas Vandewalle, and Stéphane Dorbolo. "Completely inelastic ball." Physical Review E 79.5 (2009): 055201. [pdf](https://orbi.uliege.be/bitstream/2268/24390/1/inelastic.pdf)
 
 - Gutiérrez, C., Gancio, J., Cabeza, C., & Rubido, N. (2020). Finding the Resistance Distance and Eigenvector Centrality from the Network's Eigenvalues. arXiv preprint arXiv:2005.00452.
 
