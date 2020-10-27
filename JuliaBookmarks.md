@@ -70,6 +70,8 @@
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
 - https://github.com/PSORLab/DynamicBoundspODEsIneq.jl
 - https://github.com/SciML/DiffEqUncertainty.jl
+- https://github.com/AnHeuermann/JuliaFMI
+- https://github.com/timueh/PolyChaos.jl [article](https://arxiv.org/pdf/2004.03970.pdf)
 
 ## Geometry
 
