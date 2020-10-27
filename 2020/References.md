@@ -38,6 +38,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ### Reachability (< 2020)
 
+- Koutsoukos, Xenofon, and Derek Riley. "Computational methods for reachability analysis of stochastic hybrid systems." International Workshop on Hybrid Systems: Computation and Control. Springer, Berlin, Heidelberg, 2006. [pdf](https://www.researchgate.net/publication/221421912_Computational_Methods_for_Reachability_Analysis_of_Stochastic_Hybrid_Systems)
+
 - Scacchioli, Annalisa, Alexandre M. Bayen, and Bozidar Stojadinović. "Assessment of uncertainty propagation in the dynamic response of single-degree-of-freedom structures using reachability analysis." Journal of Engineering Mechanics 140.6 (2014): 04014038. [pdf](https://bayen.berkeley.edu/sites/default/files/assessment_of_uncertainty_propagation_0.pdf)
 
 - Schupp, S., & Ábrahám, E. (2018, April). Efficient dynamic error reduction for hybrid systems reachability analysis. In International Conference on Tools and Algorithms for the Construction and Analysis of Systems (pp. 287-302). Springer, Cham.
