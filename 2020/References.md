@@ -15,11 +15,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Li, Dongxu, Stanley Bak, and Sergiy Bogomolov. "Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling." [pdf](http://stanleybak.com/papers/li2020formats.pdf)
 
-
 - Wetzlinger, M., Kochdumper, N., & Althoff, M. (2020). Adaptive Parameter Tuning for Reachability Analysis of Linear Systems. arXiv preprint arXiv:2006.12091. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
-
 
 - Gruber, F., & Althoff, M. (2020). Computing Safe Sets of Linear Sampled-Data Systems. IEEE Control Systems Letters, 5(2), 385-390.
 
@@ -118,6 +116,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ## Interval methods
 
+- Rohou, S., Bedouhene, A., Chabert, G., Goldsztejn, A., Jaulin, L., Neveu, B., ... & Trombettoni, G. (2020, September). Towards a Generic Interval Solver for Differential-Algebraic CSP. In International Conference on Principles and Practice of Constraint Programming (pp. 548-565). Springer, Cham. [video](https://www.youtube.com/watch?v=xbBPMQH3cO8&ab_channel=CP2020)
+
 - Ceberio, Martine, et al. "Interval-type and affine arithmetic-type techniques for handling uncertainty in expert systems." Journal of Computational and Applied Mathematics 199.2 (2007): 403-410. [pdf](https://www.sciencedirect.com/science/article/pii/S037704270500779X)
 
 - Baharev, Ali, and Endre Rév. "A complete nonlinear system solver using affine arithmetic." IntCP, int. WS on interval analysis, constraint propagation, applications, at CP conference. 2009. [pdf](https://www.researchgate.net/profile/Ali_Baharev/publication/237677929_A_complete_nonlinear_system_solver_using_affine/links/0a85e5382708b1dfab000000.pdf#page=24)
@@ -130,11 +130,14 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Adam, Stavros P., et al. "Bounding the search space for global optimization of neural networks learning error: an interval analysis approach." The Journal of Machine Learning Research 17.1 (2016): 5898-5937. [pdf](https://thalis.math.upatras.gr/~vrahatis/papers/journals/AdamMKV16_J_MACH_LEARN_RES_17-169_pp1-40_2016.pdf)
 
+
 ## Uncertainty quantification
 
 - Gerlach, Adam R., et al. "The Koopman Expectation: An Operator Theoretic Method for Efficient Analysis and Optimization of Uncertain Hybrid Dynamical Systems." arXiv preprint arXiv:2008.08737 (2020). [pdf](https://arxiv.org/pdf/2008.08737.pdf)
 
-## QC
+## Quantum computing
+
+- - Venegas-Andraca, S. E., Cruz-Santos, W., McGeoch, C., & Lanzagorta, M. (2018). A cross-disciplinary introduction to quantum annealing-based algorithms. Contemporary Physics, 59(2), 174-197. [pdf](https://arxiv.org/pdf/1803.03372.pdf)
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
 
