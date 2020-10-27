@@ -120,6 +120,11 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Lakatos, Eszter. "Stochastic analysis and control methods for molecular cell biology." (2017). [pdf](https://spiral.imperial.ac.uk/handle/10044/1/53075)
 
+### Reachability applications: power systems
+
+- Josz, C., Molzahn, D. K., Tacchi, M., & Sojoudi, S. (2019, February). Transient stability analysis of power systems via occupation measures. In 2019 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) (pp. 1-5). IEEE.  [pdf](https://ieeexplore.ieee.org/abstract/document/8791570)
+
+
 ## Interval methods
 
 - Rohou, S., Bedouhene, A., Chabert, G., Goldsztejn, A., Jaulin, L., Neveu, B., ... & Trombettoni, G. (2020, September). Towards a Generic Interval Solver for Differential-Algebraic CSP. In International Conference on Principles and Practice of Constraint Programming (pp. 548-565). Springer, Cham. [video](https://www.youtube.com/watch?v=xbBPMQH3cO8&ab_channel=CP2020)
