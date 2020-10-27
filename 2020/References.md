@@ -62,7 +62,11 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Althoff, M., Yaldiz, S., Rajhans, A., Li, X., Krogh, B. H., & Pileggi, L. (2011, November). Formal verification of phase-locked loops using reachability analysis and continuization. In 2011 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) (pp. 659-666). IEEE.
 
-- - Mazurenko, S. (2016). Partial differential equation for evolution of star-shaped reachability domains of differential inclusions. Set-Valued and Variational Analysis, 24(2), 333-354. [pdf](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11228-015-0345-4)
+### Reachability - PDEs
+
+- Mazurenko, S. (2016). Partial differential equation for evolution of star-shaped reachability domains of differential inclusions. Set-Valued and Variational Analysis, 24(2), 333-354. [pdf](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11228-015-0345-4)
+
+- Djeridane, B., & Lygeros, J. (2006, December). Neural approximation of PDE solutions: An application to reachability computations. In Proceedings of the 45th IEEE Conference on Decision and Control (pp. 3034-3039). IEEE. [pdf](https://ieeexplore.ieee.org/document/4178040)
 
 ### Reachability - Theses
 
