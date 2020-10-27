@@ -177,6 +177,7 @@ Other useful references:
 
 - . . . .
 - https://github.com/PetrKryslUCSD/Elfel.jl
+- https://github.com/trixi-framework/Trixi.jl
 
 ### FEM
 
