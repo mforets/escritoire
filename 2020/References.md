@@ -196,6 +196,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ## Reachability applications: Neural networks
 
+- Gupta, Akshita, and Inseok Hwang. "Safety Verification of Model Based Reinforcement Learning Controllers." arXiv preprint arXiv:2010.10740 (2020). [pdf](https://arxiv.org/pdf/2010.10740.pdf)
+
 - Venzke, A., & Chatzivasileiadis, S. (2020). Verification of neural network behaviour: Formal guarantees for power system applications. IEEE Transactions on Smart Grid. [pdf](https://arxiv.org/pdf/1910.01624.pdf)
 
 - Clavière, A., Asselin, E., Garion, C., & Pagetti, C. (2020). Safety Verification of Neural Network Controlled Systems. [pdf](https://hal.archives-ouvertes.fr/hal-02975455/document)
