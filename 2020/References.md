@@ -74,6 +74,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ### Reachability applications: control
 
+- Apaza-Perez, W. A., Girard, A., Combastel, C., & Zolghadri, A. (2020). Symbolic observer-based controller for uncertain nonlinear systems. IEEE Control Systems Letters. [article](https://ieeexplore.ieee.org/abstract/document/9241051)
+
 - [Fast Nonlinear Controller Synthesis using Reachability Analysis](https://kmmille.github.io/FACTEST/files/reachtube.pdf). Kristina Miller, Chuchu Fan and Sayan Mitra
 
 - Yang, S., Xu, F., Wang, X., & Liang, B. (2020). A Novel Online Active Fault Diagnosis Method Based on Invariant Sets. IEEE Control Systems Letters.
@@ -110,6 +112,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Tozkan, Didem. "On Reduction of Exhausters via a Support Function Representation." arXiv preprint arXiv:2009.03099 (2020). [pdf](https://arxiv.org/pdf/2009.03099.pdf)
 
 ### Tools
+
+- Hu, Ruiqi, Meilun Li, and Zhikun She. "OURS: Over-and Under-Approximating Reachable Sets for Analytic Autonomous Dynamical Systems." [pdf](https://www.researchgate.net/profile/Zhikun_She/publication/344948187_OURS_Over-and_Under-Approximating_Reachable_Sets_for_Analytic_Autonomous_Dynamical_Systems/links/5f9a7b86a6fdccfd7b880156/OURS-Over-and-Under-Approximating-Reachable-Sets-for-Analytic-Autonomous-Dynamical-Systems.pdf)
+
 
 - Donzé, A. (2020). BreachFlows: Simulation-Based Design with Formal Requirements for Industrial CPS. In 2nd International Workshop on Autonomous Systems Design (ASD 2020). Schloss Dagstuhl-Leibniz-Zentrum für Informatik. [pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12599/pdf/OASIcs-ASD-2020-5.pdf)
 
