@@ -177,7 +177,7 @@ Other useful references:
 
 ## PDEs
 
-- . . . .
+- https://github.com/matthieugomez/EconPDEs.jl
 - https://github.com/PetrKryslUCSD/Elfel.jl
 - https://github.com/trixi-framework/Trixi.jl
 
