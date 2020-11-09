@@ -183,6 +183,12 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Wilhelm, M. E., Le, A. V., & Stuber, M. D. (2019). Global optimization of stiff dynamical systems. AIChE Journal, 65(12), e16836.
 
+### Multidimensional optimization
+
+- Learning Monotone Partitions of Partially-Ordered Domains (Work in Progress). Oded Maler. [pdf](https://hal.archives-ouvertes.fr/hal-01556243/)
+- [ParetoLib](https://gricad-gitlab.univ-grenoble-alpes.fr/verimag/tempo/multidimensional_search)
+- Legriel, J., Le Guernic, C., Cotton, S., & Maler, O. (2010, March). Approximating the pareto front of multi-criteria optimization problems. In International Conference on Tools and Algorithms for the Construction and Analysis of Systems (pp. 69-83). Springer, Berlin, Heidelberg. [pdf](https://link.springer.com/chapter/10.1007/978-3-642-12002-2_6)
+
 ## Nonlinear physics
 
 - Gilet, Tristan, Nicolas Vandewalle, and Stéphane Dorbolo. "Completely inelastic ball." Physical Review E 79.5 (2009): 055201. [pdf](https://orbi.uliege.be/bitstream/2268/24390/1/inelastic.pdf)
