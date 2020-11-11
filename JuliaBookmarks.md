@@ -56,6 +56,7 @@
 - https://github.com/antoine-levitt/Exfiltrator.jl
 - https://github.com/c42f/TerminalLoggers.jl
 - https://github.com/oxinabox/LoggingExtras.jl
+- https://github.com/timholy/MethodAnalysis.jl
 
 ## Differential equations & numerical simulations
 
