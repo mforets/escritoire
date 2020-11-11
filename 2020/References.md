@@ -227,6 +227,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
 
+## Semialgebraic Optimization: Applications
+
+- Chen, T., Lasserre, J. B., Magron, V., & Pauwels, E. (2020). Semialgebraic Optimization for Lipschitz Constants of ReLU Networks. Advances in Neural Information Processing Systems, 33. [pdf](https://arxiv.org/pdf/2002.03657.pdf)
+
 ## Reachability applications: security
 
 - Alanwar, A., Gassmann, V., He, X., Said, H., Sandberg, H., Johansson, K. H., & Althoff, M. (2020). Privacy Preserving Set-Based Estimation Using Partially Homomorphic Encryption. arXiv preprint arXiv:2010.11097. [pdf](https://arxiv.org/pdf/2010.11097.pdf)
