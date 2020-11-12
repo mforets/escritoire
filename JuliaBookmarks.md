@@ -56,6 +56,7 @@
 - https://github.com/antoine-levitt/Exfiltrator.jl
 - https://github.com/c42f/TerminalLoggers.jl
 - https://github.com/oxinabox/LoggingExtras.jl
+- https://github.com/timholy/MethodAnalysis.jl
 
 ## Differential equations & numerical simulations
 
@@ -188,6 +189,8 @@ Other useful references:
  - https://scikit-fem.readthedocs.io/en/latest/listofexamples.html#example-2-kirchhoff-plate-bending-problem
  - https://joss.theoj.org/papers/10.21105/joss.02520
  - https://github.com/gridap/GridapODEs.jl
+ - https://github.com/lijas/IGA.jl
+
 
 
 ## Quantum
