@@ -1,4 +1,13 @@
-## Reachability (2020)
+## Reachability Analysis: Theory & Applications (2020)
+
+- 
+
+- Derollez, Remy, Simon Le Cleac'h, and Zachary Manchester. "Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels." arXiv preprint arXiv:2011.02441 (2020). https://arxiv.org/pdf/2011.02441.pdf
+
+- Bansal, S., & Tomlin, C. (2020). DeepReach: A Deep Learning Approach to High-Dimensional Reachability. arXiv preprint arXiv:2011.02082.
+https://arxiv.org/pdf/2011.02082.pdf
+
+- Alanwar, A., Koch, A., Allgöwer, F., & Johansson, K. H. (2020). Data-Driven Reachability Analysis Using Matrix Zonotopes. arXiv preprint [arXiv:2011.08472](https://arxiv.org/pdf/2011.08472.pdf), [tool](https://github.com/aalanwar/Data-Driven-Reachability-Analysis)
 
 - Kochdumper, Niklas, and Matthias Althoff. "Reachability analysis for hybrid systems with nonlinear guard sets." Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control. 2020. [pdf](https://dl.acm.org/doi/abs/10.1145/3365365.3382194)
 
@@ -36,7 +45,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Tarraf, A., Hedrich, L., Kochdumper, N., Rechmal-Lesse, M., & Olbrich, M. (2020, July). Equivalence Checking Methods for Analog Circuits Using Continuous Reachable Sets. In 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI) (pp. 7-12). IEEE.
 
 
-### Reachability (< 2020)
+### Reachability Analysis (< 2020)
 
 - Althoff, M., & Krogh, B. H. (2013). Reachability analysis of nonlinear differential-algebraic systems. IEEE Transactions on Automatic Control, 59(2), 371-383. [pdf](https://mediatum.ub.tum.de/doc/1281529/1281529.pdf).
 
@@ -72,7 +81,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Chen, Mo. High dimensional reachability analysis: Addressing the curse of dimensionality in formal verification. University of California, Berkeley, 2017. [pdf](https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2017-132.pdf)
 
-### Reachability applications: control
+### Reachability applications in CONTROL
+
+- Shao, Y. S., Chao, C., Kousik, S., & Vasudevan, R. (2020). Reachability-based Trajectory Safeguard (RTS): A Safe and Fast Reinforcement Learning Safety Layer for Continuous Control. arXiv preprint [arXiv:2011.08421.](https://arxiv.org/pdf/2011.08421.pdf)
 
 - Apaza-Perez, W. A., Girard, A., Combastel, C., & Zolghadri, A. (2020). Symbolic observer-based controller for uncertain nonlinear systems. IEEE Control Systems Letters. [article](https://ieeexplore.ieee.org/abstract/document/9241051)
 
