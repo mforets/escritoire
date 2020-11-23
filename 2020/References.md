@@ -174,7 +174,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ## Quantum computing
 
-- - Venegas-Andraca, S. E., Cruz-Santos, W., McGeoch, C., & Lanzagorta, M. (2018). A cross-disciplinary introduction to quantum annealing-based algorithms. Contemporary Physics, 59(2), 174-197. [pdf](https://arxiv.org/pdf/1803.03372.pdf)
+- Adiabatic QC
+    - https://arxiv.org/pdf/1611.04471.pdf
+
+- Venegas-Andraca, S. E., Cruz-Santos, W., McGeoch, C., & Lanzagorta, M. (2018). A cross-disciplinary introduction to quantum annealing-based algorithms. Contemporary Physics, 59(2), 174-197. [pdf](https://arxiv.org/pdf/1803.03372.pdf)
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
 
