@@ -1,4 +1,13 @@
-## Reachability (2020)
+## Reachability Analysis: Theory & Applications (2020)
+
+- 
+
+- Derollez, Remy, Simon Le Cleac'h, and Zachary Manchester. "Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels." arXiv preprint arXiv:2011.02441 (2020). https://arxiv.org/pdf/2011.02441.pdf
+
+- Bansal, S., & Tomlin, C. (2020). DeepReach: A Deep Learning Approach to High-Dimensional Reachability. arXiv preprint arXiv:2011.02082.
+https://arxiv.org/pdf/2011.02082.pdf
+
+- Alanwar, A., Koch, A., Allgöwer, F., & Johansson, K. H. (2020). Data-Driven Reachability Analysis Using Matrix Zonotopes. arXiv preprint [arXiv:2011.08472](https://arxiv.org/pdf/2011.08472.pdf), [tool](https://github.com/aalanwar/Data-Driven-Reachability-Analysis)
 
 - Kochdumper, Niklas, and Matthias Althoff. "Reachability analysis for hybrid systems with nonlinear guard sets." Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control. 2020. [pdf](https://dl.acm.org/doi/abs/10.1145/3365365.3382194)
 
@@ -36,7 +45,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Tarraf, A., Hedrich, L., Kochdumper, N., Rechmal-Lesse, M., & Olbrich, M. (2020, July). Equivalence Checking Methods for Analog Circuits Using Continuous Reachable Sets. In 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI) (pp. 7-12). IEEE.
 
 
-### Reachability (< 2020)
+### Reachability Analysis (< 2020)
 
 - Althoff, M., & Krogh, B. H. (2013). Reachability analysis of nonlinear differential-algebraic systems. IEEE Transactions on Automatic Control, 59(2), 371-383. [pdf](https://mediatum.ub.tum.de/doc/1281529/1281529.pdf).
 
@@ -72,7 +81,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Chen, Mo. High dimensional reachability analysis: Addressing the curse of dimensionality in formal verification. University of California, Berkeley, 2017. [pdf](https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2017-132.pdf)
 
-### Reachability applications: control
+### Reachability applications in CONTROL
+
+- Shao, Y. S., Chao, C., Kousik, S., & Vasudevan, R. (2020). Reachability-based Trajectory Safeguard (RTS): A Safe and Fast Reinforcement Learning Safety Layer for Continuous Control. arXiv preprint [arXiv:2011.08421.](https://arxiv.org/pdf/2011.08421.pdf)
 
 - Apaza-Perez, W. A., Girard, A., Combastel, C., & Zolghadri, A. (2020). Symbolic observer-based controller for uncertain nonlinear systems. IEEE Control Systems Letters. [article](https://ieeexplore.ieee.org/abstract/document/9241051)
 
@@ -92,7 +103,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Witheephanich, K., Orihuela, L., García, R. A., & Escaño, J. M. (2016). Min-max model predictive control with robust zonotope-based observer. In 2016 UKACC 11th International Conference on Control (CONTROL) (pp. 1-6). IEEE. [pdf](https://ieeexplore.ieee.org/document/7737613)
 
-- 
+- Bresolin, Davide, et al. "Formal verification of robotic surgery tasks by reachability analysis." Microprocessors and Microsystems 39.8 (2015): 836-842. [pdf](http://www.ariadne-cps.org/pdf/bresolin-micpro2015.pdf)
+
+- Murray, Yvonne, et al. "Safety Assurance of a High Voltage Controller for an Industrial Robotic System." Brazilian Symposium on Formal Methods. Springer, Cham, 2020
+
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
@@ -104,6 +118,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Gacek, A., Katis, A., Whalen, M. W., Backes, J., & Cofer, D. (2015, April). Towards realizability checking of contracts using theories. In NASA Formal Methods Symposium (pp. 173-187). Springer, Cham.
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
+
+- Nuzzo, Pierluigi. Compositional design of cyber-physical systems using contracts. Diss. UC Berkeley, 2015. [pdf](https://escholarship.org/uc/item/5hk5w3bg)
 
 ## Sets / convex analysis
 
@@ -126,6 +142,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Modeling and Analysis of Hybrid Automata. Erika Ábrahám. Set' 2013. [slides](http://lcs.ios.ac.cn/~zhanglj/slides/Abraham.pdf)
 
+- FaSTrack: Ensuring Safe Real-Time Navigation of Dynamic Systems. Sylvia Herbert, David Fridovich-Keil, and Claire Tomlin    Dec 5, 2017. [video](https://bairblog.github.io/2017/12/05/fastrack/)
+
 ### Autonomous driving
 
 - Zapridou, E., Bartocci, E., & Katsaros, P. (2020, October). Runtime Verification of Autonomous Driving Systems in CARLA. In International Conference on Runtime Verification (pp. 172-183). Springer, Cham. [pdf](https://depend.csd.auth.gr/media/publications/paper_A6vVMPs.pdf)
@@ -139,6 +157,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ### Reachability applications: power systems
 
 - Josz, C., Molzahn, D. K., Tacchi, M., & Sojoudi, S. (2019, February). Transient stability analysis of power systems via occupation measures. In 2019 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) (pp. 1-5). IEEE.  [pdf](https://ieeexplore.ieee.org/abstract/document/8791570)
+
+- Xue, A., Wu, F. F., Lu, Q., & Mei, S. (2006). Power system dynamic security region and its approximations. IEEE Transactions on Circuits and Systems I: Regular Papers, 53(12), 2849-2859.
 
 ## Interval methods
 
@@ -163,7 +183,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 ## Quantum computing
 
-- - Venegas-Andraca, S. E., Cruz-Santos, W., McGeoch, C., & Lanzagorta, M. (2018). A cross-disciplinary introduction to quantum annealing-based algorithms. Contemporary Physics, 59(2), 174-197. [pdf](https://arxiv.org/pdf/1803.03372.pdf)
+- Adiabatic QC
+    - https://arxiv.org/pdf/1611.04471.pdf
+
+- Venegas-Andraca, S. E., Cruz-Santos, W., McGeoch, C., & Lanzagorta, M. (2018). A cross-disciplinary introduction to quantum annealing-based algorithms. Contemporary Physics, 59(2), 174-197. [pdf](https://arxiv.org/pdf/1803.03372.pdf)
 
 - Rajauria, P., Chawla, P., & Chandrashekar, C. M. (2020). Estimation of one-dimensional discrete-time quantum walk parameters by using machine learning algorithms. arXiv preprint arXiv:2007.04572.
 
@@ -227,9 +250,17 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
 
-## Semialgebraic Optimization: Applications
+## Semialgebraic Optimization
 
 - Chen, T., Lasserre, J. B., Magron, V., & Pauwels, E. (2020). Semialgebraic Optimization for Lipschitz Constants of ReLU Networks. Advances in Neural Information Processing Systems, 33. [pdf](https://arxiv.org/pdf/2002.03657.pdf)
+
+- Miller, Jared, Didier Henrion, and Mario Sznaier. "Peak Estimation and Recovery with Occupation Measures." arXiv preprint arXiv:2009.06120 (2020).
+
+- Henrion, D., & Lasserre, J. B. (2002, October). Solving global optimization problems over polynomials with GloptiPoly 2.1. In International Workshop on Global Optimization and Constraint Satisfaction (pp. 43-58). Springer, Berlin, Heidelberg. pdf
+
+- Naldi, Simone. "What is polynomial optimization?." lecture,
+
+- Ahmadi, Amir Ali, and Anirudha Majumdar. "Some applications of polynomial optimization in operations research and real-time decision making." Optimization Letters 10.4 (2016): 709-729. pdf
 
 ## Reachability applications: security
 
@@ -276,6 +307,19 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
 
+- Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. pdf
+
+
+
+## Differentiable programming
+
+- Hu, Y., Anderson, L., Li, T. M., Sun, Q., Carr, N., Ragan-Kelley, J., & Durand, F. (2019). Difftaichi: Differentiable programming for physical simulation. arXiv preprint arXiv:1910.00935.
+
+## ROA
+
+- https://nbviewer.jupyter.org/github/cadojo/Replicated-ROA-Analysis/blob/main/Code/jupyter/Carpinelli%20-%20ROA%20Estimation.ipynb
+- https://github.com/cadojo/Replicated-ROA-Analysis/blob/main/Code/Carpinelli%20-%20ROA%20Estimation.pdf
+
 - Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. [pdf](https://arxiv.org/pdf/2010.08895.pdf)
 
 
@@ -284,4 +328,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ## Theses
 
 - Chonev, V. (2015). Reachability problems for linear dynamical systems (Doctoral dissertation, University of Oxford). [pdf](http://www.cs.ox.ac.uk/people/ventsi.chonev/thesis.pdf)
+ 
+- Giacobbe, M. (2019). Automatic time-unbounded reachability analysis of hybrid systems (Doctoral dissertation). [pdf](https://research-explorer.app.ist.ac.at/record/6894)
+
+
 

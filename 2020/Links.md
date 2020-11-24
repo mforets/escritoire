@@ -1,3 +1,7 @@
+## Numerics
+
+- [Floating point math in different languages](https://0.30000000000000004.com/)
+
 ## Teaching
 
 - Chat for classroom, https://prismia.chat/
