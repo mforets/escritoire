@@ -105,6 +105,7 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Bresolin, Davide, et al. "Formal verification of robotic surgery tasks by reachability analysis." Microprocessors and Microsystems 39.8 (2015): 836-842. [pdf](http://www.ariadne-cps.org/pdf/bresolin-micpro2015.pdf)
 
+- Murray, Yvonne, et al. "Safety Assurance of a High Voltage Controller for an Industrial Robotic System." Brazilian Symposium on Formal Methods. Springer, Cham, 2020
 
 ### Parameter identification 
 
@@ -255,7 +256,11 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Miller, Jared, Didier Henrion, and Mario Sznaier. "Peak Estimation and Recovery with Occupation Measures." arXiv preprint arXiv:2009.06120 (2020).
 
+- Henrion, D., & Lasserre, J. B. (2002, October). Solving global optimization problems over polynomials with GloptiPoly 2.1. In International Workshop on Global Optimization and Constraint Satisfaction (pp. 43-58). Springer, Berlin, Heidelberg. pdf
 
+- Naldi, Simone. "What is polynomial optimization?." lecture,
+
+- Ahmadi, Amir Ali, and Anirudha Majumdar. "Some applications of polynomial optimization in operations research and real-time decision making." Optimization Letters 10.4 (2016): 709-729. pdf
 
 ## Reachability applications: security
 
@@ -301,6 +306,10 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ## Neural ODEs
 
 - Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
+
+- Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. pdf
+
+
 
 ## Differentiable programming
 
