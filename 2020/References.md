@@ -103,7 +103,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Witheephanich, K., Orihuela, L., García, R. A., & Escaño, J. M. (2016). Min-max model predictive control with robust zonotope-based observer. In 2016 UKACC 11th International Conference on Control (CONTROL) (pp. 1-6). IEEE. [pdf](https://ieeexplore.ieee.org/document/7737613)
 
-- 
+- Bresolin, Davide, et al. "Formal verification of robotic surgery tasks by reachability analysis." Microprocessors and Microsystems 39.8 (2015): 836-842. [pdf](http://www.ariadne-cps.org/pdf/bresolin-micpro2015.pdf)
+
+
 ### Parameter identification 
 
 - Walter, Eric, and Luc Pronzato. "Identification of parametric models." Communications and control engineering 8 (1997).
@@ -115,6 +117,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Gacek, A., Katis, A., Whalen, M. W., Backes, J., & Cofer, D. (2015, April). Towards realizability checking of contracts using theories. In NASA Formal Methods Symposium (pp. 173-187). Springer, Cham.
 
 - Fifarek, A. W., Wagner, L. G., Hoffman, J. A., Rodes, B. D., Aiello, M. A., & Davis, J. A. (2017, May). SpeAR v2. 0: Formalized past LTL specification and analysis of requirements. In NASA Formal Methods Symposium (pp. 420-426). Springer, Cham.
+
+- Nuzzo, Pierluigi. Compositional design of cyber-physical systems using contracts. Diss. UC Berkeley, 2015. [pdf](https://escholarship.org/uc/item/5hk5w3bg)
 
 ## Sets / convex analysis
 
@@ -137,6 +141,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Modeling and Analysis of Hybrid Automata. Erika Ábrahám. Set' 2013. [slides](http://lcs.ios.ac.cn/~zhanglj/slides/Abraham.pdf)
 
+- FaSTrack: Ensuring Safe Real-Time Navigation of Dynamic Systems. Sylvia Herbert, David Fridovich-Keil, and Claire Tomlin    Dec 5, 2017. [video](https://bairblog.github.io/2017/12/05/fastrack/)
+
 ### Autonomous driving
 
 - Zapridou, E., Bartocci, E., & Katsaros, P. (2020, October). Runtime Verification of Autonomous Driving Systems in CARLA. In International Conference on Runtime Verification (pp. 172-183). Springer, Cham. [pdf](https://depend.csd.auth.gr/media/publications/paper_A6vVMPs.pdf)
@@ -150,6 +156,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ### Reachability applications: power systems
 
 - Josz, C., Molzahn, D. K., Tacchi, M., & Sojoudi, S. (2019, February). Transient stability analysis of power systems via occupation measures. In 2019 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT) (pp. 1-5). IEEE.  [pdf](https://ieeexplore.ieee.org/abstract/document/8791570)
+
+- Xue, A., Wu, F. F., Lu, Q., & Mei, S. (2006). Power system dynamic security region and its approximations. IEEE Transactions on Circuits and Systems I: Regular Papers, 53(12), 2849-2859.
 
 ## Interval methods
 
@@ -241,9 +249,13 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
 
-## Semialgebraic Optimization: Applications
+## Semialgebraic Optimization
 
 - Chen, T., Lasserre, J. B., Magron, V., & Pauwels, E. (2020). Semialgebraic Optimization for Lipschitz Constants of ReLU Networks. Advances in Neural Information Processing Systems, 33. [pdf](https://arxiv.org/pdf/2002.03657.pdf)
+
+- Miller, Jared, Didier Henrion, and Mario Sznaier. "Peak Estimation and Recovery with Occupation Measures." arXiv preprint arXiv:2009.06120 (2020).
+
+
 
 ## Reachability applications: security
 
@@ -290,6 +302,15 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. K. (2018). Neural ordinary differential equations. In Advances in neural information processing systems (pp. 6571-6583). [pdf](https://arxiv.org/pdf/1806.07366.pdf)
 
+## Differentiable programming
+
+- Hu, Y., Anderson, L., Li, T. M., Sun, Q., Carr, N., Ragan-Kelley, J., & Durand, F. (2019). Difftaichi: Differentiable programming for physical simulation. arXiv preprint arXiv:1910.00935.
+
+## ROA
+
+- https://nbviewer.jupyter.org/github/cadojo/Replicated-ROA-Analysis/blob/main/Code/jupyter/Carpinelli%20-%20ROA%20Estimation.ipynb
+- https://github.com/cadojo/Replicated-ROA-Analysis/blob/main/Code/Carpinelli%20-%20ROA%20Estimation.pdf
+
 - Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. [pdf](https://arxiv.org/pdf/2010.08895.pdf)
 
 
@@ -298,4 +319,8 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 ## Theses
 
 - Chonev, V. (2015). Reachability problems for linear dynamical systems (Doctoral dissertation, University of Oxford). [pdf](http://www.cs.ox.ac.uk/people/ventsi.chonev/thesis.pdf)
+ 
+- Giacobbe, M. (2019). Automatic time-unbounded reachability analysis of hybrid systems (Doctoral dissertation). [pdf](https://research-explorer.app.ist.ac.at/record/6894)
+
+
 
