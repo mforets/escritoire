@@ -1,7 +1,5 @@
 ## Reachability Analysis: Theory & Applications (2020)
 
-- 
-
 - Derollez, Remy, Simon Le Cleac'h, and Zachary Manchester. "Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels." arXiv preprint arXiv:2011.02441 (2020). https://arxiv.org/pdf/2011.02441.pdf
 
 - Bansal, S., & Tomlin, C. (2020). DeepReach: A Deep Learning Approach to High-Dimensional Reachability. arXiv preprint arXiv:2011.02082.
@@ -126,6 +124,9 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - - Gaßmann, V., & Althoff, M. (2020, July). Scalable Zonotope-Ellipsoid Conversions using the Euclidean Zonotope Norm. In 2020 American Control Conference (ACC) (pp. 4715-4721). IEEE. [article](https://ieeexplore.ieee.org/document/9147938)
 
 - Tozkan, Didem. "On Reduction of Exhausters via a Support Function Representation." arXiv preprint arXiv:2009.03099 (2020). [pdf](https://arxiv.org/pdf/2009.03099.pdf)
+
+- Wu, Albert, Sadra Sadraddini, and Russ Tedrake. "The nearest polytope problem: Algorithms and application to controlling hybrid systems." 2020 American Control Conference. IEEE. 2020. [pdf](http://groups.csail.mit.edu/robotics-center/public_papers/Wu20a.pdf)
+
 
 ### Tools
 
@@ -309,6 +310,11 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 
 - Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier Neural Operator for Parametric Partial Differential Equations. arXiv preprint arXiv:2010.08895. pdf
 
+## Sci ML
+
+- Scientific Machine Learning Mini-Course [web](https://www.cmu.edu/aced/sciML.html)
+
+- Bills, A., Sripad, S., Fredericks, W. L., Guttenberg, M., Charles, D., Frank, E., & Viswanathan, V. (2020). Universal Battery Performance and Degradation Model for Electric Aircraft. arXiv preprint arXiv:2008.01527. [pdf](https://arxiv.org/abs/2008.01527)
 
 
 ## Differentiable programming
