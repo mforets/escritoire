@@ -1,5 +1,7 @@
 ## Reachability Analysis: Theory & Applications (2020)
 
+- Thorpe, A. J., Ortiz, K. R., & Oishi, M. M. (2020). Learning Approximate Forward Reachable Sets Using Separating Kernels. arXiv preprint arXiv:2011.09678.
+
 - Derollez, Remy, Simon Le Cleac'h, and Zachary Manchester. "Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels." arXiv preprint arXiv:2011.02441 (2020). https://arxiv.org/pdf/2011.02441.pdf
 
 - Bansal, S., & Tomlin, C. (2020). DeepReach: A Deep Learning Approach to High-Dimensional Reachability. arXiv preprint arXiv:2011.02082.
