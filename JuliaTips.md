@@ -1,3 +1,17 @@
+### Optional threads
+
+```julia
+macro maybe_threaded(ex)
+    if Threads.nthreads() == 1
+        return esc(ex)
+    else
+        return esc(:(Threads.@threads $ex))
+    end
+end
+```
+
+Seen on SO: https://stackoverflow.com/questions/58580436/how-to-make-use-of-threads-optional-in-a-julia-function
+
 ### Bypass an inner constructor
 
 ```
