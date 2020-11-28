@@ -1,5 +1,6 @@
 ## Reachability Analysis: Theory & Applications (2020)
 
+
 - Thorpe, A. J., Ortiz, K. R., & Oishi, M. M. (2020). Learning Approximate Forward Reachable Sets Using Separating Kernels. arXiv preprint arXiv:2011.09678.
 
 - Derollez, Remy, Simon Le Cleac'h, and Zachary Manchester. "Robust Entry Vehicle Guidance with Sampling-Based Invariant Funnels." arXiv preprint arXiv:2011.02441 (2020). https://arxiv.org/pdf/2011.02441.pdf
@@ -106,6 +107,15 @@ Matthew Abate, Samuel Coogan. [pdf](https://arxiv.org/abs/2010.01065)
 - Bresolin, Davide, et al. "Formal verification of robotic surgery tasks by reachability analysis." Microprocessors and Microsystems 39.8 (2015): 836-842. [pdf](http://www.ariadne-cps.org/pdf/bresolin-micpro2015.pdf)
 
 - Murray, Yvonne, et al. "Safety Assurance of a High Voltage Controller for an Industrial Robotic System." Brazilian Symposium on Formal Methods. Springer, Cham, 2020
+
+### Autonomous systems
+
+- Zhu, Q., Li, W., Kim, H., Xiang, Y., Wardega, K., Wang, Z., ... & Choi, H. (2020, November). Know the Unknowns: Addressing Disturbances and Uncertainties in Autonomous Systems. In 2020 IEEE/ACM International Conference On Computer Aided Design (ICCAD) (pp. 1-9). IEEE. [article](https://ieeexplore.ieee.org/abstract/document/9256731/authors#authors)
+
+### STL
+
+- Li, T., Liu, J., Sun, H., Chen, X., Zhang, L., & Sun, J. (2020). A spatio-temporal specification language and its completeness & decidability. Journal of Cloud Computing, 9(1), 1-22. [article](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-020-00209-3)
+
 
 ### Parameter identification 
 
