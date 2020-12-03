@@ -42,6 +42,7 @@
 - https://discourse.julialang.org/t/am-i-using-diffresults-jl-correctly/35894
 - https://discourse.julialang.org/t/a-way-to-obtain-the-value-and-derivatives-with-forwarddiff/22862
 - http://www.juliadiff.org/DiffResults.jl/latest/
+- https://github.com/dpsanders/ReversePropagation.jl
 
 ## Code introspection & Profiling
 
