@@ -24,6 +24,7 @@
 
 ### Arrays
 
+- https://github.com/JuliaArrays
 - [ElasticArrays](https://github.com/JuliaArrays/ElasticArrays.jl)
 - [IdentityMatrix.jl](https://github.com/jlapeyre/IdentityMatrix.jl)
 - https://github.com/mateuszbaran/HybridArrays.jl
