@@ -187,6 +187,7 @@ Other useful references:
 - https://github.com/matthieugomez/EconPDEs.jl
 - https://github.com/PetrKryslUCSD/Elfel.jl
 - https://github.com/trixi-framework/Trixi.jl
+- https://github.com/j-fu/ExtendableGrids.jl
 
 ### FEM
 
