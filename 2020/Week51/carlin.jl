@@ -153,3 +153,7 @@ function kronecker_stack(X::TaylorModelReachSet, order::Integer)
     return TaylorModelReachSet(Y, tspan(X))
 end
 
+# for an interval x and an integer pow, compute [x, x^2, x^3, ... , x^pow]
+function kronecker_powers(x::IA.Interval, pow::Integer)
+    [x^i for i in 1:pow]
+end
