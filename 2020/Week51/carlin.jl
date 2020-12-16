@@ -114,6 +114,7 @@ end
 # ======================================
 
 using ReachabilityAnalysis
+const IA = IntervalArithmetic
 
 import Base: kron
 
