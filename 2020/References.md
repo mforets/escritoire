@@ -1,5 +1,6 @@
 ## Reachability Analysis: Theory & Applications (2020)
 
+- S. Gruenbacher, J. Cyranka, M. Lechner, Md. Ariful Islam,, Scott A. Smolka, R. Grosu Lagrangian Reachtubes: The Next Generation. arXiv: 2012.07458
 
 - Thorpe, A. J., Ortiz, K. R., & Oishi, M. M. (2020). Learning Approximate Forward Reachable Sets Using Separating Kernels. arXiv preprint arXiv:2011.09678.
 
