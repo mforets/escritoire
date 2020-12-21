@@ -55,7 +55,12 @@ function convergence_radius_pseries(x₀, F₁, F₂; N, p=Inf)
 end
 
 # see Lemma 2 in [2]
-function error_bound_specabs(x₀, F₁, F₂; N, p=Inf, check=true)
+function _error_bound_specabs(nx₀, R, N, Re_λ₁)
+    ε = t -> nx₀ * R^N * (1 - exp(Re_λ₁ * t))^N
+    return ε
+end
+
+function _error_bound_specabs_R(x₀, F₁, F₂; p=Inf)
     nx₀ = norm(x₀, p)  
     
     # compute eigenvalues and sort them by increasing real part
@@ -63,13 +68,17 @@ function error_bound_specabs(x₀, F₁, F₂; N, p=Inf, check=true)
     λ₁ = last(λ)
     Re_λ₁ = real(λ₁)
     nF₂ = opnorm(F₂, p)
-    R = nx₀ * nF₂ / Re_λ₁ 
+    R = nx₀ * nF₂ / Re_λ₁
+    return R
+end
+
+function error_bound_specabs(x₀, F₁, F₂; N, p=Inf, check=true)
+    R = error_bound_specabs_R(x₀, F₁, F₂; p=p)
     if check
         @assert Re_λ₁ < 1 "expected R < 1, got R = $R; try scaling the ODE"
         @assert R < 1 "expected R < 1, got R = $R; try scaling the ODE"
     end
-    ε = t -> nx₀ * R^N * (1 - exp(Re_λ₁ * t))^N
-    return ε
+    _error_bound_specabs(nx₀, R, N, Re_λ₁)
 end
 
 # TODO: build sparse matrices directly
@@ -113,8 +122,12 @@ end
 # Kronecker powers
 # ======================================
 
+using MultivariatePolynomials
 using ReachabilityAnalysis
 const IA = IntervalArithmetic
+
+using MultivariatePolynomials
+using DynamicPolynomials
 
 import Base: kron
 
@@ -157,4 +170,84 @@ end
 # for an interval x and an integer pow, compute [x, x^2, x^3, ... , x^pow]
 function kronecker_powers(x::IA.Interval, pow::Integer)
     [x^i for i in 1:pow]
+end
+
+"""
+    kron(x::Vector{<:PolyVar}, pow::Integer)
+
+Higher order concrete Kronecker power: x ⊗ x ⊗ ... ⊗ x, pow times
+for a vector of symbolic monomials.
+
+Example:
+
+```julia
+using DynamicPolynomials
+
+julia> x, = @polyvar x[1:2];
+
+julia> kron(x, 2)
+4-element Array{Monomial{true},1}:
+ x₁²
+ x₁x₂
+ x₁x₂
+ x₂²
+"""
+function kron(x::Vector{<:PolyVar}, pow::Integer)
+    @assert pow > 0 "expected positive power, got $pow"
+    if pow == 1
+        return x
+    else
+        return kron(x, kron(x, pow-1))
+    end
+end
+
+#=
+Let ``x = (x_1, x_2, \ldots, x_n)`` be given, and let
+``y_i = x^{[i]}``. Given the multi-index ``I = (i_1, i_2, \ldots, i_n)``,
+this function returns the first position of ``x^I`` in the array ``y``.
+
+Signature:
+
+findfirst(n::Int, i::Int, pow::NTuple{L, Int}) where {L}
+
+Examples:
+
+using Test
+
+@test findfirst(2, 2, (1, 1)) == 2
+@test findall(2, 2, (1, 1)) == [2, 3]
+
+x, = @polyvar x[1:2]
+y = kron(x, 2)
+
+@test findfirst(y, x[1]*x[2]) == 2
+@test findall(y, x[1]*x[2]) == [2, 3]
+=#
+
+import Base: findfirst, findall
+
+for (findfunc, _findfunc) in ((:findfirst, :_findfirst), (:findall, :_findall))
+    @eval begin
+    function $(findfunc)(n::Int, i::Int, pow::NTuple{L, Int}) where {L}
+        @assert L == n
+        @assert sum(pow) == i "power indices don't match the power in the lifted vector"
+
+        x, = @polyvar x[1:n]
+        y = kron(x, i)
+        return $(_findfunc)(y, x, pow)
+    end
+
+    function $(findfunc)(y::Vector{<:AbstractMonomialLike}, x::AbstractMonomialLike)
+        pow = exponents(x)
+        @assert sum(pow) == sum(exponents(first(y))) "power indices don't match the power in the lifted vector"
+        xv = variables(x)
+        $(_findfunc)(y, xv, pow)
+    end
+
+    function $(_findfunc)(y, x, pow)
+        yp = powers.(y)
+        t = ntuple(i -> (x[i], pow[i]), length(pow))
+        idx = $findfunc(pi -> pi == t, yp)
+    end
+    end # eval
 end
