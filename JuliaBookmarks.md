@@ -75,6 +75,7 @@
 - https://github.com/SciML/DiffEqUncertainty.jl
 - https://github.com/AnHeuermann/JuliaFMI
 - https://github.com/timueh/PolyChaos.jl [article](https://arxiv.org/pdf/2004.03970.pdf)
+- https://ymocquar.github.io/HOODESolver.jl/stable/quickstart/
 
 ## Geometry
 
