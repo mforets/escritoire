@@ -237,6 +237,7 @@ Other useful references:
  
 ## Visualization
 
+- https://lazarusa.github.io/Webpage/codeJuliaMakie.html
 - https://github.com/jkrumbiegel/Animations.jl
 - Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
 
