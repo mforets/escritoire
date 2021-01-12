@@ -135,6 +135,7 @@ Other useful references:
 - https://discourse.julialang.org/t/memoization-performance/26361
 - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
 - https://github.com/dalum/Purses.jl
+- https://gitlab.com/volkerweissmann/SimpleCache.jl/-/tree/master/
 
 ## Neural networks
 
@@ -236,6 +237,7 @@ Other useful references:
  
 ## Visualization
 
+- https://lazarusa.github.io/Webpage/codeJuliaMakie.html
 - https://github.com/jkrumbiegel/Animations.jl
 - Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
 
