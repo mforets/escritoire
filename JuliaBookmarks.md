@@ -285,3 +285,4 @@ Other useful references:
 ## Interval arithmetic / Floating point
 
 - https://github.com/uwplse/herbie
+- https://github.com/AnderGray/ProbabilityBoundsAnalysis.jl
