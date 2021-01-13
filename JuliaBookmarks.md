@@ -282,3 +282,6 @@ Other useful references:
  
  ## FEM
  
+## Interval arithmetic / Floating point
+
+- https://github.com/uwplse/herbie
