@@ -176,6 +176,7 @@ Other useful references:
 - [CMAEvolutionStrategy](https://github.com/jbrea/CMAEvolutionStrategy.jl/tree/f421335dad3c9133b4e0c1796d33508cef08834e), [discourse announcement](https://discourse.julialang.org/t/ann-cmaevolutionstrategy-jl/39411/5).
 - https://psorlab.github.io/EAGO.jl/dev/
 - https://github.com/newptcai/BEE.jl
+- https://github.com/JuliaNLSolvers/ConstrainedOptim.jl
 
 ## Parallelism
 
