@@ -159,7 +159,7 @@ Other useful references:
 - https://etymoio.github.io/EvolvingGraphs.jl/latest/
 - https://github.com/bcbi/ExtensibleUnions.jl
 - https://github.com/bcbi/GitCommand.jl
-
+- https://github.com/KristofferC/RegistryCompatTools.jl
 
 ## Optimization
 
