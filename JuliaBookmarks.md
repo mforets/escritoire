@@ -123,6 +123,38 @@
 
 </details>
 
+<details>
+  <summary>Precompilation</summary>
+
+- https://discourse.julialang.org/t/ann-snoopcompile-1-2-package-precompilation/33359
+
+- https://github.com/jump-dev/JuMP.jl/pull/2484
+
+</details>
+
+<details>
+  <summary>Structs, preallocation, dispatch </summary>
+
+- https://github.com/oxinabox/AutoPreallocation.jl
+
+- https://github.com/pengwyn/AutoParameters.jl
+
+- [ConcreteStructs.jl](https://discourse.julialang.org/t/ann-concretestructs-jl-cut-the-boilerplate-when-concretely-parameterizing-structs/47274)
+
+- https://github.com/jlapeyre/ManualDispatch.jl
+
+</details>
+
+<details>
+  <summary>Traits </summary>
+
+- [Traits.jl](https://github.com/schlichtanders/Traits.jl)
+
+- [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl)
+
+- [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl), [on discourse](https://discourse.julialang.org/t/ann-binarytraits-jl-a-new-traits-package/37475)
+
+</details>
 
 ## Differential equations & numerical simulations
 
@@ -204,47 +236,74 @@
 
 ## Domain-specific language tools (DSL)
 
+<details>
+  <summary>Packages</summary>
 
 - [ModelingToolkit](https://github.com/JuliaDiffEq/ModelingToolkit.jl)
+
 - [Sims.jl](https://github.com/tshort/Sims.jl)
+
 - [Modia.jl](https://github.com/ModiaSim/Modia.jl)
+
 - [Symbolics.jl](https://github.com/MasonProtter/Symbolics.jl)
+
 - [ModelKit.jl](https://github.com/saschatimme/ModelKit.jl/)
+
+</details>
 
 ## Macros
 
+<details>
+  <summary>Packages</summary>
+
 - [ExprTools](https://github.com/invenia/ExprTools.jl)
+
 - [MacroTools](https://github.com/FluxML/MacroTools.jl)
+
 - [Espresso](https://github.com/dfdx/Espresso.jl)
+
 - [Keyword dispatch](https://github.com/simonbyrne/KeywordDispatch.jl)
+
 - [ExtractMacro](https://github.com/carlobaldassi/ExtractMacro.jl)
 
-Other useful references:
+</details>
+
+<details>
+  <summary>Examples</summary>
 
 - [Some useful macros for Julia (MikeInnes)](https://gist.github.com/MikeInnes/8299575)
 
+</details>
+
+
 ### Memoisation
 
+<details>
+  <summary>Packages</summary>
+
 - https://github.com/BenLauwens/ResumableFunctions.jl
+
 - https://discourse.julialang.org/t/memoization-performance/26361
+
 - https://gist.github.com/tk3369/877c2c60f41f6b0941e76e977e916192
+
 - https://github.com/dalum/Purses.jl
+
 - https://gitlab.com/volkerweissmann/SimpleCache.jl/-/tree/master/
+
+</details>
 
 ## Neural networks
 
+<details>
+  <summary>Packages</summary>
+
 - https://github.com/vtjeng/MIPVerify.jl
-- . . .
 
-### Other tools
+- https://github.com/castrong/NeuralOptimization.jl
 
-- https://github.com/oxinabox/AutoPreallocation.jl
-- https://github.com/pengwyn/AutoParameters.jl
-- [ConcreteStructs.jl](https://discourse.julialang.org/t/ann-concretestructs-jl-cut-the-boilerplate-when-concretely-parameterizing-structs/47274)
+</details>
 
-## Dispatch
-
-- https://github.com/jlapeyre/ManualDispatch.jl
 
 ## Other
 
@@ -252,34 +311,58 @@ Other useful references:
 - https://github.com/eschnett/SIMD.jl
 - https://etymoio.github.io/EvolvingGraphs.jl/latest/
 - https://github.com/bcbi/ExtensibleUnions.jl
-- https://github.com/bcbi/GitCommand.jl
-- https://github.com/KristofferC/RegistryCompatTools.jl
 
-## Optimization
+## Mathematical Optimization
 
+<details>
+  <summary>Packages</summary>
 
 - [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
+
 - https://github.com/ds4dm/Tulip.jl
+
 - http://www.juliaopt.org/MathOptInterface.jl/dev/apimanual/#Standard-form-problem-1
+
 - https://github.com/jump-dev/MatrixOptInterface.jl
+
 - https://github.com/oxfordcontrol/COSMO.jl
+
 - https://github.com/JuliaLinearOptimizers/Simplex.jl
+
 - https://github.com/SCIP-Interfaces/SCIP.jl
+
 - https://github.com/IainNZ/RationalSimplex.jl
+
 - https://github.com/jw3126/Convex1D.jl
+
 - https://github.com/SciML/GalacticOptim.jl
+
 - [CMAEvolutionStrategy](https://github.com/jbrea/CMAEvolutionStrategy.jl/tree/f421335dad3c9133b4e0c1796d33508cef08834e), [discourse announcement](https://discourse.julialang.org/t/ann-cmaevolutionstrategy-jl/39411/5).
+
 - https://psorlab.github.io/EAGO.jl/dev/
+
 - https://github.com/newptcai/BEE.jl
+
 - https://github.com/JuliaNLSolvers/ConstrainedOptim.jl
+
+</details>
+
 
 ## Parallelism
 
+
+<details>
+  <summary>Packages</summary>
+  
 - https://github.com/jishnub/ParallelUtilities.jl
+
 - https://stackoverflow.com/questions/50802184/julia-macro-threads-and-parallel
+
 - https://julialang.org/blog/2019/07/multithreading/
+
 - https://github.com/tkf/ThreadsX.jl
 
+</details>
 
 ### PDEs
 
@@ -327,15 +410,6 @@ Other useful references:
 - https://github.com/lanaperisa/TensorToolbox.jl
 - https://github.com/adtzlr/ttb
 
-
-
-## Traits
-
-- [Traits.jl](https://github.com/schlichtanders/Traits.jl)
-- [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl)
-- [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl), [on discourse](https://discourse.julialang.org/t/ann-binarytraits-jl-a-new-traits-package/37475)
-
-
 ## Tutorials
 
 - https://github.com/DataWookie/MonthOfJulia
@@ -359,7 +433,16 @@ Other useful references:
 
 ## Repeatability
 
+<details>
+  <summary>Packages</summary>
+
+- https://github.com/bcbi/GitCommand.jl
+
+- https://github.com/KristofferC/RegistryCompatTools.jl
+
 - https://github.com/bcbi/SimpleContainerGenerator.jl
+
+</details>
 
 
 ## << Unsorted >>
@@ -394,7 +477,6 @@ Other useful references:
 </details>
 
 
- 
 ## Summer of code (JSoc / GSOC)
  
  
