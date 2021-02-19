@@ -392,6 +392,15 @@
 
 </details>
 
+<details>
+  <summary>Aerodynamics</summary>
+
+- https://github.com/byuflowlab/VortexLattice.jl
+
+
+</details>
+
+
 ## Quantum
 
 - https://jebej.github.io/Schrodinger.jl/latest/index.html
@@ -453,7 +462,15 @@
 
 ## Web 
 
+<details>
+  <summary>Packages</summary>
+
 - Presentations from markdown https://github.com/oxinabox/Remark.jl
+
+- https://plotly.com/dash/
+
+</details>
+
 
 ## Tutorials
 
