@@ -24,7 +24,10 @@
 
 ## Neural ODEs
 
-- 
+- Gruenbacher, Sophie, et al. "On The Verification of Neural ODEs with Stochastic Guarantees." arXiv preprint arXiv:2012.08863 (2020). [pdf](https://arxiv.org/pdf/2012.08863.pdf)
+
+
+
 ## Hybrid systems
 
 - Garg, Kunal, and Dimitra Panagou. "Finite-Time Stability of Hybrid Systems with Unstable Modes." resubmitted to IEEE TAC, under review. [pdf](http://www-personal.umich.edu/~kgarg/uploads/papers/LCSS_FTS_of_Hybrid_systems.pdf)
