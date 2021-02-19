@@ -220,12 +220,25 @@ Other useful references:
 
 ### FEM
 
+<details>
+  <summary>Packages</summary>
+
  - https://joss.theoj.org/papers/10.21105/joss.02369
+
  - https://github.com/kinnala/scikit-fem
+
  - https://scikit-fem.readthedocs.io/en/latest/listofexamples.html#example-2-kirchhoff-plate-bending-problem
+
  - https://joss.theoj.org/papers/10.21105/joss.02520
+
  - https://github.com/gridap/GridapODEs.jl
+
  - https://github.com/lijas/IGA.jl
+
+- [femshop](https://github.com/paralab/femshop)
+
+</details>
+
 
 
 
@@ -275,15 +288,13 @@ Other useful references:
 - http://www.pelicanthemes.com/
 
 
----
-
 
 ## Repeatability
 
 - https://github.com/bcbi/SimpleContainerGenerator.jl
 
 
-## Blogs, discussions, ...
+## << Unsorted >>
 
 - [High order functions](https://discourse.julialang.org/t/to-factor-or-not-to-factor-functions-with-small-differences-within-loops/39532/4)
 - [Dynamical systems modeling in Julia]()
@@ -325,21 +336,10 @@ Other useful references:
 
 
  
- ## Summer of code (JSoc / GSOC)
+## Summer of code (JSoc / GSOC)
  
  
  - https://nextjournal.com/sguadalupe, jsoc 2020 
- 
- ---
- 
-## FEM
-
-<details>
-  <summary>Generators and iterators</summary>
-
-- [femshop](https://github.com/paralab/femshop)
-
-</details>
 
 
 ## Probability / IA
