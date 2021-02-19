@@ -20,6 +20,8 @@
 
 - Sandretto, Julien Alexandre Dit. "Confidence-based Contractor, Propagation and Potential Clouds for Differential Equations." Acta Cybernetica (2021). [pdf](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4133/4017)
 
+- Interval Reachability Analysis. Bounding Trajectories of Uncertain Systems with Boxes for Control and Verification. Authors: Meyer, Pierre-Jean, Devonport, Alex, Arcak, Murat[book](https://www.springer.com/gp/book/9783030651091)
+
 ## Neural ODEs
 
 - 
