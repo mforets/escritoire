@@ -1,26 +1,55 @@
-## Algebra
+## Linear Algebra
+
+<details>
+  <summary>Packages</summary>
 
 - [Intel MKL linear algebra library](https://github.com/JuliaComputing/MKL.jl)
+
 - [Padded matrices](https://github.com/chriselrod/PaddedMatrices.jl)
+
 - [Gaius](https://github.com/MasonProtter/Gaius.jl)
+
 - [Tullio.jl](https://github.com/mcabbott/Tullio.jl). Example [here](https://discourse.julialang.org/t/accelerate-non-linear-function-evaluation/42105/16).
+
+</details>
+
+
 
 ## Analysis
 
+<details>
+  <summary>Packages</summary>
+
 - https://github.com/JuliaDiff/ForwardDiff.jl
+
 - https://github.com/JuliaDiff/FiniteDiff.jl
+
 - https://github.com/JuliaMath/Calculus.jl
+
 - https://github.com/JuliaComputing/NonlinearSolve.jl
+
 - https://github.com/SciML/Quadrature.jl
+
+
+</details>
 
 ## API
 
+<details>
+  <summary>Packages</summary>
+
 - https://github.com/jw3126/ArgCheck.jl
+
 - https://simeonschaub.github.io/OptionalArgChecks.jl/dev/
+
 - Unpack
+
 - Parameters
+
 - https://juliahub.com/ui/Packages/ArgTools/aGHFV/1.1.1
 
+
+</details>
 
 ### Arrays
 
@@ -33,9 +62,11 @@
 - [LazyArrays.jl](https://github.com/JuliaArrays/LazyArrays.jl)
 
 
-## Geometry
+## Geometry, Interpolations
 
 - https://github.com/JuliaGeometry/CoordinateTransformations.jl
+- http://juliamath.github.io/Interpolations.jl/latest/
+- https://github.com/sisl/GridInterpolations.jl/blob/master/src/GridInterpolations.jl
 
 
 #### More on differentiation
@@ -46,6 +77,7 @@
 - https://github.com/dpsanders/ReversePropagation.jl
 
 ## Code introspection & Profiling
+
 
 - [Treeview.jl](https://github.com/JuliaTeX/TreeView.jl) (view Julia syntax trees as a graph)
 - [Flatten.jl](https://github.com/rafaqz/Flatten.jl) (type queries)
@@ -76,12 +108,6 @@
 - https://github.com/AnHeuermann/JuliaFMI
 - https://github.com/timueh/PolyChaos.jl [article](https://arxiv.org/pdf/2004.03970.pdf)
 - https://ymocquar.github.io/HOODESolver.jl/stable/quickstart/
-
-## Geometry
-
-- . . .
-- http://juliamath.github.io/Interpolations.jl/latest/
-- https://github.com/sisl/GridInterpolations.jl/blob/master/src/GridInterpolations.jl
 
 ### Model formats
 
@@ -268,22 +294,55 @@ Other useful references:
 
 - Presentations from markdown https://github.com/oxinabox/Remark.jl
 
-## Generators
+## Tutorials
+
+<details>
+  <summary>Tutorials in spanish</summary>
+
+- [Programación básica con Julia
+](https://hedero.webs.upv.es/julia-basico/)
+
+</details>
+
+<details>
+  <summary>Tutorials in spanish</summary>
+
+- [Programación básica con Julia
+](https://hedero.webs.upv.es/julia-basico/)
+
+</details>
+
+<details>
+  <summary>Generators and iterators</summary>
 
 - https://discourse.julialang.org/t/creating-generators/3962/28
+
 - https://medium.com/@Jernfrost/generators-and-iterators-in-julia-and-python-6c9ace18fa93
 
+- 
+
+</details>
+
+
+ 
+ ## Summer of code (JSoc / GSOC)
+ 
+ 
+ - https://nextjournal.com/sguadalupe, jsoc 2020 
+ 
  ---
  
- ## JSoc / GSOC 2020
- 
- - https://nextjournal.com/sguadalupe
- 
- ---
- 
- ## FEM
- 
-## Interval arithmetic / Floating point
+## FEM
+
+<details>
+  <summary>Generators and iterators</summary>
+
+- [femshop](https://github.com/paralab/femshop)
+
+</details>
+
+
+## Probability / IA
 
 - https://github.com/uwplse/herbie
 - https://github.com/AnderGray/ProbabilityBoundsAnalysis.jl
