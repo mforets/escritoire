@@ -53,13 +53,29 @@
 
 ### Arrays
 
-- https://github.com/JuliaArrays
+<details>
+  <summary>Packages</summary>
+
 - [ElasticArrays](https://github.com/JuliaArrays/ElasticArrays.jl)
+
 - [IdentityMatrix.jl](https://github.com/jlapeyre/IdentityMatrix.jl)
+
 - https://github.com/mateuszbaran/HybridArrays.jl
+
 - [Block arrays](https://github.com/JuliaArrays/BlockArrays.jl)
+
 - [RecursiveArrayTools](https://github.com/JuliaDiffEq/RecursiveArrayTools.jl)
+
 - [LazyArrays.jl](https://github.com/JuliaArrays/LazyArrays.jl)
+
+</details>
+
+<details>
+  <summary>Orgs</summary>
+
+- https://github.com/JuliaArrays
+
+</details>
 
 
 ## Geometry, Interpolations
@@ -78,36 +94,69 @@
 
 ## Code introspection & Profiling
 
+<details>
+  <summary>Packages</summary>
 
 - [Treeview.jl](https://github.com/JuliaTeX/TreeView.jl) (view Julia syntax trees as a graph)
+
 - [Flatten.jl](https://github.com/rafaqz/Flatten.jl) (type queries)
+
 - [ProfileVega.jl](https://github.com/davidanthoff/ProfileVega.jl)
+
 - [TimerOutputs.jl](https://github.com/KristofferC/TimerOutputs.jl)
+
 - [Traceur.jl](https://github.com/JunoLab/Traceur.jl)
+
 - [OwnTime.jl](https://github.com/DevJac/OwnTime.jl)
+
 - [Timeout.jl](https://github.com/ararslan/Timeout.jl)
+
 - https://github.com/FluxML/IRTools.jl
+
 - https://github.com/antoine-levitt/Exfiltrator.jl
+
 - https://github.com/c42f/TerminalLoggers.jl
+
 - https://github.com/oxinabox/LoggingExtras.jl
+
 - https://github.com/timholy/MethodAnalysis.jl
+
+</details>
+
 
 ## Differential equations & numerical simulations
 
+<details>
+  <summary>Packages</summary>
+
 - DynamicalSystems.jl
+
 - [DifferentialEquations.jl webpage](https://juliadiffeq.org/)
+
 - [DifferentialEquations.jl documentation](https://docs.juliadiffeq.org/dev/index.html)
    - https://github.com/SciML/OrdinaryDiffEq.jl
+
 - [Mera.jl](https://github.com/ManuelBehrendt/Mera.jl)
+
 - [Causal.jl](https://github.com/zekeriyasari/Causal.jl/issues)
+
 - ModiaSim
+
 - [SimJulia](https://benlauwens.github.io/SimJulia.jl/)
+
 - [NetworkDynamics.jl](https://github.com/FHell/NetworkDynamics.jl)
+
 - https://github.com/PSORLab/DynamicBoundspODEsIneq.jl
+
 - https://github.com/SciML/DiffEqUncertainty.jl
+
 - https://github.com/AnHeuermann/JuliaFMI
+
 - https://github.com/timueh/PolyChaos.jl [article](https://arxiv.org/pdf/2004.03970.pdf)
+
 - https://ymocquar.github.io/HOODESolver.jl/stable/quickstart/
+
+</details>
 
 ### Model formats
 
@@ -119,23 +168,42 @@
 
 ## Documentation
 
+<details>
+  <summary>Packages</summary>
+
 - [Hosting documentation. Documenter help](https://juliadocs.github.io/Documenter.jl/v0.24/man/hosting/#Hosting-Documentation-1).
+
 - [Documenter showcase](https://juliadocs.github.io/Documenter.jl/v0.24/showcase/#Doctest-showcase-1).
+
 - [SafeTestsets](https://github.com/YingboMa/SafeTestsets.jl)
+
 - [latex_symbols.jl](https://github.com/JuliaLang/julia/blob/master/stdlib/REPL/src/latex_symbols.jl)
+
 - [Unicode input](https://docs.julialang.org/en/v1/manual/unicode-input/)
+
 - [Literate.jl](https://github.com/fredrikekre/Literate.jl)
+
 - https://github.com/JunoLab/Weave.jl
+
 - https://juliadocs.github.io/DocStringExtensions.jl/latest/index.html
+
 - [Publish.jl](https://github.com/MichaelHatherly/Publish.jl)
+
 - [Latexify.jl](https://github.com/korsbo/Latexify.jl)
+
 - [Citations.jl](https://github.com/adamslc/Citations.jl)
+
 - [DocumenterBibliographyTest.jl](https://github.com/ali-ramadhan/DocumenterBibliographyTest.jl)
+
 - [BibTeXFormat.jl](https://lucianolorenti.github.io/BibTeXFormat.jl/latest/)
+
 - [BibTex.jl](https://github.com/JuliaTeX/BibTeX.jl)
+
+</details>
 
 
 ## Domain-specific language tools (DSL)
+
 
 - [ModelingToolkit](https://github.com/JuliaDiffEq/ModelingToolkit.jl)
 - [Sims.jl](https://github.com/tshort/Sims.jl)
@@ -189,6 +257,7 @@ Other useful references:
 
 ## Optimization
 
+
 - [TrajectoryOptimization.jl](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl)
 - https://github.com/ds4dm/Tulip.jl
 - http://www.juliaopt.org/MathOptInterface.jl/dev/apimanual/#Standard-form-problem-1
@@ -211,14 +280,8 @@ Other useful references:
 - https://julialang.org/blog/2019/07/multithreading/
 - https://github.com/tkf/ThreadsX.jl
 
-## PDEs
 
-- https://github.com/matthieugomez/EconPDEs.jl
-- https://github.com/PetrKryslUCSD/Elfel.jl
-- https://github.com/trixi-framework/Trixi.jl
-- https://github.com/j-fu/ExtendableGrids.jl
-
-### FEM
+### PDEs
 
 <details>
   <summary>Packages</summary>
@@ -237,10 +300,15 @@ Other useful references:
 
 - [femshop](https://github.com/paralab/femshop)
 
+- https://github.com/matthieugomez/EconPDEs.jl
+
+- https://github.com/PetrKryslUCSD/Elfel.jl
+
+- https://github.com/trixi-framework/Trixi.jl
+
+- https://github.com/j-fu/ExtendableGrids.jl
+
 </details>
-
-
-
 
 ## Quantum
 
@@ -316,21 +384,12 @@ Other useful references:
 </details>
 
 <details>
-  <summary>Tutorials in spanish</summary>
-
-- [Programación básica con Julia
-](https://hedero.webs.upv.es/julia-basico/)
-
-</details>
-
-<details>
   <summary>Generators and iterators</summary>
 
 - https://discourse.julialang.org/t/creating-generators/3962/28
 
 - https://medium.com/@Jernfrost/generators-and-iterators-in-julia-and-python-6c9ace18fa93
 
-- 
 
 </details>
 
