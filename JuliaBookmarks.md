@@ -67,6 +67,10 @@
 
 - [LazyArrays.jl](https://github.com/JuliaArrays/LazyArrays.jl)
 
+- [TriMatrices.jl](https://github.com/jlumpe/TriMatrices.jl) -- Julia package for storing large triangular or symmetric matrices in non-redundant format.
+
+
+
 </details>
 
 <details>
@@ -464,10 +468,18 @@
 
 ## << Unsorted >>
 
+<details>
+  <summary>Packages</summary>
+
 - [High order functions](https://discourse.julialang.org/t/to-factor-or-not-to-factor-functions-with-small-differences-within-loops/39532/4)
+
 - [Dynamical systems modeling in Julia]()
+
 - https://github.com/johnmyleswhite/julia_tutorials
 
+- https://github.com/cjdoris/Python.jl
+
+</details>
 
 ## Web 
 
