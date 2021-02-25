@@ -425,6 +425,15 @@
 - Fundamentales of Numerical Computation. By Tobin A. Driscoll and Richard J. Braun
  https://fncbook.github.io/fnc/intro/overview.html
  
+---
+
+- https://mitmath.github.io/18337/lecture2/optimizing
+    - https://www.youtube.com/watch?v=M2i7sSRcSIw&feature=youtu.be
+    - https://www.youtube.com/watch?v=10_Ukm9wr9g&feature=youtu.be
+
+- https://www.youtube.com/watch?v=h-xVBD2Pk9o&feature=youtu.be
+
+
 ## Visualization
 
 - https://lazarusa.github.io/Webpage/codeJuliaMakie.html
