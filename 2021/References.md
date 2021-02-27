@@ -28,7 +28,13 @@
 
 - Gruenbacher, Sophie, et al. "On The Verification of Neural ODEs with Stochastic Guarantees." arXiv preprint arXiv:2012.08863 (2020). [pdf](https://arxiv.org/pdf/2012.08863.pdf)
 
+- Zhou, Yifan, and Peng Zhang. "Neuro-Reachability of Networked Microgrids." arXiv preprint arXiv:2101.05159 (2021). 
 
+
+## Neural Network Verif
+
+- Sun, Xiaowu, and Yasser Shoukry. "Provably Correct Training of Neural Network Controllers Using Reachability Analysis." arXiv preprint arXiv:2102.10806 (2021).
+[arxiv](https://arxiv.org/pdf/2102.10806.pdf)
 
 ## Hybrid systems
 
