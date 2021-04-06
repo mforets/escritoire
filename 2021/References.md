@@ -8,6 +8,12 @@
 
 - Serry, Mohamed, and Gunther Reissig. "Over-approximating reachable tubes of linear time-varying systems." arXiv preprint arXiv:2102.04971 (2021). [pdf](https://arxiv.org/pdf/2102.04971.pdf)
 
+- Klischat, Moritz, and Matthias Althoff. "A multi-step approach to accelerate the computation of reachable sets for road vehicles." 2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC). IEEE, 2020. [pdf](https://www.researchgate.net/profile/Moritz-Klischat/publication/342448167_A_Multi-Step_Approach_to_Accelerate_the_Computation_of_Reachable_Sets_for_Road_Vehicles/links/5ef4baf6299bf18816e5127e/A-Multi-Step-Approach-to-Accelerate-the-Computation-of-Reachable-Sets-for-Road-Vehicles.pdf)
+
+- Alanwar, Amr, Yvonne Stürz, and Karl Henrik Johansson. "Robust Data-Driven Predictive Control using Reachability Analysis." arXiv preprint arXiv:2103.14110 (2021). [pdf](https://arxiv.org/pdf/2103.14110.pdf)
+
+- 
+
 ## Reachability -- Taylor models
 
 - Bünger, Florian. "A Taylor model toolbox for solving ODEs implemented in MATLAB/INTLAB." Journal of Computational and Applied Mathematics 368 (2020): 112511.
