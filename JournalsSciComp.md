@@ -55,6 +55,10 @@ Lists of journals in [scientific computing](https://en.wikipedia.org/wiki/Comput
     - https://interval.louisiana.edu/reliable-computing-journal/
     - https://interval.louisiana.edu/reliable-computing-journal/tables-of-contents.html
 
+- Journal of Numerical Mathematics
+
+    - https://www.degruyter.com/journal/key/JNMA/html
+
 ## Software-oriented
 
 - International Journal on Software Tools for Technology Transfer
