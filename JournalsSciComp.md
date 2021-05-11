@@ -85,7 +85,9 @@ Lists of journals in [scientific computing](https://en.wikipedia.org/wiki/Comput
 -  Science of Computer Programming
     - https://www.journals.elsevier.com/science-of-computer-programming
     
-    
+- International Journal for Numerical Methods in Engineering
+   - https://onlinelibrary.wiley.com/toc/10970207/2021/122/12
+  
 ---
     
     
