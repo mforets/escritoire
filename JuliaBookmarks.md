@@ -519,8 +519,12 @@
  
  - https://nextjournal.com/sguadalupe, jsoc 2020 
 
-
-## Probability / IA
+## PBA
 
 - https://github.com/uwplse/herbie
 - https://github.com/AnderGray/ProbabilityBoundsAnalysis.jl
+
+## Interval methods
+
+- JuliaIntervals (..)
+- https://github.com/fireofearth/ModalIntervalArithmetic.jl
