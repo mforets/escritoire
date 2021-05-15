@@ -12,7 +12,6 @@
 
 - Alanwar, Amr, Yvonne Stürz, and Karl Henrik Johansson. "Robust Data-Driven Predictive Control using Reachability Analysis." arXiv preprint arXiv:2103.14110 (2021). [pdf](https://arxiv.org/pdf/2103.14110.pdf)
 
-- 
 
 ## Reachability -- Taylor models
 
@@ -29,6 +28,12 @@
 - Sandretto, Julien Alexandre Dit. "Confidence-based Contractor, Propagation and Potential Clouds for Differential Equations." Acta Cybernetica (2021). [pdf](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4133/4017)
 
 - Interval Reachability Analysis. Bounding Trajectories of Uncertain Systems with Boxes for Control and Verification. Authors: Meyer, Pierre-Jean, Devonport, Alex, Arcak, Murat[book](https://www.springer.com/gp/book/9783030651091)
+
+
+## Presentations
+
+- Formal Verification in Model-Based Design -- Seminar@SystemX - Goran Frehse[youtube](https://www.youtube.com/watch?v=_J6UH0PnNA0)
+
 
 ## Neural ODEs
 
