@@ -13,9 +13,11 @@
 - Alanwar, Amr, Yvonne Stürz, and Karl Henrik Johansson. "Robust Data-Driven Predictive Control using Reachability Analysis." arXiv preprint arXiv:2103.14110 (2021). [pdf](https://arxiv.org/pdf/2103.14110.pdf)
 
 
-## Reachability -- Taylor models
+## Reachability -- Taylor models -- Global optimization
 
 - Bünger, Florian. "A Taylor model toolbox for solving ODEs implemented in MATLAB/INTLAB." Journal of Computational and Applied Mathematics 368 (2020): 112511.
+
+- Reyes, Victor, and Ignacio Araya. "AbsTaylor: upper bounding with inner regions in nonlinear continuous global optimization problems." Journal of Global Optimization 79.2 (2021): 413-429. [article](https://link.springer.com/article/10.1007/s10898-020-00878-z)
 
 ## Reachability -- Tools
 
@@ -28,6 +30,7 @@
 - Sandretto, Julien Alexandre Dit. "Confidence-based Contractor, Propagation and Potential Clouds for Differential Equations." Acta Cybernetica (2021). [pdf](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4133/4017)
 
 - Interval Reachability Analysis. Bounding Trajectories of Uncertain Systems with Boxes for Control and Verification. Authors: Meyer, Pierre-Jean, Devonport, Alex, Arcak, Murat[book](https://www.springer.com/gp/book/9783030651091)
+
 
 
 ## Presentations
