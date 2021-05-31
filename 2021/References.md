@@ -1,5 +1,7 @@
 ## Reachability
 
+- Kim E, Bak S, Duggirala PS. Automatic Dynamic Parallelotope Bundles for Reachability Analysis of Nonlinear Systems. arXiv preprint arXiv:2105.11796. 2021 May 25.
+
 - The Curious Case of Integrator Reach Sets, Part I: Basic Theory. Shadi Haddad, Abhishek Halder. [arxiv](https://arxiv.org/pdf/2102.11423.pdf)
 
 - Everett M, Habibi G, How JP. Efficient Reachability Analysis of Closed-Loop Systems with Neural Network Controllers. arXiv preprint arXiv:2101.01815. 2021 Jan. https://arxiv.org/pdf/2101.01815.pdf
