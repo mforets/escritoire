@@ -1,5 +1,7 @@
 ## Reachability
 
+- Bidet F, Goubault É, Putot S. Reachability Analysis of Generalized Input-Affine Systems with Bounded Measurable Time-varying Uncertainties. IEEE Control Systems Letters. 2021 May 27. [article](https://ieeexplore.ieee.org/abstract/document/9442847)
+
 - Kim E, Bak S, Duggirala PS. Automatic Dynamic Parallelotope Bundles for Reachability Analysis of Nonlinear Systems. arXiv preprint arXiv:2105.11796. 2021 May 25.
 
 - The Curious Case of Integrator Reach Sets, Part I: Basic Theory. Shadi Haddad, Abhishek Halder. [arxiv](https://arxiv.org/pdf/2102.11423.pdf)
