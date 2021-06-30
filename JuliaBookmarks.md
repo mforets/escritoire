@@ -350,6 +350,11 @@
 
 </details>
 
+<details>
+  <summary>Packages (control) </summary>
+
+https://github.com/cadojo/ControlTheoryNotes.jl
+</details>
 
 ## Parallelism
 
