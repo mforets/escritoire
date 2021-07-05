@@ -29,6 +29,7 @@
 
 - Kim, Edward, and Parasara Sridhar Duggirala. "Kaa: A Python Implementation of Reachable Set Computation Using Bernstein Polynomials." EPiC Series in Computing 74 (2020): 184-196. [pdf](Kim, Edward, and Parasara Sridhar Duggirala. "Kaa: A Python Implementation of Reachable Set Computation Using Bernstein Polynomials." EPiC Series in Computing 74 (2020): 184-196.). Tags: Bernstein
 
+ 
 ## Reachability -- Interval methods
 
 - Bertin E, Brendel E, Hérissé B, dit Sandretto JA, Chapoutot A. Prospects on Solving an Optimal Control Problem with Bounded Uncertainties on Parameters using Interval Arithmetics. Acta Cybernetica. 2021 Feb 3. [pdf](https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4142/4021)
@@ -55,6 +56,9 @@
 
 - Sun, Xiaowu, and Yasser Shoukry. "Provably Correct Training of Neural Network Controllers Using Reachability Analysis." arXiv preprint arXiv:2102.10806 (2021).
 [arxiv](https://arxiv.org/pdf/2102.10806.pdf)
+
+
+- Ivanov, Radoslav, Taylor Carpenter, James Weimer, Rajeev Alur, George Pappas, and Insup Lee. "Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning⋆." [article](seas.upenn.edu/~rivanov/cpub/cav21-ivanov.pdfeee)
 
 ## Hybrid systems
 
