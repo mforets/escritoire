@@ -347,6 +347,10 @@
 - https://github.com/newptcai/BEE.jl
 
 - https://github.com/JuliaNLSolvers/ConstrainedOptim.jl
+ 
+- https://github.com/JuliaFirstOrder
+
+- https://juliafirstorder.github.io/PiecewiseQuadratics.jl/dev/
 
 </details>
 
@@ -448,6 +452,9 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 - https://lazarusa.github.io/Webpage/codeJuliaMakie.html
 - https://github.com/jkrumbiegel/Animations.jl
 - Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
+- https://gist.github.com/mschauer/b1d7851bb2402c2b8434a797100a6c66#file-cormullion-png
+- Javis.jl
+- Plots `@gif` command
 
 ## Web
 
@@ -494,6 +501,14 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 - Presentations from markdown https://github.com/oxinabox/Remark.jl
 
 - https://plotly.com/dash/
+
+- https://franklinjl.org/
+
+- https://tlienart.github.io/FranklinTemplates.jl/templates/basic/index.html#symbols_and_html_entities
+
+- https://tlienart.github.io/PkgPage.jl/#about
+  
+- https://tlienart.github.io/FranklinTemplates.jl/
 
 </details>
 
