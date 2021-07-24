@@ -1,5 +1,7 @@
 ## Reachability
 
+- Yang, Liren, and Necmiye Ozay. "Scalable Zonotopic Under-approximation of Backward Reachable Sets for Uncertain Linear Systems." arXiv preprint arXiv:2107.01724 (2021). [arXiv](https://arxiv.org/pdf/2107.01724.pdf)
+
 - Bak S, Bogomolov S, Duggirala PS, Gerlach AR, Potomkin K. Reachability of Black-Box Nonlinear Systems after Koopman Operator Linearization. arXiv preprint arXiv:2105.00886. 2021 May 3. [arxiv](https://arxiv.org/abs/2105.00886)
 
 - Bidet F, Goubault É, Putot S. Reachability Analysis of Generalized Input-Affine Systems with Bounded Measurable Time-varying Uncertainties. IEEE Control Systems Letters. 2021 May 27. [article](https://ieeexplore.ieee.org/abstract/document/9442847)
