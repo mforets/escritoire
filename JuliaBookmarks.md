@@ -191,6 +191,8 @@
 
 - https://ymocquar.github.io/HOODESolver.jl/stable/quickstart/
 
+- https://github.com/ketch/nodepy (Python)
+  
 </details>
 
 ### Model formats
@@ -455,6 +457,7 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 - https://gist.github.com/mschauer/b1d7851bb2402c2b8434a797100a6c66#file-cormullion-png
 - Javis.jl
 - Plots `@gif` command
+- https://gist.github.com/mschauer/b1d7851bb2402c2b8434a797100a6c66
 
 ## Web
 
