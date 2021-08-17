@@ -13,6 +13,19 @@
 
 </details>
 
+<details>
+  <summary>Krylov methods</summary>
+
+- ExponentialUtilities.jl
+
+- Expokit.jl
+
+- KrylovKit.jl  
+
+- [FastExpm.jl](https://github.com/fmentink/FastExpm.jl/blob/main/src/FastExpm.jl)
+
+  </details>
+
 
 ## Analysis
 
@@ -69,7 +82,7 @@
 
 - [TriMatrices.jl](https://github.com/jlumpe/TriMatrices.jl) -- Julia package for storing large triangular or symmetric matrices in non-redundant format.
 
-
+- [ThreadedSparseArrays.jl](https://github.com/jagot/ThreadedSparseArrays.jl)
 
 </details>
 
@@ -549,5 +562,7 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 
 ## Interval methods
 
-- JuliaIntervals (..)
+- JuliaIntervals 
 - https://github.com/fireofearth/ModalIntervalArithmetic.jl
+- IntervalSets
+- ...
