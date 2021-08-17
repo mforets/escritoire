@@ -45,6 +45,19 @@
 
 </details>
 
+<details>
+  <summary>Fourier analysis</summary>
+
+- **[FFTW.jl](https://github.com/JuliaMath/FFTW.jl).**
+
+- https://github.com/bionanoimaging/FourierTools.jl
+
+- https://github.com/Marco-Congedo/FourierAnalysis.jl
+
+- https://github.com/JuliaArrays/FFTViews.jl
+
+</details>
+  
 ## API
 
 <details>
