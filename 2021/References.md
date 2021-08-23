@@ -1,5 +1,9 @@
 ## Reachability
 
+- Wetzlinger, Mark, Adrian Kulmburg, and Matthias Althoff. "Adaptive parameter tuning for reachability analysis of nonlinear systems." Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control. 2021. [pdf](https://mediatum.ub.tum.de/doc/1615814/1615814.pdf)
+
+- Wetzlinger, Mark, Niklas Kochdumper, and Matthias Althoff. "Adaptive Parameter Tuning for Reachability Analysis of Linear Systems." 2020 59th IEEE Conference on Decision and Control (CDC). IEEE, 2020. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
+
 - Yang, Liren, and Necmiye Ozay. "Scalable Zonotopic Under-approximation of Backward Reachable Sets for Uncertain Linear Systems." arXiv preprint arXiv:2107.01724 (2021). [arXiv](https://arxiv.org/pdf/2107.01724.pdf)
 
 - Bak S, Bogomolov S, Duggirala PS, Gerlach AR, Potomkin K. Reachability of Black-Box Nonlinear Systems after Koopman Operator Linearization. arXiv preprint arXiv:2105.00886. 2021 May 3. [arxiv](https://arxiv.org/abs/2105.00886)
