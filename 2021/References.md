@@ -66,3 +66,7 @@
 
 - Garg, Kunal, and Dimitra Panagou. "Finite-Time Stability of Hybrid Systems with Unstable Modes." resubmitted to IEEE TAC, under review. [pdf](http://www-personal.umich.edu/~kgarg/uploads/papers/LCSS_FTS_of_Hybrid_systems.pdf)
 
+
+## Control
+
+- Brunke, L., Greeff, M., Hall, A. W., Yuan, Z., Zhou, S., Panerati, J., & Schoellig, A. P. (2021). Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning. arXiv preprint arXiv:2108.06266.
