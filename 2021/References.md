@@ -1,5 +1,7 @@
 ## Reachability
 
+- Kousik, Shreyas, Adam Dai, and Grace Gao. "Ellipsotopes: Combining Ellipsoids and Zonotopes for Reachability Analysis and Fault Detection." arXiv preprint arXiv:2108.01750 (2021). [pdf](https://arxiv.org/pdf/2108.01750.pdf)
+  
 - Wetzlinger, Mark, Adrian Kulmburg, and Matthias Althoff. "Adaptive parameter tuning for reachability analysis of nonlinear systems." Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control. 2021. [pdf](https://mediatum.ub.tum.de/doc/1615814/1615814.pdf)
 
 - Wetzlinger, Mark, Niklas Kochdumper, and Matthias Althoff. "Adaptive Parameter Tuning for Reachability Analysis of Linear Systems." 2020 59th IEEE Conference on Decision and Control (CDC). IEEE, 2020. [pdf](https://arxiv.org/pdf/2006.12091.pdf)
@@ -57,7 +59,8 @@
 
 - Zhou, Yifan, and Peng Zhang. "Neuro-Reachability of Networked Microgrids." arXiv preprint arXiv:2101.05159 (2021). 
 
-
+- Chen, Ricky TQ, Brandon Amos, and Maximilian Nickel. "Learning neural event functions for ordinary differential equations." arXiv preprint arXiv:2011.03902 (2020). [pdf arxiv](https://arxiv.org/pdf/2011.03902.pdf)
+ 
 ## Neural Network Verif
 
 - Sun, Xiaowu, and Yasser Shoukry. "Provably Correct Training of Neural Network Controllers Using Reachability Analysis." arXiv preprint arXiv:2102.10806 (2021).
