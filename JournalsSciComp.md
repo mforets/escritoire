@@ -91,7 +91,17 @@ Lists of journals in [scientific computing](https://en.wikipedia.org/wiki/Comput
     
 - International Journal for Numerical Methods in Engineering
    - https://onlinelibrary.wiley.com/toc/10970207/2021/122/12
-  
+ 
+## Formal methods, hybrid systems
+ 
+- Formal Methods in System Design
+    - https://www.springer.com/journal/10703
+
+
+- Formal Aspects of Computing
+    - https://www.springer.com/journal/165/
+
+
 ---
     
     
