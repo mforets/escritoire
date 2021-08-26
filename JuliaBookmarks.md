@@ -484,6 +484,8 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 - Javis.jl
 - Plots `@gif` command
 - https://gist.github.com/mschauer/b1d7851bb2402c2b8434a797100a6c66
+- https://www.youtube.com/watch?v=L-gyDvhjzGQ
+    - https://gist.github.com/Datseris/4b9d25a3ddb3936d3b83d3037f8188dd
 
 ## Web
 
