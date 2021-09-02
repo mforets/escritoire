@@ -522,6 +522,8 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 
 - https://github.com/cjdoris/Python.jl
 
+ - http://xarray.pydata.org/
+  
 </details>
 
 ## Web 
