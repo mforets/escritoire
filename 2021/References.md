@@ -73,6 +73,7 @@
 
 - Garg, Kunal, and Dimitra Panagou. "Finite-Time Stability of Hybrid Systems with Unstable Modes." resubmitted to IEEE TAC, under review. [pdf](http://www-personal.umich.edu/~kgarg/uploads/papers/LCSS_FTS_of_Hybrid_systems.pdf)
 
+- Stankaitis, P., Iliasov, A., Kobayashi, T., Aït-Ameur, Y., Ishikawa, F., & Romanovsky, A. (2020, May). Formal distributed protocol development for reservation of railway sections. In International Conference on Rigorous State-Based Methods (pp. 203-219). Springer, Cham.
 
 ## Control
 
