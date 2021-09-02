@@ -26,6 +26,7 @@
 
 - Alanwar, Amr, Yvonne Stürz, and Karl Henrik Johansson. "Robust Data-Driven Predictive Control using Reachability Analysis." arXiv preprint arXiv:2103.14110 (2021). [pdf](https://arxiv.org/pdf/2103.14110.pdf)
 
+- Mosaad, P. N. (2019). Handling Delay Differential Equations in Automatic Verification (Doctoral dissertation, Carl von Ossietzky Universität Oldenburg).
 
 ## Reachability -- Taylor models -- Global optimization
 
@@ -74,6 +75,11 @@
 - Garg, Kunal, and Dimitra Panagou. "Finite-Time Stability of Hybrid Systems with Unstable Modes." resubmitted to IEEE TAC, under review. [pdf](http://www-personal.umich.edu/~kgarg/uploads/papers/LCSS_FTS_of_Hybrid_systems.pdf)
 
 - Stankaitis, P., Iliasov, A., Kobayashi, T., Aït-Ameur, Y., Ishikawa, F., & Romanovsky, A. (2020, May). Formal distributed protocol development for reservation of railway sections. In International Conference on Rigorous State-Based Methods (pp. 203-219). Springer, Cham.
+
+- Bogomolov, S., Frehse, G., Gurung, A., Li, D., Martius, G., & Ray, R. (2021). Falsification of hybrid systems with symbolic reachability analysis and trajectory splicing. Nonlinear Analysis: Hybrid Systems, 42, 101093.
+
+- Dupont, G., Ait-Ameur, Y., Singh, N. K., & Pantel, M. (2021). Event-B hybridation: a proof and refinement-based framework for modelling hybrid systems. ACM Transactions on Embedded Computing Systems (TECS), 20(4), 1-37.
+
 
 ## Control
 
