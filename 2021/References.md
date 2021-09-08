@@ -72,6 +72,8 @@
 
 ## Hybrid systems
 
+- Soto, Miriam García, Thomas A. Henzinger, and Christian Schilling. "Synthesis of hybrid automata with affine dynamics from time-series data." Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control. 2021. [arxiv](https://arxiv.org/pdf/2102.12734.pdf), [HySynth](https://github.com/HySynth/HySynth-HSCC-2021)
+ 
 - Garg, Kunal, and Dimitra Panagou. "Finite-Time Stability of Hybrid Systems with Unstable Modes." resubmitted to IEEE TAC, under review. [pdf](http://www-personal.umich.edu/~kgarg/uploads/papers/LCSS_FTS_of_Hybrid_systems.pdf)
 
 - Stankaitis, P., Iliasov, A., Kobayashi, T., Aït-Ameur, Y., Ishikawa, F., & Romanovsky, A. (2020, May). Formal distributed protocol development for reservation of railway sections. In International Conference on Rigorous State-Based Methods (pp. 203-219). Springer, Cham.
