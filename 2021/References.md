@@ -1,5 +1,7 @@
 ## Reachability
 
+- Lokutsievskiy, L., & Pechen, A. (2021). Reachable sets for two-level open quantum systems driven by coherent and incoherent controls. Journal of Physics A: Mathematical and Theoretical, 54(39), 395304. [arxiv](https://arxiv.org/pdf/2109.04384.pdf)
+
 - Mancini, Toni, Igor Melatti, and Enrico Tronci. "Any-horizon uniform random sampling and enumeration of constrained scenarios for simulation-based formal verification." IEEE Transactions on Software Engineering (2021). [arxiv](https://arxiv.org/pdf/2109.03330.pdf)
 
 - Liuzza, Davide, et al. "On the distributed backward reachability problem for large scale systems." arXiv preprint arXiv:2109.04856 (2021). [arxiv](https://arxiv.org/pdf/2109.04856.pdf)
