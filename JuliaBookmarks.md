@@ -221,6 +221,22 @@
   
 </details>
 
+<details>
+  <summary>Power systems</summary>
+
+  - [NREL-SIIP](https://github.com/NREL-SIIP)
+  
+- Python Software for Symbolic Power System Modeling and Numerical Analysis, [ANDES](https://github.com/cuihantao/andes)
+
+</details>
+
+<details>
+  <summary>Bayesian optimization </summary>
+
+    - [BayesianOptimization.jl](https://github.com/jbrea/BayesianOptimization.jl)
+</details>
+
+
 ### Model formats
 
 - https://github.com/SciML/CellMLToolkit.jl
