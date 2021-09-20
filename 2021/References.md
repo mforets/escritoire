@@ -1,5 +1,7 @@
 ## Reachability
 
+- Mancini, Toni, Igor Melatti, and Enrico Tronci. "Any-horizon uniform random sampling and enumeration of constrained scenarios for simulation-based formal verification." IEEE Transactions on Software Engineering (2021). [arxiv](https://arxiv.org/pdf/2109.03330.pdf)
+
 - Liuzza, Davide, et al. "On the distributed backward reachability problem for large scale systems." arXiv preprint arXiv:2109.04856 (2021). [arxiv](https://arxiv.org/pdf/2109.04856.pdf)
  
 - Kousik, Shreyas, Adam Dai, and Grace Gao. "Ellipsotopes: Combining Ellipsoids and Zonotopes for Reachability Analysis and Fault Detection." arXiv preprint arXiv:2108.01750 (2021). [pdf](https://arxiv.org/pdf/2108.01750.pdf)
