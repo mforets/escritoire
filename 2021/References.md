@@ -1,5 +1,7 @@
 ## Reachability
 
+- Liuzza, Davide, et al. "On the distributed backward reachability problem for large scale systems." arXiv preprint arXiv:2109.04856 (2021). [arxiv](https://arxiv.org/pdf/2109.04856.pdf)
+ 
 - Kousik, Shreyas, Adam Dai, and Grace Gao. "Ellipsotopes: Combining Ellipsoids and Zonotopes for Reachability Analysis and Fault Detection." arXiv preprint arXiv:2108.01750 (2021). [pdf](https://arxiv.org/pdf/2108.01750.pdf)
   
 - Wetzlinger, Mark, Adrian Kulmburg, and Matthias Althoff. "Adaptive parameter tuning for reachability analysis of nonlinear systems." Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control. 2021. [pdf](https://mediatum.ub.tum.de/doc/1615814/1615814.pdf)
