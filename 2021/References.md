@@ -87,7 +87,10 @@
 
 - Brunke, L., Greeff, M., Hall, A. W., Yuan, Z., Zhou, S., Panerati, J., & Schoellig, A. P. (2021). Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning. arXiv preprint arXiv:2108.06266.
 
+## Monitoring
 
-## Other
+- Cairoli, Francesca, Luca Bortolussi, and Nicola Paoletti. "Neural Predictive Monitoring under Partial Observabilit." arXiv preprint arXiv:2108.07134 (2021).
+
+## Meta
 
 - Krafczyk, M. S., Shi, A., Bhaskar, A., Marinov, D., & Stodden, V. (2021). Learning from reproducing computational results: introducing three principles and the Reproduction Package. Philosophical Transactions of the Royal Society A, 379(2197), 20200069.
