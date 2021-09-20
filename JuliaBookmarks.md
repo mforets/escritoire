@@ -460,6 +460,8 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 
 ## Quantum
 
+
+- https://github.com/QuantumControl-jl
 - https://jebej.github.io/Schrodinger.jl/latest/index.html
 - https://github.com/alastair-marshall/QuOptimalControl.jl/tree/master/src
 - https://julialang.org/blog/2019/12/yao-differentiable-quantum-programming/
