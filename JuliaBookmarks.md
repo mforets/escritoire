@@ -561,6 +561,9 @@ https://github.com/cadojo/ControlTheoryNotes.jl
   
 - https://tlienart.github.io/FranklinTemplates.jl/
 
+- https://waralex.github.io/Dashboards.jl/dev/
+  
+- https://medium.com/plotly/announcing-dash-for-julia-f017c90c6ef1
 </details>
 
 
