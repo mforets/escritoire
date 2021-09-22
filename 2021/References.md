@@ -1,5 +1,7 @@
 ## Reachability
 
+- Alcalá, E., Puig, V., Quevedo, J., & Sename, O. (2020). Fast zonotope-tube-based LPV-MPC for autonomous vehicles. arXiv preprint arXiv:2009.02248. [arxiv](https://arxiv.org/pdf/2009.02248.pdf)
+
 - Wang, Y., Zarei, M., Bonakdarpoor, B., & Pajic, M. (2021, May). Probabilistic conformance for cyber-physical systems. In Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems (pp. 55-66). [arxiv](https://arxiv.org/pdf/2008.01135.pdf)
  
 - Ghosh, Bineet, and Parasara Sridhar Duggirala. "Reachability of Linear Uncertain Systems: Sampling Based Approaches." arXiv preprint arXiv:2109.07638 (2021). [arxiv](https://arxiv.org/pdf/2109.07638.pdf)
