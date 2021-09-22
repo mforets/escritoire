@@ -108,7 +108,7 @@
 
 - Vána, P., & Faigl, J. (2018, June). Optimal Solution of the Generalized Dubins Interval Problem. In Robotics: Science and Systems. see also [GeneralizedDubinsIntervalProblem.jl](https://github.com/comrob/GeneralizedDubinsIntervalProblem.jl)
 
-
+- Cunha, V. M., & Santos, T. L. (2021). Robust Nonlinear Model Predictive Control with Bounded Disturbances Based on Zonotopic Constraint Tightening. Journal of Control, Automation and Electrical Systems, 1-14. [pdf](https://link.springer.com/article/10.1007/s40313-021-00783-0)
 
 
 ## Monitoring
