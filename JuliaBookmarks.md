@@ -495,6 +495,8 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 
 ## Visualization
 
+- TreeViews
+- https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb
 - https://lazarusa.github.io/Webpage/codeJuliaMakie.html
 - https://github.com/jkrumbiegel/Animations.jl
 - Interactive plotting https://angusmoore.github.io/Matte.jl/stable/index.html#Examples-1
