@@ -16,7 +16,7 @@
 <details>
   <summary>Krylov methods</summary>
 
-- ExponentialUtilities.jl
+- https://github.com/SciML/ExponentialUtilities.jl
 
 - Expokit.jl
 
