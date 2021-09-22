@@ -13,6 +13,6 @@
     - https://juliacon.github.io/proceedings-guide/
 
 - Proceedings examples
-
+    - https://www.theoj.org/joss-papers/joss.02520/10.21105.joss.02520.pdf
     - https://proceedings.juliacon.org/papers/10.21105/jcon.00069
     - https://proceedings.juliacon.org/papers/10.21105/jcon.00015
