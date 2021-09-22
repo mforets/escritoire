@@ -1,5 +1,14 @@
 ## Reachability
 
+- Wang, Y., Zarei, M., Bonakdarpoor, B., & Pajic, M. (2021, May). Probabilistic conformance for cyber-physical systems. In Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems (pp. 55-66). [arxiv](https://arxiv.org/pdf/2008.01135.pdf)
+ 
+- Ghosh, Bineet, and Parasara Sridhar Duggirala. "Reachability of Linear Uncertain Systems: Sampling Based Approaches." arXiv preprint arXiv:2109.07638 (2021). [arxiv](https://arxiv.org/pdf/2109.07638.pdf)
+
+
+- Ghosh, B., & Duggirala, P. S. (2021). Robustness of Safety for Linear Dynamical Systems: Symbolic and Numerical Approaches. arXiv preprint arXiv:2109.07632. [arxiv](https://arxiv.org/pdf/2109.07632.pdf)
+
+- Alanwar, A., Jiang, F. J., Sharifi, M., Dimarogonas, D. V., & Johansson, K. H. (2021). Enhancing Data-Driven Reachability Analysis using Temporal Logic Side Information. arXiv preprint arXiv:2109.07121. [arxiv](https://arxiv.org/pdf/2109.07121.pdf)
+ 
 - Lokutsievskiy, L., & Pechen, A. (2021). Reachable sets for two-level open quantum systems driven by coherent and incoherent controls. Journal of Physics A: Mathematical and Theoretical, 54(39), 395304. [arxiv](https://arxiv.org/pdf/2109.04384.pdf)
 
 - Mancini, Toni, Igor Melatti, and Enrico Tronci. "Any-horizon uniform random sampling and enumeration of constrained scenarios for simulation-based formal verification." IEEE Transactions on Software Engineering (2021). [arxiv](https://arxiv.org/pdf/2109.03330.pdf)
