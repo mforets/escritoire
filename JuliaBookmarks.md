@@ -591,6 +591,10 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 
 </details>
 
+### Pluto notebooks
+
+- https://andreaskroepelin.de/blog/plutoslides/
+- https://github.com/fonsp/Pluto.jl/issues/118#issuecomment-678642242
 
 ## Summer of code (JSoc / GSOC)
  
