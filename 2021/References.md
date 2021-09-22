@@ -64,7 +64,9 @@
 
 - Interval Reachability Analysis. Bounding Trajectories of Uncertain Systems with Boxes for Control and Verification. Authors: Meyer, Pierre-Jean, Devonport, Alex, Arcak, Murat[book](https://www.springer.com/gp/book/9783030651091)
 
+## Theses
 
+- Vatskicheva, Lyudmila. "Using simulation to improve the precision of hybrid systems reachability analysis." (2019). [pdf](https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/vatskicheva_bachelor.pdf)
 
 ## Presentations
 
