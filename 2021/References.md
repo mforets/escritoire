@@ -104,6 +104,10 @@
 
 - Brunke, L., Greeff, M., Hall, A. W., Yuan, Z., Zhou, S., Panerati, J., & Schoellig, A. P. (2021). Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning. arXiv preprint arXiv:2108.06266.
 
+- Vána, P., & Faigl, J. (2018, June). Optimal Solution of the Generalized Dubins Interval Problem. In Robotics: Science and Systems. see also [GeneralizedDubinsIntervalProblem.jl](https://github.com/comrob/GeneralizedDubinsIntervalProblem.jl)
+
+
+
 ## Monitoring
 
 - Cairoli, Francesca, Luca Bortolussi, and Nicola Paoletti. "Neural Predictive Monitoring under Partial Observabilit." arXiv preprint arXiv:2108.07134 (2021).
