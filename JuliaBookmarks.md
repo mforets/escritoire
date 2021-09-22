@@ -73,7 +73,7 @@
 
 - https://juliahub.com/ui/Packages/ArgTools/aGHFV/1.1.1
 
-
+- https://github.com/JuliaAI/IterationControl.jl
 </details>
 
 ## Arrays
@@ -564,6 +564,8 @@ https://github.com/cadojo/ControlTheoryNotes.jl
 - https://waralex.github.io/Dashboards.jl/dev/
   
 - https://medium.com/plotly/announcing-dash-for-julia-f017c90c6ef1
+  
+- https://dash-julia.plotly.com/getting-started
 </details>
 
 
