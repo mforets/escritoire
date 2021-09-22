@@ -1,4 +1,4 @@
-## Reachability
+## Reachability Analysis
 
 - Alcalá, E., Puig, V., Quevedo, J., & Sename, O. (2020). Fast zonotope-tube-based LPV-MPC for autonomous vehicles. arXiv preprint arXiv:2009.02248. [arxiv](https://arxiv.org/pdf/2009.02248.pdf)
 
@@ -110,6 +110,7 @@
 
 
 
+
 ## Monitoring
 
 - Cairoli, Francesca, Luca Bortolussi, and Nicola Paoletti. "Neural Predictive Monitoring under Partial Observabilit." arXiv preprint arXiv:2108.07134 (2021).
@@ -117,3 +118,10 @@
 ## Meta
 
 - Krafczyk, M. S., Shi, A., Bhaskar, A., Marinov, D., & Stodden, V. (2021). Learning from reproducing computational results: introducing three principles and the Reproduction Package. Philosophical Transactions of the Royal Society A, 379(2197), 20200069.
+
+
+## Exponential methods
+
+- Botchev, M. A. (2012). A short guide to exponential krylov subspace time integration for maxwell’s equations. Dept. of Applied Mathematics, Univ. of Twente. [pdf](https://ris.utwente.nl/ws/portalfiles/portal/5092923/memo1992.pdf)
+
+- Wang, H. (2015). The Krylov subspace methods for the computation of matrix exponentials. [pdf](https://uknowledge.uky.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1031&context=math_etds)
